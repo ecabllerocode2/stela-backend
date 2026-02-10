@@ -1,0 +1,139 @@
+╔══════════════════════════════════════════════════════════════╗
+║                  GUÍA RÁPIDA DE MIGRACIÓN                    ║
+║              disponible → productos (Firestore)              ║
+╚══════════════════════════════════════════════════════════════╝
+
+═══════════════════════════════════════════════════════════════
+📋 COMANDOS ESENCIALES (copiar y pegar)
+═══════════════════════════════════════════════════════════════
+
+1️⃣  VISTA PREVIA (SIEMPRE PRIMERO)
+   
+   node migrate-disponible-to-productos.js preview
+   
+   # Ver más documentos:
+   node migrate-disponible-to-productos.js preview 10
+
+───────────────────────────────────────────────────────────────
+
+2️⃣  EJECUTAR MIGRACIÓN COMPLETA
+   
+   node migrate-disponible-to-productos.js migrate
+   
+   ⚠️  ADVERTENCIA: Esto guardará en Firestore
+
+───────────────────────────────────────────────────────────────
+
+3️⃣  VERIFICAR RESULTADOS
+   
+   # Estadísticas generales
+   node verify-migration.js stats
+   
+   # Verificar integridad de datos
+   node verify-migration.js verify
+   
+   # Todo en uno
+   node verify-migration.js all
+
+───────────────────────────────────────────────────────────────
+
+4️⃣  ACTUALIZAR COLORES
+   
+   # Paso 1: Ver productos migrados
+   node update-variant-colors.js list
+   
+   # Paso 2: Generar plantilla para editar
+   node update-variant-colors.js template
+   
+   # Paso 3: Editar colors-template.json con tus colores
+   # (ver colors-example.json como referencia)
+   
+   # Paso 4: Aplicar cambios
+   node update-variant-colors.js update colors-template.json
+   
+   # Extra: Buscar códigos de colores
+   node update-variant-colors.js search azul
+   node update-variant-colors.js colors
+
+───────────────────────────────────────────────────────────────
+
+5️⃣  GENERAR REPORTE FINAL
+   
+   node verify-migration.js report
+
+═══════════════════════════════════════════════════════════════
+🎯 FLUJO DE TRABAJO RECOMENDADO
+═══════════════════════════════════════════════════════════════
+
+FASE 1: PREPARACIÓN
+└─ node migrate-disponible-to-productos.js preview 5
+   (Revisar que las transformaciones sean correctas)
+
+FASE 2: MIGRACIÓN
+└─ node migrate-disponible-to-productos.js migrate
+   (Ejecutar la migración completa)
+
+FASE 3: VERIFICACIÓN
+├─ node verify-migration.js stats
+├─ node verify-migration.js verify
+└─ node verify-migration.js report
+
+FASE 4: AJUSTES DE COLORES
+├─ node update-variant-colors.js list
+├─ node update-variant-colors.js template
+├─ [EDITAR colors-template.json]
+└─ node update-variant-colors.js update colors-template.json
+
+FASE 5: VERIFICACIÓN FINAL
+└─ node verify-migration.js all
+
+═══════════════════════════════════════════════════════════════
+🚀 COMANDOS NPM (ALTERNATIVOS)
+═══════════════════════════════════════════════════════════════
+
+npm run migrate:preview       # Vista previa
+npm run migrate:run          # Ejecutar migración
+npm run migrate:verify       # Ver estadísticas
+npm run migrate:check        # Verificar integridad
+npm run migrate:report       # Generar reporte
+npm run colors:list          # Listar productos
+npm run colors:template      # Generar plantilla
+npm run colors:search azul   # Buscar color
+
+═══════════════════════════════════════════════════════════════
+📊 QUÉ ESPERAR
+═══════════════════════════════════════════════════════════════
+
+✅ Cada IMAGEN → Una VARIANTE de color
+✅ Todas las TALLAS en cada variante
+✅ STOCK inicial = 0 para todas las tallas
+✅ COLORES por defecto: #808080 (gris) - Editar después
+✅ SKUs únicos generados automáticamente
+✅ Metadata de migración para rastreo
+
+═══════════════════════════════════════════════════════════════
+⚠️  IMPORTANTE
+═══════════════════════════════════════════════════════════════
+
+1. Haz BACKUP de "disponible" antes de empezar
+2. Ejecuta PREVIEW antes de migrar
+3. Los colores están en GRIS por defecto - actualizar después
+4. El stock está en 0 - actualizar según inventario real
+5. Verifica las estadísticas después de migrar
+
+═══════════════════════════════════════════════════════════════
+🆘 AYUDA
+═══════════════════════════════════════════════════════════════
+
+Ver instrucciones completas:
+- MIGRATION_README.md    (Resumen general)
+- MIGRATION_GUIDE.md     (Guía detallada)
+
+Ejecutar cualquier script sin argumentos para ver ayuda:
+- node migrate-disponible-to-productos.js
+- node update-variant-colors.js
+- node verify-migration.js
+
+═══════════════════════════════════════════════════════════════
+
+Última actualización: Diciembre 2025
