@@ -23,14 +23,37 @@ if (!admin.apps.length) {
       });
       console.log("✅ Firebase inicializado con variables de entorno");
     } else {
-      // Fallback a serviceAccountKey.json
-      const serviceAccount = JSON.parse(
-        readFileSync('./serviceAccountKey.json', 'utf8')
-      );
+      // Fallback: buscar archivos de credenciales en rutas comunes
+      const possiblePaths = [
+        './serviceAccountKey.json',
+        './service-account-key.json',
+        './scripts/service-account-key.json',
+        './scripts/firebase-admin-key.json',
+        './service-account-key.json'
+      ];
+
+      let serviceAccount = null;
+      for (const p of possiblePaths) {
+        try {
+          const content = readFileSync(p, 'utf8');
+          serviceAccount = JSON.parse(content);
+          console.log(`✅ Usando credenciales desde ${p}`);
+          break;
+        } catch (e) {
+          // Ignorar si el archivo no existe o no puede parsearse
+        }
+      }
+
+      if (!serviceAccount) {
+        console.error('❌ No se encontró ningún archivo de credenciales (buscando: ' + possiblePaths.join(', ') + ').');
+        throw new Error('No se encontró credenciales de Firebase Admin');
+      }
+
       admin.initializeApp({
-        credential: admin.credential.cert(serviceAccount)
+        credential: admin.credential.cert(serviceAccount),
+        projectId: serviceAccount.project_id || undefined
       });
-      console.log("✅ Firebase inicializado con serviceAccountKey.json");
+      console.log("✅ Firebase inicializado con archivo de service account");
     }
   } catch (e) {
     console.error("🚨 Error al inicializar Firebase:", e.message);

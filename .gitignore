@@ -13,3 +13,9 @@ coverage/
 .vscode/
 .idea/
 *.log
+
+# Firebase service account (no commitear)
+service-account-key.json
+serviceAccountKey.json
+scripts/service-account-key.json
+scripts/firebase-admin-key.json
