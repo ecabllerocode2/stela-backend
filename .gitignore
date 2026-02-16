@@ -19,3 +19,11 @@ service-account-key.json
 serviceAccountKey.json
 scripts/service-account-key.json
 scripts/firebase-admin-key.json
+
+# Env files (local / production) - do NOT commit
+.env
+.env.*
+.env.local
+.env.production
+.env.*.local
+.vercel

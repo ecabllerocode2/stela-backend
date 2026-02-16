@@ -125,7 +125,7 @@ GENERA SOLO UNA DESCRIPCIÓN, no múltiples opciones. Responde directamente con 
             headers: {
                 "Authorization": `Bearer ${apiKey}`,
                 "Content-Type": "application/json",
-                "HTTP-Referer": "https://malim-backend.vercel.app",
+                "HTTP-Referer": "https://stela-backend.vercel.app",
                 "X-Title": "Malim Product Descriptions"
             },
             body: JSON.stringify({

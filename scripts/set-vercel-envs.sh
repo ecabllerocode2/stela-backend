@@ -25,4 +25,15 @@ vercel env add R2_SECRET_KEY "$R2_SECRET_KEY" $ENV --token "$VERCEL_TOKEN" || tr
 vercel env add R2_BUCKET "$R2_BUCKET" $ENV --token "$VERCEL_TOKEN" || true
 vercel env add R2_DEV_URL "$R2_DEV_URL" $ENV --token "$VERCEL_TOKEN" || true
 
+# Opcional: subir credenciales de Firebase Admin si se define SERVICE_ACCOUNT_FILE
+if [ -n "$SERVICE_ACCOUNT_FILE" ] && [ -f "$SERVICE_ACCOUNT_FILE" ]; then
+  echo "Leyendo service account desde $SERVICE_ACCOUNT_FILE"
+  CLIENT_EMAIL=$(jq -r '.client_email' "$SERVICE_ACCOUNT_FILE")
+  PRIVATE_KEY=$(jq -r '.private_key' "$SERVICE_ACCOUNT_FILE" | sed -E ':a;N;$!ba;s/\n/\\n/g')
+  PROJECT_ID=$(jq -r '.project_id' "$SERVICE_ACCOUNT_FILE")
+
+  vercel env add FIREBASE_CLIENT_EMAIL "$CLIENT_EMAIL" $ENV --token "$VERCEL_TOKEN" || true
+  vercel env add FIREBASE_PRIVATE_KEY "$PRIVATE_KEY" $ENV --token "$VERCEL_TOKEN" || true
+  vercel env add FIREBASE_PROJECT_ID "$PROJECT_ID" $ENV --token "$VERCEL_TOKEN" || true
+fi
 echo "Variables añadidas (si ya existían, es posible que Vercel te pida confirmación)."

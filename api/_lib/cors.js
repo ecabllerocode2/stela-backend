@@ -11,6 +11,8 @@ export function setCORS(req, res) {
     "https://intranet-malim.vercel.app",
     "https://malim-shop.vercel.app",
     "https://malim-shop-git-",
+    "https://stela-admin.vercel.app",
+    "https://stela-backend.vercel.app",
     process.env.CODESPACES_ORIGIN,
   ].filter(Boolean);
 
