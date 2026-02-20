@@ -116,10 +116,12 @@ export default async function handler(req, res) {
       );
     }
 
-    // Verificar si ya tiene una suscripción activa
+    // Verificar si ya tiene una suscripción REAL de Stripe activa
+    // (ignorar trial local creado por el frontend, que no tiene stripeSubscriptionId)
     if (subDoc.exists) {
       const subData = subDoc.data();
-      if (['active', 'trialing'].includes(subData.status)) {
+      const hasStripeSubscription = !!subData.stripeSubscriptionId;
+      if (hasStripeSubscription && ['active', 'trialing'].includes(subData.status)) {
         return res.status(400).json({
           success: false,
           error: 'Ya tienes una suscripción activa. Usa el portal de cliente para cambiar de plan.',
