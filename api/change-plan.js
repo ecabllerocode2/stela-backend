@@ -3,6 +3,7 @@
 import Stripe from 'stripe';
 import admin from 'firebase-admin';
 import { setCORS, handlePreflight } from './_lib/cors.js';
+import { getSubscriptionPeriod } from './_lib/stripe-helpers.js';
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
@@ -117,7 +118,7 @@ export default async function handler(req, res) {
         subscription: {
           plan: currentPlan,
           status: reactivated.status,
-          currentPeriodEnd: new Date(reactivated.current_period_end * 1000).toISOString(),
+          currentPeriodEnd: getSubscriptionPeriod(reactivated).currentPeriodEnd?.toISOString() || null,
         },
       });
     }
@@ -150,8 +151,7 @@ export default async function handler(req, res) {
       {
         plan: newPlanId,
         status: updatedSub.status,
-        currentPeriodStart: new Date(updatedSub.current_period_start * 1000),
-        currentPeriodEnd: new Date(updatedSub.current_period_end * 1000),
+        ...getSubscriptionPeriod(updatedSub),
         cancelAtPeriodEnd: false,
         updatedAt: admin.firestore.FieldValue.serverTimestamp(),
       },
@@ -166,7 +166,7 @@ export default async function handler(req, res) {
       subscription: {
         plan: newPlanId,
         status: updatedSub.status,
-        currentPeriodEnd: new Date(updatedSub.current_period_end * 1000).toISOString(),
+        currentPeriodEnd: getSubscriptionPeriod(updatedSub).currentPeriodEnd?.toISOString() || null,
       },
     });
   } catch (error) {

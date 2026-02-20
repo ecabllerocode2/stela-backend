@@ -3,6 +3,7 @@
 import Stripe from 'stripe';
 import admin from 'firebase-admin';
 import { setCORS, handlePreflight } from './_lib/cors.js';
+import { getSubscriptionPeriod } from './_lib/stripe-helpers.js';
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
@@ -103,9 +104,7 @@ export default async function handler(req, res) {
         ? 'Suscripción cancelada inmediatamente.'
         : 'Suscripción se cancelará al final del período de facturación actual.',
       cancelAtPeriodEnd: !immediate,
-      currentPeriodEnd: updatedSub.current_period_end
-        ? new Date(updatedSub.current_period_end * 1000).toISOString()
-        : null,
+      currentPeriodEnd: getSubscriptionPeriod(updatedSub).currentPeriodEnd?.toISOString() || null,
     });
   } catch (error) {
     console.error('❌ Error al cancelar suscripción:', error);

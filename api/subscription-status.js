@@ -3,6 +3,7 @@
 import Stripe from 'stripe';
 import admin from 'firebase-admin';
 import { setCORS, handlePreflight } from './_lib/cors.js';
+import { getSubscriptionPeriod } from './_lib/stripe-helpers.js';
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
@@ -69,13 +70,14 @@ export default async function handler(req, res) {
               ? 'business'
               : 'unknown');
 
+          const period = getSubscriptionPeriod(stripeSub);
           const freshData = {
             stripeCustomerId: session.customer,
             stripeSubscriptionId: session.subscription,
             plan: planId,
             status: stripeSub.status,
-            currentPeriodStart: new Date(stripeSub.current_period_start * 1000),
-            currentPeriodEnd: new Date(stripeSub.current_period_end * 1000),
+            currentPeriodStart: period.currentPeriodStart,
+            currentPeriodEnd: period.currentPeriodEnd,
             trialEnd: stripeSub.trial_end
               ? new Date(stripeSub.trial_end * 1000)
               : null,
@@ -128,11 +130,12 @@ export default async function handler(req, res) {
 
         // Actualizar Firestore con datos frescos si cambió el status
         if (stripeSub.status !== subData.status) {
+          const period2 = getSubscriptionPeriod(stripeSub);
           await db.collection('subscriptions').doc(userId).set(
             {
               status: stripeSub.status,
-              currentPeriodStart: new Date(stripeSub.current_period_start * 1000),
-              currentPeriodEnd: new Date(stripeSub.current_period_end * 1000),
+              currentPeriodStart: period2.currentPeriodStart,
+              currentPeriodEnd: period2.currentPeriodEnd,
               cancelAtPeriodEnd: stripeSub.cancel_at_period_end,
               updatedAt: admin.firestore.FieldValue.serverTimestamp(),
             },

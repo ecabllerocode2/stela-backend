@@ -2,6 +2,7 @@
 // Webhook de Stripe para gestionar suscripciones SaaS
 import Stripe from 'stripe';
 import admin from 'firebase-admin';
+import { getSubscriptionPeriod } from './_lib/stripe-helpers.js';
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
@@ -83,8 +84,7 @@ async function handleCheckoutCompleted(session) {
       stripeSubscriptionId: session.subscription,
       plan: planId || getPlanIdFromPriceId(subscription.items.data[0]?.price?.id),
       status: subscription.status, // 'active' o 'trialing'
-      currentPeriodStart: new Date(subscription.current_period_start * 1000),
-      currentPeriodEnd: new Date(subscription.current_period_end * 1000),
+      ...getSubscriptionPeriod(subscription),
       trialEnd: subscription.trial_end
         ? new Date(subscription.trial_end * 1000)
         : null,
@@ -133,8 +133,7 @@ async function updateSubscriptionDoc(userId, subscription) {
     stripeSubscriptionId: subscription.id,
     plan: planId,
     status: subscription.status,
-    currentPeriodStart: new Date(subscription.current_period_start * 1000),
-    currentPeriodEnd: new Date(subscription.current_period_end * 1000),
+    ...getSubscriptionPeriod(subscription),
     trialEnd: subscription.trial_end
       ? new Date(subscription.trial_end * 1000)
       : null,
