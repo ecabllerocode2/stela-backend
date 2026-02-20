@@ -53,6 +53,61 @@ export default async function handler(req, res) {
       });
     }
 
+    // Si se proporciona sessionId, obtener datos frescos directamente de Stripe
+    // (útil cuando el webhook aún no ha procesado el evento)
+    const sessionId = req.query.sessionId;
+    if (sessionId) {
+      try {
+        const session = await stripe.checkout.sessions.retrieve(sessionId);
+        if (session.subscription && session.metadata?.userId === userId) {
+          const stripeSub = await stripe.subscriptions.retrieve(session.subscription);
+          const planId =
+            session.metadata?.planId ||
+            (stripeSub.items.data[0]?.price?.id === process.env.STRIPE_PRICE_EMPRENDEDOR
+              ? 'emprendedor'
+              : stripeSub.items.data[0]?.price?.id === process.env.STRIPE_PRICE_BUSINESS
+              ? 'business'
+              : 'unknown');
+
+          const freshData = {
+            stripeCustomerId: session.customer,
+            stripeSubscriptionId: session.subscription,
+            plan: planId,
+            status: stripeSub.status,
+            currentPeriodStart: new Date(stripeSub.current_period_start * 1000),
+            currentPeriodEnd: new Date(stripeSub.current_period_end * 1000),
+            trialEnd: stripeSub.trial_end
+              ? new Date(stripeSub.trial_end * 1000)
+              : null,
+            cancelAtPeriodEnd: stripeSub.cancel_at_period_end,
+            updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+          };
+
+          await db.collection('subscriptions').doc(userId).set(freshData, { merge: true });
+
+          console.log(`✅ Suscripción sincronizada via sessionId para ${userId}: ${stripeSub.status}`);
+
+          return res.status(200).json({
+            success: true,
+            hasSubscription: true,
+            isActive: ['active', 'trialing'].includes(stripeSub.status),
+            subscription: {
+              plan: planId,
+              status: stripeSub.status,
+              currentPeriodStart: freshData.currentPeriodStart,
+              currentPeriodEnd: freshData.currentPeriodEnd,
+              trialEnd: freshData.trialEnd,
+              cancelAtPeriodEnd: stripeSub.cancel_at_period_end,
+              hasHadTrial: stripeSub.trial_end ? true : false,
+            },
+          });
+        }
+      } catch (sessionErr) {
+        console.warn('⚠️ No se pudo obtener sesión de Stripe:', sessionErr.message);
+        // Continuamos con el flujo normal
+      }
+    }
+
     // Buscar suscripción en Firestore
     const subDoc = await db.collection('subscriptions').doc(userId).get();
 
