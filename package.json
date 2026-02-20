@@ -17,7 +17,8 @@
     "colors:list": "node update-variant-colors.js list",
     "colors:template": "node update-variant-colors.js template",
     "colors:search": "node update-variant-colors.js search",
-    "test:asesor": "node test-asesor-estilo.js"
+    "test:asesor": "node test-asesor-estilo.js",
+    "stripe:setup": "node scripts/setup-stripe-products.js"
   },
   "keywords": [],
   "author": "",

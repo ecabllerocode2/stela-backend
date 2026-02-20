@@ -1,49 +1,50 @@
 // api/stripe-webhook.js
+// Webhook de Stripe para gestionar suscripciones SaaS
 import Stripe from 'stripe';
-import admin from "firebase-admin";
+import admin from 'firebase-admin';
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 // Inicializar Firebase Admin si no está inicializado
 if (!admin.apps.length) {
-    try {
-        const privateKeyString = process.env.FIREBASE_PRIVATE_KEY;
-        const clientEmail = process.env.FIREBASE_CLIENT_EMAIL;
-        const projectId = process.env.FIREBASE_PROJECT_ID;
+  try {
+    const privateKeyString = process.env.FIREBASE_PRIVATE_KEY;
+    const clientEmail = process.env.FIREBASE_CLIENT_EMAIL;
+    const projectId = process.env.FIREBASE_PROJECT_ID;
 
-        if (!privateKeyString || !clientEmail || !projectId) {
-            throw new Error("Faltan variables de entorno de Firebase esenciales.");
-        }
-
-        const cleanedPrivateKey = privateKeyString
-            .replace(/\\n/g, '\n')
-            .replace(/\\\\n/g, '\n');
-
-        admin.initializeApp({
-            credential: admin.credential.cert({
-                projectId: projectId,
-                clientEmail: clientEmail,
-                privateKey: cleanedPrivateKey,
-            })
-        });
-
-        console.log("✅ Firebase Admin inicializado en webhook.");
-    } catch (e) {
-        console.error("🚨 Error al inicializar Firebase:", e.message);
-        throw e;
+    if (!privateKeyString || !clientEmail || !projectId) {
+      throw new Error('Faltan variables de entorno de Firebase esenciales.');
     }
+
+    const cleanedPrivateKey = privateKeyString
+      .replace(/\\n/g, '\n')
+      .replace(/\\\\n/g, '\n');
+
+    admin.initializeApp({
+      credential: admin.credential.cert({
+        projectId,
+        clientEmail,
+        privateKey: cleanedPrivateKey,
+      }),
+    });
+
+    console.log('✅ Firebase Admin inicializado en webhook.');
+  } catch (e) {
+    console.error('🚨 Error al inicializar Firebase:', e.message);
+    throw e;
+  }
 }
 
 const db = admin.firestore();
 
-// Configuración especial para Vercel: desactivar el bodyParser
+// Desactivar bodyParser para Vercel (necesario para verificar firma)
 export const config = {
   api: {
     bodyParser: false,
   },
 };
 
-// Función auxiliar para leer el buffer del body
+// Leer el body raw como Buffer
 async function buffer(req) {
   const chunks = [];
   for await (const chunk of req) {
@@ -52,209 +53,221 @@ async function buffer(req) {
   return Buffer.concat(chunks);
 }
 
-// Función para descontar el stock
-async function updateStock(items) {
-  console.log('📦 Iniciando actualización de stock para', items.length, 'items');
-  
-  const results = {
-    success: [],
-    errors: [],
-    warnings: []
-  };
+// Mapeo de Price ID → planId
+function getPlanIdFromPriceId(priceId) {
+  if (priceId === process.env.STRIPE_PRICE_EMPRENDEDOR) return 'emprendedor';
+  if (priceId === process.env.STRIPE_PRICE_BUSINESS) return 'business';
+  return 'unknown';
+}
 
-  for (const item of items) {
-    try {
-      const { variantSku, productId, size, quantity, productName } = item;
-      
-      console.log(`🔍 Procesando: ${productName}`);
-      console.log(`   ProductId: ${productId}, VariantSku: ${variantSku}, Talla: ${size}, Cantidad: ${quantity}`);
+// ─── Handlers de eventos ────────────────────────────────────────────
 
-      // Si tenemos productId, buscar directamente por ID
-      let productDoc = null;
-      let productData = null;
+async function handleCheckoutCompleted(session) {
+  console.log('💳 Checkout de suscripción completado:', session.id);
+  console.log('📧 Cliente:', session.customer_email);
 
-      if (productId) {
-        console.log(`   Buscando producto por ID: ${productId}`);
-        const docRef = db.collection('productos').doc(productId);
-        const docSnap = await docRef.get();
-        
-        if (docSnap.exists) {
-          productDoc = docSnap;
-          productData = docSnap.data();
-          console.log(`   ✓ Producto encontrado por ID`);
-        } else {
-          console.log(`   ⚠️ Producto no encontrado por ID, buscando manualmente...`);
-        }
-      }
+  const userId = session.metadata?.userId;
+  const planId = session.metadata?.planId;
 
-      // Si no encontramos por ID, buscar manualmente en todos los productos
-      if (!productData) {
-        console.log('   🔍 Buscando en todos los productos por variantSku...');
-        const allProductsSnapshot = await db.collection('productos').get();
-        
-        let found = false;
-        for (const doc of allProductsSnapshot.docs) {
-          const data = doc.data();
-          if (data.variants && Array.isArray(data.variants)) {
-            // Buscar en las variantes -> sizes -> variantSku
-            for (const variant of data.variants) {
-              if (variant.sizes && Array.isArray(variant.sizes)) {
-                const foundSize = variant.sizes.find(s => s.variantSku === variantSku);
-                if (foundSize) {
-                  productDoc = doc;
-                  productData = data;
-                  found = true;
-                  console.log(`   ✓ Producto encontrado: ${doc.id}`);
-                  break;
-                }
-              }
-            }
-            if (found) break;
-          }
-        }
-
-        if (!productData) {
-          const error = `Producto con variantSku ${variantSku} no encontrado`;
-          console.error('❌', error);
-          results.errors.push({ item, error });
-          continue;
-        }
-      }
-
-      // Buscar la variante y talla usando variantId y size
-      let variantIndex = -1;
-      let sizeIndex = -1;
-      let found = false;
-
-      const { variantId } = item;
-      
-      console.log(`   🔍 Buscando: variantId=${variantId}, size="${size}"`);
-
-      // Primero buscar por variantId (más confiable)
-      if (variantId) {
-        for (let i = 0; i < productData.variants.length; i++) {
-          const variant = productData.variants[i];
-          // El variantId puede ser string o number
-          if (variant.id == variantId) {
-            console.log(`   ✓ Variante encontrada en variant[${i}] (id: ${variant.id})`);
-            
-            // Ahora buscar la talla dentro de esta variante
-            if (variant.sizes && Array.isArray(variant.sizes)) {
-              for (let j = 0; j < variant.sizes.length; j++) {
-                const sizeObj = variant.sizes[j];
-                if (sizeObj.size === size) {
-                  variantIndex = i;
-                  sizeIndex = j;
-                  found = true;
-                  console.log(`   ✓ Talla encontrada en sizes[${j}] (stock actual: ${sizeObj.stock})`);
-                  break;
-                }
-              }
-            }
-            break;
-          }
-        }
-      }
-
-      // Si no encontramos por variantId, buscar solo por talla en la primera variante
-      if (!found && productData.variants.length > 0) {
-        console.log(`   ⚠️ No se encontró por variantId, buscando solo por talla...`);
-        for (let i = 0; i < productData.variants.length; i++) {
-          const variant = productData.variants[i];
-          if (variant.sizes && Array.isArray(variant.sizes)) {
-            for (let j = 0; j < variant.sizes.length; j++) {
-              const sizeObj = variant.sizes[j];
-              if (sizeObj.size === size) {
-                variantIndex = i;
-                sizeIndex = j;
-                found = true;
-                console.log(`   ✓ Talla encontrada en variant[${i}].sizes[${j}]`);
-                break;
-              }
-            }
-            if (found) break;
-          }
-        }
-      }
-
-      if (!found) {
-        const error = `Talla "${size}" no encontrada en el producto (variantId: ${variantId})`;
-        console.error('❌', error);
-        results.errors.push({ item, error });
-        continue;
-      }
-
-      // Obtener el stock actual
-      const currentSize = productData.variants[variantIndex].sizes[sizeIndex];
-      const currentStock = currentSize.stock || 0;
-      const newStock = Math.max(0, currentStock - quantity);
-
-      // Advertencia si no hay suficiente stock
-      if (currentStock < quantity) {
-        results.warnings.push({
-          productName,
-          variantSku,
-          size,
-          message: `Stock insuficiente: disponible=${currentStock}, solicitado=${quantity}`
-        });
-      }
-
-      console.log(`   📉 Stock: ${currentStock} → ${newStock}`);
-
-      // IMPORTANTE: Para evitar perder campos, clonar toda la estructura y modificar solo lo necesario
-      const updatedVariants = JSON.parse(JSON.stringify(productData.variants));
-      
-      // Actualizar solo los campos de stock e isInStock
-      updatedVariants[variantIndex].sizes[sizeIndex].stock = Number(newStock);
-      updatedVariants[variantIndex].sizes[sizeIndex].isInStock = newStock > 0;
-      
-      // Actualizar el array completo de variantes (esto preserva todos los campos)
-      await productDoc.ref.update({
-        variants: updatedVariants
-      });
-      
-      console.log(`   💾 Stock actualizado: ${currentStock} → ${newStock}, isInStock: ${newStock > 0}`);
-
-      results.success.push({
-        productName,
-        variantSku,
-        size,
-        oldStock: currentStock,
-        newStock,
-        quantity
-      });
-
-      console.log(`   ✅ Stock actualizado correctamente`);
-
-    } catch (error) {
-      console.error(`❌ Error actualizando stock para ${item.productName}:`, error);
-      results.errors.push({ item, error: error.message });
-    }
+  if (!userId) {
+    console.error('⚠️ No se encontró userId en metadata de la sesión');
+    return;
   }
 
-  return results;
+  // Obtener la suscripción de Stripe para más detalles
+  const subscription = await stripe.subscriptions.retrieve(session.subscription);
+
+  await db.collection('subscriptions').doc(userId).set(
+    {
+      stripeCustomerId: session.customer,
+      stripeSubscriptionId: session.subscription,
+      plan: planId || getPlanIdFromPriceId(subscription.items.data[0]?.price?.id),
+      status: subscription.status, // 'active' o 'trialing'
+      currentPeriodStart: new Date(subscription.current_period_start * 1000),
+      currentPeriodEnd: new Date(subscription.current_period_end * 1000),
+      trialEnd: subscription.trial_end
+        ? new Date(subscription.trial_end * 1000)
+        : null,
+      hasHadTrial: subscription.trial_end ? true : undefined,
+      cancelAtPeriodEnd: subscription.cancel_at_period_end,
+      email: session.customer_email,
+      updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+    },
+    { merge: true }
+  );
+
+  console.log(`✅ Suscripción guardada para usuario ${userId} (plan: ${planId}, status: ${subscription.status})`);
 }
+
+async function handleSubscriptionUpdated(subscription) {
+  console.log('🔄 Suscripción actualizada:', subscription.id);
+
+  const userId = subscription.metadata?.userId;
+  if (!userId) {
+    // Buscar por stripeSubscriptionId en Firestore
+    const snapshot = await db
+      .collection('subscriptions')
+      .where('stripeSubscriptionId', '==', subscription.id)
+      .limit(1)
+      .get();
+
+    if (snapshot.empty) {
+      console.error('⚠️ No se encontró usuario para la suscripción:', subscription.id);
+      return;
+    }
+
+    const doc = snapshot.docs[0];
+    await updateSubscriptionDoc(doc.id, subscription);
+    return;
+  }
+
+  await updateSubscriptionDoc(userId, subscription);
+}
+
+async function updateSubscriptionDoc(userId, subscription) {
+  const planId =
+    subscription.metadata?.planId ||
+    getPlanIdFromPriceId(subscription.items.data[0]?.price?.id);
+
+  const updateData = {
+    stripeSubscriptionId: subscription.id,
+    plan: planId,
+    status: subscription.status,
+    currentPeriodStart: new Date(subscription.current_period_start * 1000),
+    currentPeriodEnd: new Date(subscription.current_period_end * 1000),
+    trialEnd: subscription.trial_end
+      ? new Date(subscription.trial_end * 1000)
+      : null,
+    cancelAtPeriodEnd: subscription.cancel_at_period_end,
+    updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+  };
+
+  // Si tiene/tuvo trial, marcarlo
+  if (subscription.trial_end) {
+    updateData.hasHadTrial = true;
+  }
+
+  await db.collection('subscriptions').doc(userId).set(updateData, { merge: true });
+
+  console.log(`✅ Suscripción actualizada para ${userId}: status=${subscription.status}, plan=${planId}`);
+}
+
+async function handleSubscriptionDeleted(subscription) {
+  console.log('🗑️ Suscripción cancelada/eliminada:', subscription.id);
+
+  const userId = subscription.metadata?.userId;
+  let docId = userId;
+
+  if (!docId) {
+    const snapshot = await db
+      .collection('subscriptions')
+      .where('stripeSubscriptionId', '==', subscription.id)
+      .limit(1)
+      .get();
+
+    if (snapshot.empty) {
+      console.error('⚠️ No se encontró usuario para suscripción eliminada:', subscription.id);
+      return;
+    }
+    docId = snapshot.docs[0].id;
+  }
+
+  await db.collection('subscriptions').doc(docId).set(
+    {
+      status: 'canceled',
+      canceledAt: admin.firestore.FieldValue.serverTimestamp(),
+      updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+    },
+    { merge: true }
+  );
+
+  console.log(`✅ Suscripción marcada como cancelada para usuario ${docId}`);
+}
+
+async function handleInvoicePaymentSucceeded(invoice) {
+  console.log('💰 Pago de factura exitoso:', invoice.id);
+
+  if (!invoice.subscription) return;
+
+  // Buscar el usuario por stripeCustomerId
+  const snapshot = await db
+    .collection('subscriptions')
+    .where('stripeCustomerId', '==', invoice.customer)
+    .limit(1)
+    .get();
+
+  if (snapshot.empty) {
+    console.warn('⚠️ No se encontró usuario para customer:', invoice.customer);
+    return;
+  }
+
+  const docId = snapshot.docs[0].id;
+
+  await db.collection('subscriptions').doc(docId).set(
+    {
+      lastPaymentDate: new Date(invoice.status_transitions?.paid_at * 1000 || Date.now()),
+      lastPaymentAmount: invoice.amount_paid / 100,
+      lastPaymentCurrency: invoice.currency,
+      lastInvoiceId: invoice.id,
+      lastInvoiceUrl: invoice.hosted_invoice_url,
+      status: 'active',
+      updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+    },
+    { merge: true }
+  );
+
+  console.log(`✅ Pago registrado para usuario ${docId}: $${invoice.amount_paid / 100} ${invoice.currency}`);
+}
+
+async function handleInvoicePaymentFailed(invoice) {
+  console.log('❌ Pago de factura fallido:', invoice.id);
+
+  if (!invoice.subscription) return;
+
+  const snapshot = await db
+    .collection('subscriptions')
+    .where('stripeCustomerId', '==', invoice.customer)
+    .limit(1)
+    .get();
+
+  if (snapshot.empty) {
+    console.warn('⚠️ No se encontró usuario para customer:', invoice.customer);
+    return;
+  }
+
+  const docId = snapshot.docs[0].id;
+
+  await db.collection('subscriptions').doc(docId).set(
+    {
+      status: 'past_due',
+      lastPaymentError: invoice.last_finalization_error?.message || 'Pago fallido',
+      lastPaymentAttempt: admin.firestore.FieldValue.serverTimestamp(),
+      updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+    },
+    { merge: true }
+  );
+
+  console.log(`⚠️ Pago fallido registrado para usuario ${docId}`);
+}
+
+// ─── Handler principal ─────────────────────────────────────────────
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
-    return res.status(405).json({ message: 'Método no permitido' });
+    return res.status(405).json({ error: 'Método no permitido' });
   }
 
-  // Verificar que exista el webhook secret
   const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
-  
   if (!webhookSecret) {
     console.error('⚠️ STRIPE_WEBHOOK_SECRET no configurado');
-    return res.status(500).json({ 
+    return res.status(500).json({
       error: 'Webhook secret no configurado',
-      message: 'Configura STRIPE_WEBHOOK_SECRET en las variables de entorno'
     });
   }
 
   let event;
 
   try {
-    // Obtener el body raw y la firma
     const buf = await buffer(req);
     const sig = req.headers['stripe-signature'];
 
@@ -263,109 +276,77 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: 'No stripe-signature header' });
     }
 
-    // Verificar la firma del webhook
-    try {
-      event = stripe.webhooks.constructEvent(buf, sig, webhookSecret);
-      console.log('✅ Firma del webhook verificada correctamente');
-    } catch (err) {
-      console.error(`❌ Error verificando firma del webhook:`, err.message);
-      return res.status(400).json({ 
-        error: 'Webhook signature verification failed',
-        message: err.message 
-      });
-    }
-
+    event = stripe.webhooks.constructEvent(buf, sig, webhookSecret);
+    console.log('✅ Firma del webhook verificada');
   } catch (err) {
-    console.error('❌ Error procesando el webhook:', err);
-    return res.status(400).json({ 
-      error: 'Error processing webhook',
-      message: err.message 
+    console.error('❌ Error verificando webhook:', err.message);
+    return res.status(400).json({
+      error: 'Webhook signature verification failed',
+      message: err.message,
     });
   }
 
-  // Manejar eventos de Stripe
   console.log('📨 Evento recibido:', event.type);
 
-  switch (event.type) {
-    case 'checkout.session.completed':
-      const session = event.data.object;
-      
-      console.log('💳 Pago completado:', session.id);
-      console.log('📧 Cliente:', session.customer_email);
-      console.log('💰 Total:', session.amount_total / 100, 'MXN');
-      
-      try {
-        // Extraer los items del metadata
-        const itemsJson = session.metadata?.items;
-        
-        if (!itemsJson) {
-          console.error('⚠️ No se encontraron items en el metadata de la sesión');
-          return res.status(200).json({ 
-            received: true,
-            warning: 'No items to process'
-          });
+  try {
+    switch (event.type) {
+      // ─── Checkout completado (primera suscripción) ───
+      case 'checkout.session.completed': {
+        const session = event.data.object;
+        if (session.mode === 'subscription') {
+          await handleCheckoutCompleted(session);
         }
-
-        const items = JSON.parse(itemsJson);
-        console.log('📦 Items a procesar:', items.length);
-
-        // Actualizar el stock
-        const stockResults = await updateStock(items);
-
-        console.log('\n📊 Resumen de actualización de stock:');
-        console.log(`  ✅ Exitosos: ${stockResults.success.length}`);
-        console.log(`  ❌ Errores: ${stockResults.errors.length}`);
-        console.log(`  ⚠️ Advertencias: ${stockResults.warnings.length}`);
-
-        // Log detallado
-        if (stockResults.errors.length > 0) {
-          console.error('\n❌ Errores encontrados:');
-          stockResults.errors.forEach(err => {
-            console.error(`  - ${err.item.productName}: ${err.error}`);
-          });
-        }
-
-        if (stockResults.warnings.length > 0) {
-          console.warn('\n⚠️ Advertencias:');
-          stockResults.warnings.forEach(warn => {
-            console.warn(`  - ${warn.productName}: ${warn.message}`);
-          });
-        }
-
-        // Aquí puedes agregar más lógica:
-        // - Guardar el pedido en una colección "pedidos"
-        // - Enviar email de confirmación
-        // - Notificar al equipo por Slack/Discord/etc
-        // - Actualizar dashboard de ventas
-
-        return res.status(200).json({ 
-          received: true,
-          stockUpdate: {
-            success: stockResults.success.length,
-            errors: stockResults.errors.length,
-            warnings: stockResults.warnings.length
-          }
-        });
-
-      } catch (error) {
-        console.error('❌ Error procesando el checkout:', error);
-        // Aún así respondemos 200 para que Stripe no reintente
-        return res.status(200).json({ 
-          received: true, 
-          error: error.message 
-        });
+        break;
       }
 
-    case 'payment_intent.payment_failed':
-      const paymentIntent = event.data.object;
-      console.log('❌ Pago fallido:', paymentIntent.id);
-      console.log('   Razón:', paymentIntent.last_payment_error?.message);
-      break;
+      // ─── Suscripción creada o actualizada ───
+      case 'customer.subscription.created':
+      case 'customer.subscription.updated': {
+        const subscription = event.data.object;
+        await handleSubscriptionUpdated(subscription);
+        break;
+      }
 
-    default:
-      console.log(`ℹ️ Evento no manejado: ${event.type}`);
+      // ─── Suscripción eliminada/cancelada ───
+      case 'customer.subscription.deleted': {
+        const subscription = event.data.object;
+        await handleSubscriptionDeleted(subscription);
+        break;
+      }
+
+      // ─── Pago de factura exitoso (renovación mensual) ───
+      case 'invoice.payment_succeeded': {
+        const invoice = event.data.object;
+        await handleInvoicePaymentSucceeded(invoice);
+        break;
+      }
+
+      // ─── Pago de factura fallido ───
+      case 'invoice.payment_failed': {
+        const invoice = event.data.object;
+        await handleInvoicePaymentFailed(invoice);
+        break;
+      }
+
+      // ─── Trial terminando pronto (3 días antes) ───
+      case 'customer.subscription.trial_will_end': {
+        const subscription = event.data.object;
+        console.log(`⏰ Trial terminando pronto para suscripción: ${subscription.id}`);
+        // Aquí podrías enviar un email/notificación al usuario
+        break;
+      }
+
+      default:
+        console.log(`ℹ️ Evento no manejado: ${event.type}`);
+    }
+  } catch (error) {
+    console.error(`❌ Error procesando evento ${event.type}:`, error);
+    // Responder 200 para que Stripe no reintente
+    return res.status(200).json({
+      received: true,
+      error: error.message,
+    });
   }
 
-  // Siempre responder 200 para que Stripe no reintente
-  res.json({ received: true });
+  res.status(200).json({ received: true });
 }

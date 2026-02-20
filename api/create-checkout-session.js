@@ -1,153 +1,187 @@
 // api/create-checkout-session.js
+// Crea una sesión de Stripe Checkout para suscripción SaaS
 import Stripe from 'stripe';
+import admin from 'firebase-admin';
+import { setCORS, handlePreflight } from './_lib/cors.js';
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
-export default async function handler(req, res) {
-  // Configurar CORS directamente
-  res.setHeader('Access-Control-Allow-Credentials', 'true');
-  res.setHeader('Access-Control-Allow-Origin', '*'); // O especifica tu dominio
-  res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS,PATCH,DELETE,POST,PUT');
-  res.setHeader(
-    'Access-Control-Allow-Headers',
-    'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version'
-  );
+// Inicializar Firebase Admin si no está inicializado
+if (!admin.apps.length) {
+  try {
+    const privateKeyString = process.env.FIREBASE_PRIVATE_KEY;
+    const clientEmail = process.env.FIREBASE_CLIENT_EMAIL;
+    const projectId = process.env.FIREBASE_PROJECT_ID;
 
-  // Manejo de preflight
-  if (req.method === 'OPTIONS') {
-    res.status(200).end();
-    return;
+    if (!privateKeyString || !clientEmail || !projectId) {
+      throw new Error('Faltan variables de entorno de Firebase esenciales.');
+    }
+
+    const cleanedPrivateKey = privateKeyString
+      .replace(/\\n/g, '\n')
+      .replace(/\\\\n/g, '\n');
+
+    admin.initializeApp({
+      credential: admin.credential.cert({
+        projectId,
+        clientEmail,
+        privateKey: cleanedPrivateKey,
+      }),
+    });
+  } catch (e) {
+    console.error('🚨 Error al inicializar Firebase:', e.message);
   }
+}
 
-  // Solo permitir POST
+const db = admin.firestore();
+
+// Mapeo de planes a sus Price IDs de Stripe (configurados vía env vars)
+const PLANS = {
+  emprendedor: {
+    priceId: process.env.STRIPE_PRICE_EMPRENDEDOR,
+    name: 'Plan Emprendedor',
+    amount: 250_00, // $250 MXN en centavos
+  },
+  business: {
+    priceId: process.env.STRIPE_PRICE_BUSINESS,
+    name: 'Plan Business',
+    amount: 499_00, // $499 MXN en centavos
+  },
+};
+
+const TRIAL_DAYS = 15;
+
+export default async function handler(req, res) {
+  if (handlePreflight(req, res)) return;
+  setCORS(req, res);
+
   if (req.method !== 'POST') {
-    return res.status(405).json({ message: 'Método no permitido' });
+    return res.status(405).json({ error: 'Método no permitido' });
   }
 
   try {
-    const { cliente, direccion, items, subtotal, costoEnvio, total, metadata } = req.body;
+    const { planId, userId, email, displayName } = req.body;
 
-    // Validar datos requeridos
-    if (!cliente || !direccion || !items || items.length === 0) {
-      return res.status(400).json({ 
-        success: false,
-        message: 'Datos incompletos. Se requiere cliente, dirección e items.' 
-      });
-    }
-
-    // Validar estructura del cliente
-    if (!cliente.email || !cliente.nombre || !cliente.apellido || !cliente.telefono) {
+    // Validaciones
+    if (!planId || !userId || !email) {
       return res.status(400).json({
         success: false,
-        message: 'Datos del cliente incompletos'
+        error: 'Datos incompletos. Se requiere planId, userId y email.',
       });
     }
 
-    // Validar estructura de la dirección
-    if (!direccion.calle || !direccion.numeroExterior || !direccion.colonia || 
-        !direccion.ciudad || !direccion.estado || !direccion.codigoPostal) {
+    const plan = PLANS[planId];
+    if (!plan) {
       return res.status(400).json({
         success: false,
-        message: 'Datos de dirección incompletos'
+        error: `Plan inválido: "${planId}". Opciones: emprendedor, business.`,
       });
     }
 
-    // Crear line items para Stripe
-    const lineItems = items.map(item => {
-      // Validar campos esenciales
-      if (!item.productName || !item.size || !item.price || !item.quantity) {
-        throw new Error(`Item inválido - faltan campos requeridos: ${JSON.stringify(item)}`);
+    if (!plan.priceId) {
+      return res.status(500).json({
+        success: false,
+        error: `Price ID no configurado para el plan "${planId}". Revisa las variables de entorno.`,
+      });
+    }
+
+    // Buscar si el usuario ya tiene un Stripe Customer ID guardado
+    let stripeCustomerId = null;
+    const subDoc = await db.collection('subscriptions').doc(userId).get();
+
+    if (subDoc.exists && subDoc.data().stripeCustomerId) {
+      stripeCustomerId = subDoc.data().stripeCustomerId;
+      console.log(`♻️ Cliente de Stripe existente: ${stripeCustomerId}`);
+    } else {
+      // Crear nuevo customer en Stripe
+      const customer = await stripe.customers.create({
+        email,
+        name: displayName || email,
+        metadata: {
+          firebaseUserId: userId,
+        },
+      });
+      stripeCustomerId = customer.id;
+      console.log(`🆕 Nuevo cliente de Stripe creado: ${stripeCustomerId}`);
+
+      // Guardar el customer ID en Firestore
+      await db.collection('subscriptions').doc(userId).set(
+        {
+          stripeCustomerId,
+          email,
+          displayName: displayName || null,
+          createdAt: admin.firestore.FieldValue.serverTimestamp(),
+        },
+        { merge: true }
+      );
+    }
+
+    // Verificar si ya tiene una suscripción activa
+    if (subDoc.exists) {
+      const subData = subDoc.data();
+      if (['active', 'trialing'].includes(subData.status)) {
+        return res.status(400).json({
+          success: false,
+          error: 'Ya tienes una suscripción activa. Usa el portal de cliente para cambiar de plan.',
+        });
       }
-
-      // Generar SKU si no existe
-      const variantSku = item.variantSku || `${item.productId}-${item.variantId}-${item.size}`;
-
-      return {
-        price_data: {
-          currency: 'mxn',
-          product_data: {
-            name: item.productName,
-            description: `Color: ${item.colorName || 'Sin color'} | Talla: ${item.size} | SKU: ${variantSku}`,
-            images: item.imageUrl ? [item.imageUrl] : [],
-          },
-          unit_amount: Math.round(item.price * 100), // Convertir a centavos
-        },
-        quantity: item.quantity,
-      };
-    });
-
-    // Agregar el costo de envío si aplica
-    if (costoEnvio > 0) {
-      lineItems.push({
-        price_data: {
-          currency: 'mxn',
-          product_data: {
-            name: 'Envío',
-            description: 'Costo de envío a domicilio',
-          },
-          unit_amount: Math.round(costoEnvio * 100),
-        },
-        quantity: 1,
-      });
     }
 
-    // Preparar metadata para el webhook
-    const itemsMetadata = items.map(item => ({
-      variantSku: item.variantSku || `${item.productId}-${item.variantId}-${item.size}`,
-      productId: item.productId,
-      variantId: item.variantId,
-      size: item.size,
-      quantity: item.quantity,
-      productName: item.productName
-    }));
+    // Determinar si ofrecer trial (solo si nunca ha tenido uno)
+    const hasHadTrial = subDoc.exists && subDoc.data().hasHadTrial === true;
 
-    // Obtener el origen desde el header o usar el valor por defecto
-    const origin = req.headers.origin || req.headers.referer?.replace(/\/$/, '') || 'http://localhost:5173';
+    const origin =
+      req.headers.origin ||
+      req.headers.referer?.replace(/\/$/, '') ||
+      'http://localhost:5173';
 
-    // Crear sesión de Stripe Checkout
-    const session = await stripe.checkout.sessions.create({
+    // Configurar la sesión de checkout
+    const sessionConfig = {
+      customer: stripeCustomerId,
       payment_method_types: ['card'],
-      line_items: lineItems,
-      mode: 'payment',
-      success_url: `${origin}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${origin}/checkout/cancel`,
-      customer_email: cliente.email,
+      line_items: [
+        {
+          price: plan.priceId,
+          quantity: 1,
+        },
+      ],
+      mode: 'subscription',
+      success_url: `${origin}/subscription/success?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${origin}/subscription/cancel`,
       metadata: {
-        // Información del cliente
-        customerName: `${cliente.nombre} ${cliente.apellido}`,
-        customerPhone: cliente.telefono,
-        customerEmail: cliente.email,
-        
-        // Información de envío
-        shippingAddress: `${direccion.calle} ${direccion.numeroExterior}${direccion.numeroInterior ? ' ' + direccion.numeroInterior : ''}, ${direccion.colonia}, ${direccion.ciudad}, ${direccion.estado}, ${direccion.codigoPostal}`,
-        shippingReferences: direccion.referencias || '',
-        
-        // Información de precios
-        subtotal: subtotal.toString(),
-        shippingCost: costoEnvio.toString(),
-        total: total.toString(),
-        isFreeShipping: metadata?.envioGratis ? 'true' : 'false',
-        
-        // Items para descontar del stock (JSON stringificado)
-        items: JSON.stringify(itemsMetadata)
+        userId,
+        planId,
       },
-    });
+      subscription_data: {
+        metadata: {
+          userId,
+          planId,
+        },
+      },
+      allow_promotion_codes: true,
+    };
 
-    console.log('✅ Sesión de Stripe creada:', session.id);
+    // Agregar trial de 15 días solo en plan Business y si nunca ha tenido trial
+    if (planId === 'business' && !hasHadTrial) {
+      sessionConfig.subscription_data.trial_period_days = TRIAL_DAYS;
+      console.log(`🎁 Trial de ${TRIAL_DAYS} días activado para usuario ${userId}`);
+    }
 
-    // Retornar la URL de la sesión
-    return res.status(200).json({ 
+    const session = await stripe.checkout.sessions.create(sessionConfig);
+
+    console.log(`✅ Sesión de checkout creada: ${session.id} (plan: ${planId})`);
+
+    return res.status(200).json({
       success: true,
       url: session.url,
-      sessionId: session.id
+      sessionId: session.id,
     });
-
   } catch (error) {
-    console.error('❌ Error al crear sesión de Stripe:', error);
-    return res.status(500).json({ 
+    console.error('❌ Error al crear sesión de checkout:', error);
+    return res.status(500).json({
       success: false,
-      message: 'Error al procesar el pago',
-      error: error.message 
+      error: 'Error al crear sesión de suscripción',
+      message: error.message,
     });
   }
 }
