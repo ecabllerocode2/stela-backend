@@ -126,7 +126,7 @@ GENERA SOLO UNA DESCRIPCIÓN, no múltiples opciones. Responde directamente con 
                 "Authorization": `Bearer ${apiKey}`,
                 "Content-Type": "application/json",
                 "HTTP-Referer": "https://stela-backend.vercel.app",
-                "X-Title": "Malim Product Descriptions"
+                "X-Title": "Stela Product Descriptions"
             },
             body: JSON.stringify({
                 model: "openai/gpt-4o-mini",

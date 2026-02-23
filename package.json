@@ -1,7 +1,7 @@
 {
-  "name": "malim-backend",
+  "name": "stela-backend",
   "version": "1.0.0",
-  "description": "Backend para malim",
+  "description": "Backend para Stela",
   "main": "index.js",
   "type": "module",
   "scripts": {

@@ -49,7 +49,7 @@ export default async function handler(req, res) {
     await Promise.all(files.map(async (file) => {
       try {
         const safeOriginal = (file.originalFilename || "file").replace(/[^a-zA-Z0-9.-]/g, "_");
-        const key = `malim-${Date.now()}-${Math.random().toString(36).slice(2, 11)}-${safeOriginal}`;
+        const key = `stela-${Date.now()}-${Math.random().toString(36).slice(2, 11)}-${safeOriginal}`;
         const body = await fs.readFile(file.filepath);
 
         await s3.send(new PutObjectCommand({

@@ -10,9 +10,9 @@ function extractR2Key(url) {
     let key = urlObj.pathname.startsWith("/") ? urlObj.pathname.slice(1) : urlObj.pathname;
 
     // Elimina el nombre del bucket si está en el path
-    const bucketName = process.env.R2_BUCKET; // Ej: "malim"
+    const bucketName = process.env.R2_BUCKET; // Ej: "stela"
     if (bucketName && key.startsWith(bucketName + "/")) {
-      key = key.slice(bucketName.length + 1); // Elimina "malim/"
+      key = key.slice(bucketName.length + 1); // Elimina "<bucket>/"
     }
 
     return decodeURIComponent(key);

@@ -164,10 +164,10 @@ function generarMensajePersonalizado(tipo, contexto = {}) {
     switch(tipo) {
         case 'saludo_inicial':
             return seleccionarAleatoriamente([
-                `¡Hola ${nombreCariñoso}! 💕 Soy Mia, tu asesora personal de Malim. ¿Qué prenda buscas hoy y qué talla usas? Así te muestro las opciones perfectas para ti`,
-                `¡Hola preciosa! Soy Mia 💖 Ayudo a mujeres como tú a encontrar lo que buscas en Malim. Dime: ¿qué tipo de prenda quieres y qué talla eres? (chica, mediana, grande o tu número)`,
+                `¡Hola ${nombreCariñoso}! 💕 Soy Mia, tu asesora personal de Stela. ¿Qué prenda buscas hoy y qué talla usas? Así te muestro las opciones perfectas para ti`,
+                `¡Hola preciosa! Soy Mia 💖 Ayudo a mujeres como tú a encontrar lo que buscas en Stela. Dime: ¿qué tipo de prenda quieres y qué talla eres? (chica, mediana, grande o tu número)`,
                 `¡Hola linda! 💝 Soy Mia y estoy aquí para ayudarte a encontrar la prenda perfecta. ¿Qué estás buscando y qué talla usas? Así vamos directas al punto`,
-                `Hey ${nombreCariñoso}! 💕 Soy Mia, tu asesora de estilo en Malim. Para mostrarte las mejores opciones necesito saber: ¿qué prenda buscas y qué talla eres?`,
+                `Hey ${nombreCariñoso}! 💕 Soy Mia, tu asesora de estilo en Stela. Para mostrarte las mejores opciones necesito saber: ¿qué prenda buscas y qué talla eres?`,
                 `¡Hola hermosa! Soy Mia 💖 Estoy aquí para ayudarte. Cuéntame: ¿qué tipo de prenda necesitas hoy y qué talla usas? (puede ser chica, mediana, grande o tu número como 32, 36...)`
             ]);
             
@@ -1048,7 +1048,7 @@ async function callMiaRecommendationMode(userMessage, imageBase64, conversationH
         const price = parseFloat(p.price) || 0;
         const offer = parseFloat(p.offer) || 0;
         const finalPrice = offer > 0 ? price * (1 - offer / 100) : price;
-        const link = `https://malim-shop.vercel.app/producto/${p.sku}`;
+        const link = `https://stela-shop.vercel.app/producto/${p.sku}`;
         
         // Emoji según categoría
         let emoji = '✨';

@@ -1,18 +1,17 @@
 export function setCORS(req, res) {
   const allowed = [
-    "https://ecaballerocode.github.io",
-    "https://ecaballerocode.github.io/malim-app",
     "http://localhost:3000",
     "http://localhost:5173",
+    "http://localhost:5174",
+    "http://localhost:5175",
     "http://127.0.0.1:3000",
     "http://127.0.0.1:5173",
-    "https://malim-app.vercel.app",
-    "https://ecaballerocode.github.io/borrar-productos",
-    "https://intranet-malim.vercel.app",
-    "https://malim-shop.vercel.app",
-    "https://malim-shop-git-",
+    "http://127.0.0.1:5174",
+    "http://127.0.0.1:5175",
     "https://stela-admin.vercel.app",
     "https://stela-backend.vercel.app",
+    "https://stela-shop.vercel.app",
+    "https://stela-shop-git-",
     process.env.CODESPACES_ORIGIN,
   ].filter(Boolean);
 
