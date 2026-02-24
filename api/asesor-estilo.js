@@ -1048,7 +1048,7 @@ async function callMiaRecommendationMode(userMessage, imageBase64, conversationH
         const price = parseFloat(p.price) || 0;
         const offer = parseFloat(p.offer) || 0;
         const finalPrice = offer > 0 ? price * (1 - offer / 100) : price;
-        const link = `https://stela-shop.vercel.app/producto/${p.sku}`;
+        const link = `https://stela-shop-ecru.vercel.app/producto/${p.sku}`;
         
         // Emoji según categoría
         let emoji = '✨';

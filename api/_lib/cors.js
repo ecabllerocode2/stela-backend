@@ -11,6 +11,7 @@ export function setCORS(req, res) {
     "https://stela-admin.vercel.app",
     "https://stela-backend.vercel.app",
     "https://stela-shop.vercel.app",
+    "https://stela-shop-ecru.vercel.app",
     "https://stela-shop-git-",
     process.env.CODESPACES_ORIGIN,
   ].filter(Boolean);
