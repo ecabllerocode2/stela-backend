@@ -4,6 +4,7 @@ import Stripe from 'stripe';
 import admin from 'firebase-admin';
 import { setCORS, handlePreflight } from './_lib/cors.js';
 import { getSubscriptionPeriod } from './_lib/stripe-helpers.js';
+import { requireAuth } from './_lib/auth.js';
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
@@ -53,6 +54,10 @@ export default async function handler(req, res) {
         error: 'Se requiere el parámetro userId.',
       });
     }
+
+    // Verificar autenticación
+    const auth = await requireAuth(req, res, userId);
+    if (!auth.authenticated) return;
 
     // Si se proporciona sessionId, obtener datos frescos directamente de Stripe
     // (útil cuando el webhook aún no ha procesado el evento)

@@ -3,6 +3,7 @@
 import Stripe from 'stripe';
 import admin from 'firebase-admin';
 import { setCORS, handlePreflight } from './_lib/cors.js';
+import { requireAuth } from './_lib/auth.js';
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
@@ -69,6 +70,10 @@ export default async function handler(req, res) {
         error: 'Datos incompletos. Se requiere planId, userId y email.',
       });
     }
+
+    // Verificar autenticación
+    const auth = await requireAuth(req, res, userId);
+    if (!auth.authenticated) return;
 
     const plan = PLANS[planId];
     if (!plan) {

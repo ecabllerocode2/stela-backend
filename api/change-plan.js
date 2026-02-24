@@ -4,6 +4,7 @@ import Stripe from 'stripe';
 import admin from 'firebase-admin';
 import { setCORS, handlePreflight } from './_lib/cors.js';
 import { getSubscriptionPeriod } from './_lib/stripe-helpers.js';
+import { requireAuth } from './_lib/auth.js';
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
@@ -58,6 +59,10 @@ export default async function handler(req, res) {
         error: 'Se requieren userId y newPlanId.',
       });
     }
+
+    // Verificar autenticación
+    const auth = await requireAuth(req, res, userId);
+    if (!auth.authenticated) return;
 
     if (!PLANS[newPlanId]) {
       return res.status(400).json({
@@ -144,6 +149,11 @@ export default async function handler(req, res) {
       proration_behavior: 'create_prorations',
       // Si tenía cancelación pendiente, reactivar
       cancel_at_period_end: false,
+      // Actualizar metadata con el nuevo plan
+      metadata: {
+        ...currentSub.metadata,
+        planId: newPlanId,
+      },
     });
 
     // Actualizar Firestore
