@@ -96,7 +96,18 @@ async function handleCheckoutCompleted(session) {
     { merge: true }
   );
 
-  console.log(`✅ Suscripción guardada para usuario ${userId} (plan: ${planId}, status: ${subscription.status})`);
+  // Activar/desactivar tienda en línea según plan del checkout
+  const tiendaActivaCheckout = (planId || getPlanIdFromPriceId(subscription.items.data[0]?.price?.id)) === 'business'
+    && ['active', 'trialing'].includes(subscription.status);
+  await db.collection('users').doc(userId).set(
+    {
+      tiendaActiva: tiendaActivaCheckout,
+      updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+    },
+    { merge: true }
+  );
+
+  console.log(`✅ Suscripción guardada para usuario ${userId} (plan: ${planId}, status: ${subscription.status}, tiendaActiva: ${tiendaActivaCheckout})`);
 }
 
 async function handleSubscriptionUpdated(subscription) {
@@ -148,7 +159,18 @@ async function updateSubscriptionDoc(userId, subscription) {
 
   await db.collection('subscriptions').doc(userId).set(updateData, { merge: true });
 
-  console.log(`✅ Suscripción actualizada para ${userId}: status=${subscription.status}, plan=${planId}`);
+  // Actualizar flag de tienda activa en el perfil del usuario
+  // Solo Business con suscripción activa tiene acceso a tienda en línea
+  const tiendaActiva = planId === 'business' && ['active', 'trialing'].includes(subscription.status);
+  await db.collection('users').doc(userId).set(
+    {
+      tiendaActiva,
+      updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+    },
+    { merge: true }
+  );
+
+  console.log(`✅ Suscripción actualizada para ${userId}: status=${subscription.status}, plan=${planId}, tiendaActiva=${tiendaActiva}`);
 }
 
 async function handleSubscriptionDeleted(subscription) {
@@ -180,7 +202,16 @@ async function handleSubscriptionDeleted(subscription) {
     { merge: true }
   );
 
-  console.log(`✅ Suscripción marcada como cancelada para usuario ${docId}`);
+  // Desactivar tienda en línea al cancelar suscripción
+  await db.collection('users').doc(docId).set(
+    {
+      tiendaActiva: false,
+      updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+    },
+    { merge: true }
+  );
+
+  console.log(`✅ Suscripción marcada como cancelada para usuario ${docId} (tiendaActiva: false)`);
 }
 
 async function handleInvoicePaymentSucceeded(invoice) {

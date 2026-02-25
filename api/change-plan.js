@@ -156,7 +156,7 @@ export default async function handler(req, res) {
       },
     });
 
-    // Actualizar Firestore
+    // Actualizar Firestore - subscriptions
     await db.collection('subscriptions').doc(userId).set(
       {
         plan: newPlanId,
@@ -168,8 +168,18 @@ export default async function handler(req, res) {
       { merge: true }
     );
 
-    console.log(`✅ Plan cambiado para ${userId}: ${currentPlan} → ${newPlanId}`);
+    // Actualizar flag de tienda activa en el perfil del usuario
+    // Solo Business tiene acceso a tienda en línea
+    const tiendaActiva = newPlanId === 'business';
+    await db.collection('users').doc(userId).set(
+      {
+        tiendaActiva,
+        updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+      },
+      { merge: true }
+    );
 
+    console.log(`✅ Plan cambiado para ${userId}: ${currentPlan} → ${newPlanId} (tiendaActiva: ${tiendaActiva})`);
     return res.status(200).json({
       success: true,
       message: `Plan cambiado exitosamente de ${currentPlan} a ${newPlanId}.`,
