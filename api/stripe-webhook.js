@@ -102,6 +102,7 @@ async function handleCheckoutCompleted(session) {
   await db.collection('users').doc(userId).set(
     {
       tiendaActiva: tiendaActivaCheckout,
+      tiendaSetByWebhook: true,
       updatedAt: admin.firestore.FieldValue.serverTimestamp(),
     },
     { merge: true }
@@ -165,6 +166,7 @@ async function updateSubscriptionDoc(userId, subscription) {
   await db.collection('users').doc(userId).set(
     {
       tiendaActiva,
+      tiendaSetByWebhook: true,
       updatedAt: admin.firestore.FieldValue.serverTimestamp(),
     },
     { merge: true }
@@ -206,6 +208,7 @@ async function handleSubscriptionDeleted(subscription) {
   await db.collection('users').doc(docId).set(
     {
       tiendaActiva: false,
+      tiendaSetByWebhook: true,
       updatedAt: admin.firestore.FieldValue.serverTimestamp(),
     },
     { merge: true }
