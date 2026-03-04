@@ -1,0 +1,684 @@
+[
+  {
+    "id": "04UHGwrr5O3kgS1gQHTP",
+    "prenda": "Sueter tejido fino",
+    "detalles": "Rayado",
+    "costo": 130,
+    "precio": 150,
+    "tallas": [
+      "(32-34)"
+    ],
+    "categoria": "Suéteres",
+    "proveedor": "Junior",
+    "fotos": "https://res.cloudinary.com/ds4kmouua/image/upload/v1743635553/jmbaf3oeeo0yoqaw1ibw.png",
+    "fecha": "2025-04-02",
+    "talla": "(32-34)",
+    "color": "Beige",
+    "lugar": "Tlalmanalco",
+    "entrega": "Punto de venta",
+    "comprado": true,
+    "cliente": "Miss Lety",
+    "pago": 150,
+    "pagos": [
+      {
+        "fecha": "2025-04-02",
+        "monto": 150
+      }
+    ],
+    "entregado": true
+  },
+  {
+    "id": "09lvhvknzWPTxNaLcG1x",
+    "prenda": "Maxi vestido print",
+    "detalles": "Doble brush sublimado. TONOS: animal print y cebra",
+    "costo": 200,
+    "precio": 380,
+    "precioOriginal": 380,
+    "tallas": [
+      "(32)",
+      "(34)",
+      "(36)",
+      "(38)"
+    ],
+    "categoria": "Maxi vestidos",
+    "proveedor": "Derek",
+    "fotos": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1758224575253-xkth4info-malim-1758224573563-0-1-image_1_watermarked.jpeg",
+    "fecha": "2025-09-17",
+    "cliente": "Marysol Lima",
+    "talla": "(36)",
+    "color": "Cebra bco/ngo",
+    "lugar": "Chihuahua",
+    "entrega": "A domicilio",
+    "comprado": true,
+    "clienteId": "SDbjZkG1I0A2mJiecQje",
+    "pago": 380,
+    "pagos": [
+      {
+        "monto": 285,
+        "fecha": "2025-09-20"
+      },
+      {
+        "monto": 95,
+        "fecha": "2025-09-27"
+      }
+    ],
+    "entregado": true,
+    "fechaEntrega": "2025-10-20"
+  },
+  {
+    "id": "0HduOHWHEBmJWWo3bWmO",
+    "prenda": "PALAZZO PETO",
+    "detalles": "2 PZAS PETO Y TOP EN TELA BRUSH PREMIUM ",
+    "costo": 130,
+    "precio": 260,
+    "tallas": [
+      "(32-34)"
+    ],
+    "categoria": "Palazzos",
+    "proveedor": "Eder",
+    "fotos": "https://res.cloudinary.com/ds4kmouua/image/upload/v1742947855/alazsbqzr9nn5t4eeqm6.png",
+    "fecha": "2025-04-10",
+    "cliente": "Ivonne tortilleria",
+    "talla": "(32-34)",
+    "color": "Fiusha",
+    "lugar": "Tlalmanalco",
+    "entrega": "Punto de venta",
+    "comprado": true,
+    "entregado": true,
+    "pago": 260,
+    "pagos": [
+      {
+        "monto": 120,
+        "fecha": "2025-04-15"
+      },
+      {
+        "fecha": "2025-04-21",
+        "monto": 120
+      },
+      {
+        "fecha": "2025-04-24",
+        "monto": 20
+      }
+    ],
+    "clienteId": "G6dndNF40qmQgYNIhzvi"
+  },
+  {
+    "id": "0KUTV8jXVO9u3mSi6fJ9",
+    "prenda": "Enterizo rib tirantes",
+    "detalles": "Tela rib  ",
+    "costo": 125,
+    "precio": 275,
+    "tallas": [
+      "(32-34)"
+    ],
+    "categoria": "Palazzos",
+    "proveedor": "Eder",
+    "fotos": "https://res.cloudinary.com/ds4kmouua/image/upload/v1750200499/dujr6yfbrn1ymimr0dbk.png",
+    "fecha": "2025-06-17",
+    "cliente": "Alin Villeda",
+    "talla": "(32-34)",
+    "color": "Beige o verde",
+    "lugar": "San Rafael",
+    "entrega": "A domicilio",
+    "comprado": true,
+    "entregado": true,
+    "pago": 275,
+    "pagos": [
+      {
+        "monto": 100,
+        "fecha": "2025-06-17"
+      },
+      {
+        "fecha": "2025-06-23",
+        "monto": 100
+      },
+      {
+        "fecha": "2025-06-23",
+        "monto": 75
+      }
+    ],
+    "clienteId": "8q9Bq4b4tQqPfLtPD9lp"
+  },
+  {
+    "id": "0SfTZZtYeztHdcJPNR8t",
+    "prenda": "Enterizo corto playero",
+    "detalles": "tela cey , ligero, corto",
+    "costo": 130,
+    "precio": 280,
+    "tallas": [
+      "(32-34)"
+    ],
+    "categoria": "Palazzos",
+    "proveedor": "Eder",
+    "fotos": "https://res.cloudinary.com/ds4kmouua/image/upload/v1746494542/wvixbgjftr2phuhaoxnl.png",
+    "fecha": "2025-05-04",
+    "cliente": "Bety Magisterio",
+    "talla": "(32-34)",
+    "color": "verde pistache",
+    "lugar": "Tlalmanalco",
+    "entrega": "Punto de venta",
+    "pagado": true,
+    "comprado": true,
+    "entregado": true,
+    "pago": 280,
+    "pagos": [
+      {
+        "fecha": "2025-05-04",
+        "monto": 265
+      },
+      {
+        "fecha": "2025-05-12",
+        "monto": 15
+      }
+    ],
+    "clienteId": "D6Df8V4vkg8T7MsYFwU6"
+  },
+  {
+    "id": "0VHENcfKo4Zmo2qCek25",
+    "prenda": "Sueter cuello V",
+    "detalles": "Tejido delgado. TONOS: Gris, Blanco",
+    "costo": 120,
+    "precio": 240,
+    "precioOriginal": 240,
+    "tallas": [
+      "(32-34)"
+    ],
+    "categoria": "Suéteres",
+    "proveedor": "Junior",
+    "fotos": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1761328566381-i1lszybzx-malim-1761328565647-0-0-image_22_watermarked.jpeg",
+    "fecha": "2025-10-24",
+    "cliente": "Sandy Varela",
+    "talla": "(32-34)",
+    "color": "Negro",
+    "lugar": "Tlalmanalco",
+    "entrega": "Punto de venta",
+    "clienteId": "IPjXkmLRkN2mpocxQLpJ",
+    "entregado": true,
+    "fechaEntrega": "2025-10-25",
+    "comprado": true,
+    "pago": 240,
+    "pagos": [
+      {
+        "fecha": "2025-11-03",
+        "monto": 240
+      }
+    ]
+  },
+  {
+    "id": "0YQmvuXfEsLCtfSlFVof",
+    "prenda": "Abrigo estampado aborregado",
+    "detalles": "aborregado animado ",
+    "costo": 240,
+    "precio": 390,
+    "precioOriginal": 390,
+    "tallas": [
+      "(32-36)"
+    ],
+    "categoria": "Abrigos",
+    "proveedor": "Juárez",
+    "fotos": "https://res.cloudinary.com/ds4kmouua/image/upload/v1753968928/fksi1icgops6lg8hocji.png",
+    "fecha": "2025-07-31",
+    "cliente": "Brenda jenny",
+    "talla": "(32-36)",
+    "color": "negro mickey ",
+    "lugar": "CDMX",
+    "entrega": "Punto de venta",
+    "comprado": true,
+    "entregado": true,
+    "pago": 390,
+    "pagos": [
+      {
+        "monto": 100,
+        "fecha": "2025-08-01"
+      },
+      {
+        "fecha": "2025-08-17",
+        "monto": 290
+      }
+    ],
+    "clienteId": "y57FxtgGgRqD93wOZQl2"
+  },
+  {
+    "id": "0YRXp94yWHKxG2vSnO4D",
+    "prenda": "Suéter tejido ",
+    "detalles": "Tejido botones y bolsillos funcionales",
+    "costo": 220,
+    "precio": 350,
+    "tallas": [
+      "(32-34)"
+    ],
+    "categoria": "Suéteres",
+    "proveedor": "Proveedor desconocido",
+    "fotos": "https://res.cloudinary.com/ds4kmouua/image/upload/v1742790506/lclqasyvmglaxrtiyacw.jpg",
+    "fecha": "2025-03-23",
+    "cliente": "Blanquita Rodriguez",
+    "talla": "(32-34)",
+    "color": "Blanco",
+    "lugar": "Tlalmanalco",
+    "entrega": "Punto de venta",
+    "comprado": true,
+    "entregado": true,
+    "pago": 350,
+    "pagos": [
+      {
+        "fecha": "2025-04-07",
+        "monto": 350
+      }
+    ],
+    "clienteId": "vVvuNAaKwlJi7y3ImO1e"
+  },
+  {
+    "id": "0cD5NCN8N2GWpyabatan",
+    "prenda": "Sueter cuello V",
+    "detalles": "Tejido delgado. TONOS: Rojo, Azul, Gris, Negro, Blanco y Camel",
+    "costo": 120,
+    "precio": 240,
+    "precioOriginal": 240,
+    "tallas": [
+      "(32-34)"
+    ],
+    "categoria": "Suéteres",
+    "proveedor": "Junior",
+    "fotos": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1759430443111-q6frhcxlw-malim-1759430441599-0-0-IMG-20250929-WA0201_072123.jpg",
+    "fecha": "2025-10-07",
+    "cliente": "Sandy Varela",
+    "talla": "(32-34)",
+    "color": "Gris",
+    "lugar": "Tlalmanalco",
+    "entrega": "A domicilio",
+    "clienteId": "Sandy Varela",
+    "satisfaccion": null,
+    "clienteIdOriginal": "IPjXkmLRkN2mpocxQLpJ",
+    "pago": 240,
+    "pagos": [
+      {
+        "fecha": "2025-10-17",
+        "monto": 240
+      }
+    ],
+    "comprado": true,
+    "entregado": true,
+    "fechaEntrega": "2025-10-20"
+  },
+  {
+    "id": "0f86olBesFpwC2YQRuZa",
+    "prenda": "Conjunto aborregado",
+    "detalles": "Forro aborregado",
+    "costo": 250,
+    "precio": 380,
+    "tallas": [
+      "(32-34)"
+    ],
+    "categoria": "Conjuntos deportivos",
+    "proveedor": "Eder",
+    "fotos": "https://res.cloudinary.com/ds4kmouua/image/upload/v1735350974/dt7qt6yfz2tikobilxry.png",
+    "fecha": "2024-12-28",
+    "cliente": "Celene Rodriguez",
+    "talla": "(32-34)",
+    "color": "Azul marino",
+    "lugar": "San Rafael",
+    "entrega": "Punto de venta",
+    "comprado": true,
+    "entregado": true,
+    "pago": 380,
+    "pagos": [
+      {
+        "fecha": "2025-01-04",
+        "monto": 380
+      }
+    ],
+    "clienteId": "ClN9U9nSVp45jl09XLnL"
+  },
+  {
+    "id": "0glQzJsOKnKRzcPZEpHl",
+    "prenda": "Maxisudadera polar",
+    "detalles": "Descuento 20%",
+    "costo": 150,
+    "precio": 240,
+    "tallas": [
+      "(32-36)"
+    ],
+    "categoria": "Maxi sudaderas",
+    "proveedor": "Junior",
+    "fotos": "https://res.cloudinary.com/ds4kmouua/image/upload/v1751418069/epdhursz09y5nphvhvmi.jpg",
+    "fecha": "2025-07-01",
+    "cliente": "Verónica Siguenza",
+    "talla": "(32-36)",
+    "color": "Gris ",
+    "lugar": "Tlalmanalco",
+    "entrega": "Punto de venta",
+    "entregado": true,
+    "pago": 240,
+    "pagos": [
+      {
+        "monto": 50,
+        "fecha": "2025-07-01"
+      },
+      {
+        "fecha": "2025-07-05",
+        "monto": 190
+      }
+    ],
+    "comprado": true,
+    "clienteId": "IsKfPhpmBU2vBj9iIkJX"
+  },
+  {
+    "id": "10hSDMG9HdoA44EvPtpj",
+    "prenda": "Conjunto felpa",
+    "detalles": "Felpa",
+    "costo": 185,
+    "precio": 320,
+    "tallas": [
+      "(32-36)"
+    ],
+    "categoria": "Conjuntos deportivos",
+    "proveedor": "Alfredo",
+    "fotos": "https://res.cloudinary.com/ds4kmouua/image/upload/v1738025200/v9h6wg6tg3xm5lubpfkd.png",
+    "fecha": "2025-03-09",
+    "cliente": "Gaby Tienda",
+    "talla": "(32-36)",
+    "color": "Lila puma",
+    "lugar": "Tlalmanalco",
+    "entrega": "A domicilio",
+    "entregado": true,
+    "comprado": true,
+    "pago": 320,
+    "pagos": [
+      {
+        "fecha": "2025-03-09",
+        "monto": 50
+      },
+      {
+        "monto": 100,
+        "fecha": "2025-03-10"
+      },
+      {
+        "monto": 100,
+        "fecha": "2025-03-16"
+      },
+      {
+        "fecha": "2025-03-21",
+        "monto": 70
+      }
+    ],
+    "clienteId": "uGjKtXT2A7CP58V8QUBi"
+  },
+  {
+    "id": "1KwrdtxC44Rd0RX22Htt",
+    "prenda": "Saco manga 3/4",
+    "detalles": "pontie stretch, manga 3/4 boton, bolsas funcionales",
+    "costo": 195,
+    "precio": 345,
+    "tallas": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "talla": "30",
+    "categoria": "Sacos",
+    "proveedor": "Faustiny Junior",
+    "fotos": "https://res.cloudinary.com/ds4kmouua/image/upload/v1750221894/jrxpibil7kl3j6graiga.png",
+    "cliente": "Lidia Miss",
+    "fecha": "2025-06-16",
+    "color": "azul rey",
+    "lugar": "Tlalmanalco",
+    "entrega": "A domicilio",
+    "pago": 345,
+    "pagos": [
+      {
+        "monto": 50,
+        "fecha": "2025-06-16"
+      },
+      {
+        "fecha": "2025-06-22",
+        "monto": 295
+      }
+    ],
+    "comprado": true,
+    "entregado": true,
+    "clienteId": "xTJBU0PM57Yl7o6uMprm"
+  },
+  {
+    "id": "1NbEJLivAXRYqtPJbThr",
+    "prenda": "playera olímpica ",
+    "detalles": "microfibra stretch",
+    "costo": 20,
+    "precio": 99,
+    "tallas": [
+      "30",
+      "32",
+      "34"
+    ],
+    "talla": "(32-34)",
+    "categoria": "Playeras deportivas",
+    "proveedor": "Junior",
+    "fotos": "https://res.cloudinary.com/ds4kmouua/image/upload/v1753126019/dgk5vtykd8l3ckahseiw.jpg",
+    "cliente": "Vero Ortiz",
+    "fecha": "2025-07-21",
+    "color": "verde hunter",
+    "lugar": "Tlalmanalco",
+    "entrega": "Punto de venta",
+    "comprado": true,
+    "entregado": true,
+    "pago": 99,
+    "pagos": [
+      {
+        "fecha": "2025-08-02",
+        "monto": 99
+      }
+    ],
+    "clienteId": "orVPZ7NK2sJokVytMU7G"
+  },
+  {
+    "id": "1UC2MKwWMHZU4iVMFsNW",
+    "prenda": "CHAMARRA CROP TOP LICRA",
+    "detalles": "LICRA NYLON STRECHS, CIERRE PREMIUM, OJILLO METALICO",
+    "costo": 120,
+    "precio": 250,
+    "tallas": [
+      "(30-32)",
+      "34"
+    ],
+    "categoria": "Playeras deportivas",
+    "proveedor": "URIEL INNOVACIÓN ",
+    "fotos": "https://res.cloudinary.com/ds4kmouua/image/upload/v1741497944/dgjxekqz7qrjwx4qbheq.png",
+    "fecha": "2025-03-25",
+    "cliente": "Paty Flores",
+    "talla": "(32-34)",
+    "color": "Rosa",
+    "lugar": "Ameca",
+    "entrega": "A domicilio",
+    "comprado": true,
+    "entregado": true,
+    "pago": 250,
+    "pagos": [
+      {
+        "monto": 100,
+        "fecha": "2025-03-25"
+      },
+      {
+        "fecha": "2025-03-29",
+        "monto": 150
+      }
+    ],
+    "clienteId": "Fsgn5VOI9xfWKDD8eOYE"
+  },
+  {
+    "id": "1aa3VxaEt61fHtvvBzCy",
+    "prenda": "Leggins jeans",
+    "detalles": "Licra algodon ajustable",
+    "costo": 160,
+    "precio": 310,
+    "tallas": [
+      "5",
+      "7",
+      "9",
+      "11",
+      "13",
+      "15"
+    ],
+    "categoria": "Leggins",
+    "proveedor": "Esnaly jeans",
+    "fotos": "https://res.cloudinary.com/ds4kmouua/image/upload/v1750705431/nscbljzffboodg8vv5pq.jpg",
+    "fecha": "2025-06-23",
+    "cliente": "Chela Guzmán",
+    "talla": "11",
+    "color": "Azul marino",
+    "lugar": "Tlalmanalco",
+    "entrega": "A domicilio",
+    "comprado": true,
+    "entregado": true,
+    "pago": 310,
+    "pagos": [
+      {
+        "fecha": "2025-07-10",
+        "monto": 300
+      },
+      {
+        "fecha": "2025-07-15",
+        "monto": 10
+      }
+    ],
+    "clienteId": "jMhC2Cnpq3XqyqTVCi4W"
+  },
+  {
+    "id": "1mrjeSFfqcBkRXFnlcbQ",
+    "prenda": "Blusa oversize pedrería ",
+    "detalles": "Tejido de punto suave\nTONOS: Lila, Gris, Vino, Negro, Cielo, Hueso, Blanco, Rosa pálido ",
+    "costo": 130,
+    "precio": 260,
+    "precioOriginal": 260,
+    "tallas": [
+      "(32-36)"
+    ],
+    "categoria": "Blusas",
+    "proveedor": "Junior",
+    "fotos": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1761184529236-drg4img2m-malim-1761184530149-0-1-image_20_watermarked.jpeg",
+    "fecha": "2025-11-13",
+    "cliente": "Elvia Melchor",
+    "talla": "(34-36)",
+    "color": "Gris",
+    "lugar": "CDMX",
+    "entrega": "Punto de venta",
+    "clienteId": "pt73vqUjADKC4lQy17cx",
+    "comprado": true,
+    "entregado": true,
+    "fechaEntrega": "2025-11-16",
+    "pago": 260,
+    "pagos": [
+      {
+        "fecha": "2025-11-16",
+        "monto": 260
+      }
+    ]
+  },
+  {
+    "id": "1que2QTCtKO2aoYLGaSC",
+    "prenda": "Set liso cierre",
+    "detalles": "Tejido de punto fino con cierre metálico , franja lateral\nTONOS: Camel, Guinda, Rojo, Verde, Negro, Café, Gris, Marino",
+    "costo": 270,
+    "precio": 520,
+    "precioOriginal": 520,
+    "tallas": [
+      "(32-34)",
+      "(34-36)"
+    ],
+    "categoria": "Conjuntos",
+    "proveedor": "Junior",
+    "fotos": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1763611354620-vgj70gqsu-malim-1763611355601-3-0-image_6_watermarked.jpeg",
+    "fecha": "2025-11-22",
+    "color": "Negro ",
+    "cliente": "Ara lopez",
+    "lugar": "Chalco",
+    "entrega": "Punto de venta",
+    "talla": "(34-36)",
+    "tipoCompra": "pedido",
+    "comprado": true,
+    "entregado": true,
+    "fechaEntrega": "2025-12-02",
+    "clienteId": "Ara lopez",
+    "satisfaccion": null,
+    "clienteIdOriginal": "Ara lopez",
+    "pago": 520,
+    "pagos": [
+      {
+        "monto": 520,
+        "fecha": "2025-11-27"
+      },
+      {
+        "fecha": "2025-12-11",
+        "monto": 520
+      },
+      {
+        "fecha": "2025-12-11",
+        "monto": -520
+      }
+    ]
+  },
+  {
+    "id": "1sMyIDFqWgNbwIzCmyRp",
+    "prenda": "Pantalon curvy remaches",
+    "detalles": "",
+    "costo": 249,
+    "precio": 389,
+    "tallas": [
+      "15",
+      "17"
+    ],
+    "categoria": "Pantalones",
+    "proveedor": "Lalo Viva Diva",
+    "fotos": "https://res.cloudinary.com/ds4kmouua/image/upload/v1736359954/mnqgpoxtsffzmnllwtel.png",
+    "fecha": "2025-01-24",
+    "cliente": "Jenny Lara",
+    "talla": "15",
+    "color": "Azul",
+    "lugar": "CDMX",
+    "entrega": "A domicilio",
+    "comprado": true,
+    "entregado": true,
+    "pago": 389,
+    "pagos": [
+      {
+        "fecha": "2025-01-29",
+        "monto": 389
+      }
+    ],
+    "clienteId": "he3JHlybMt2UQTSiR0re"
+  },
+  {
+    "id": "22fCHygNCvhmro6O3bb9",
+    "proveedor": "Oscar impression fashion",
+    "color": "Azul ",
+    "talla": "(32)",
+    "cliente": "Blanquita Rodriguez",
+    "precioOriginal": 370,
+    "comprado": true,
+    "fotos": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1756601500431-18hssryxx-malim-1756601500076-0-0-image_7_watermarked.jpeg",
+    "prenda": "Vestido mezclilla manga larga",
+    "costo": 190,
+    "precio": 370,
+    "fecha": "2025-09-01",
+    "entrega": "Punto de venta",
+    "categoria": "Vestidos",
+    "entregado": true,
+    "tallas": [
+      "(30)",
+      "(32)",
+      "(34)",
+      "(36)"
+    ],
+    "lugar": "Tlalmanalco",
+    "detalles": "Mezclilla delgada rigida",
+    "pago": 370,
+    "pagos": [
+      {
+        "monto": 370,
+        "fecha": "2025-09-23"
+      }
+    ],
+    "clienteId": "Blanquita Rodriguez",
+    "fechaEntrega": "2025-09-23",
+    "clienteIdOriginal": "vVvuNAaKwlJi7y3ImO1e"
+  }
+]

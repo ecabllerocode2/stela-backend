@@ -1,0 +1,460 @@
+[
+  {
+    "id": "0E3i58o7NALZMRThXkGT",
+    "cliente": "Beatriz Flores",
+    "cumpleaños": "",
+    "telefono": "5568186933",
+    "perfil_recomendacion.satisfaccion_ultimas_5": null,
+    "perfil_recomendacion.satisfaccion_promedio": null,
+    "perfil_recomendacion.satisfacciones_recientes": [],
+    "actualizado_en": "2025-12-25T20:15:04.622Z",
+    "ultima_compra": null,
+    "sin_actividad": true,
+    "dias_desde_ultima_compra": 999,
+    "total_pedidos_12m": 0,
+    "tipo_cliente": "nuevo",
+    "perfil_recomendacion": null
+  },
+  {
+    "id": "14dQqc5GF1M8WMJby1m2",
+    "cliente": "Annie Neto",
+    "cumpleaños": "1990-06-12",
+    "telefono": "5511272556",
+    "perfil_recomendacion.satisfaccion_ultimas_5": null,
+    "perfil_recomendacion.satisfaccion_promedio": null,
+    "perfil_recomendacion.satisfacciones_recientes": [],
+    "actualizado_en": "2025-12-25T20:15:05.084Z",
+    "ultima_compra": null,
+    "sin_actividad": true,
+    "dias_desde_ultima_compra": 999,
+    "total_pedidos_12m": 0,
+    "tipo_cliente": "nuevo",
+    "perfil_recomendacion": null
+  },
+  {
+    "id": "2NCoNkC0cSJkI0BcNhK4",
+    "cliente": "Angelica Estrada",
+    "cumpleaños": "2025-07-09",
+    "telefono": "5585632905",
+    "actualizado_en": "2025-12-25T20:15:05.202Z",
+    "ultima_compra": null,
+    "sin_actividad": true,
+    "dias_desde_ultima_compra": 999,
+    "total_pedidos_12m": 0,
+    "tipo_cliente": "nuevo",
+    "perfil_recomendacion": null
+  },
+  {
+    "id": "3p0t04QfAtxy2xe64hnC",
+    "cliente": "Jose Antonio Peralta",
+    "cumpleaños": "1971-09-01",
+    "telefono": "5513558640",
+    "actualizado_en": "2025-12-25T20:15:05.406Z",
+    "ultima_compra": null,
+    "sin_actividad": true,
+    "dias_desde_ultima_compra": 999,
+    "total_pedidos_12m": 0,
+    "tipo_cliente": "nuevo",
+    "perfil_recomendacion": null
+  },
+  {
+    "id": "42yaS1gOvTAYr3C9cTQQ",
+    "cliente": "Viry Castillo ALAMOS",
+    "cumpleaños": "",
+    "telefono": "5513300531",
+    "actualizado_en": "2025-12-25T20:15:05.522Z",
+    "ultima_compra": null,
+    "sin_actividad": true,
+    "dias_desde_ultima_compra": 999,
+    "total_pedidos_12m": 0,
+    "tipo_cliente": "nuevo",
+    "perfil_recomendacion": null
+  },
+  {
+    "id": "4Ipu5K3UybRteCuz7Qao",
+    "cliente": "Ela St",
+    "cumpleaños": "",
+    "telefono": "",
+    "actualizado_en": "2025-12-25T20:15:05.638Z",
+    "ultima_compra": null,
+    "sin_actividad": true,
+    "dias_desde_ultima_compra": 999,
+    "total_pedidos_12m": 0,
+    "tipo_cliente": "nuevo",
+    "perfil_recomendacion": null
+  },
+  {
+    "id": "4OGVpVQeiEZ8Hnv6wg2y",
+    "cliente": "Maru Lima",
+    "telefono": "5534415841",
+    "cumpleaños": "2025-09-24",
+    "actualizado_en": "2025-12-25T20:15:05.745Z",
+    "ultima_compra": null,
+    "sin_actividad": true,
+    "dias_desde_ultima_compra": 999,
+    "total_pedidos_12m": 0,
+    "tipo_cliente": "nuevo",
+    "perfil_recomendacion": null
+  },
+  {
+    "id": "4Tupes3kxpyBwvP36NvO",
+    "cliente": "Liz Casales",
+    "cumpleaños": "",
+    "telefono": "5527391862",
+    "actualizado_en": "2026-02-21T21:25:30.022Z",
+    "variedad_colores": 1,
+    "ultima_compra": "2026-02-20",
+    "sin_actividad": false,
+    "tallas_mas_usadas": [
+      "34"
+    ],
+    "dias_desde_ultima_compra": 1,
+    "total_pedidos_12m": 1,
+    "tipo_cliente": "activo",
+    "perfil_recomendacion": {
+      "tipo_cliente": "activo",
+      "color_marketing": "amarillo",
+      "total_pedidos_12m": 1,
+      "sin_actividad": false,
+      "ultima_compra": "2026-02-20",
+      "dias_desde_ultima_compra": 1,
+      "periodo_analisis": "12_meses",
+      "frecuencia_compra": "esporadico",
+      "frecuencia_compra_mensual": 0.08,
+      "gasto_total_12m": 420,
+      "gasto_promedio_por_compra": 420,
+      "ticket_maximo": 420,
+      "ticket_minimo": 420,
+      "presupuesto_estimado_max": 420,
+      "rango_precio_min": 420,
+      "rango_precio_max": 420,
+      "satisfaccion_promedio": 4,
+      "satisfaccion_ultimas_3_compras": 4,
+      "categorias_favoritas": [
+        "PALAZZOS"
+      ],
+      "colores_favoritos": [
+        "Verde Oliva"
+      ],
+      "prendas_mas_compradas": [
+        "Jumpsuit liso"
+      ],
+      "tallas_mas_usadas": [
+        "34"
+      ],
+      "estilo_compra": "nuevo",
+      "variedad_colores": 1,
+      "variedad_categorias": 1,
+      "actualizado_en": "2026-02-21T21:25:30.022Z",
+      "pedidos_analizados": 1
+    }
+  },
+  {
+    "id": "4eDtLX4jby0bkjPlfuB2",
+    "cumpleaños": "",
+    "telefono": "5563237953",
+    "cliente": "Esther Parra",
+    "actualizado_en": "2025-12-25T20:15:05.947Z",
+    "variedad_colores": 2,
+    "ultima_compra": "2025-12-22",
+    "sin_actividad": false,
+    "tallas_mas_usadas": [
+      "(32-36)"
+    ],
+    "dias_desde_ultima_compra": 3,
+    "total_pedidos_12m": 2,
+    "tipo_cliente": "activo",
+    "perfil_recomendacion": {
+      "tipo_cliente": "activo",
+      "total_pedidos_12m": 2,
+      "sin_actividad": false,
+      "ultima_compra": "2025-12-22",
+      "dias_desde_ultima_compra": 3,
+      "periodo_analisis": "12_meses",
+      "frecuencia_compra": "esporadico",
+      "frecuencia_compra_mensual": 0.17,
+      "gasto_total_12m": 600,
+      "gasto_promedio_por_compra": 300,
+      "presupuesto_estimado_max": 300,
+      "rango_precio_min": 300,
+      "rango_precio_max": 300,
+      "satisfaccion_promedio": 3,
+      "satisfaccion_ultimas_3_compras": 3,
+      "categorias_favoritas": [
+        "CAPAS",
+        "MAXI_SUDADERAS"
+      ],
+      "colores_favoritos": [
+        "Vino",
+        "Gris"
+      ],
+      "prendas_mas_compradas": [
+        "Capa macuco",
+        "Maxisudadera polar"
+      ],
+      "estilo_compra": "exploratorio",
+      "variedad_colores": 2,
+      "variedad_categorias": 2,
+      "actualizado_en": "2025-12-25T20:15:05.947Z",
+      "pedidos_analizados": 2
+    }
+  },
+  {
+    "id": "5aUVHFP0YZIWi8CzZLRK",
+    "cliente": "Maria Luisa Jaen",
+    "cumpleaños": "",
+    "telefono": "",
+    "actualizado_en": "2025-12-25T20:15:06.317Z",
+    "ultima_compra": null,
+    "sin_actividad": true,
+    "dias_desde_ultima_compra": 999,
+    "total_pedidos_12m": 0,
+    "tipo_cliente": "nuevo",
+    "perfil_recomendacion": null
+  },
+  {
+    "id": "5lcE6IuxL5EnAoD91N2F",
+    "cliente": "Domin Mary",
+    "cumpleaños": "1969-10-31",
+    "telefono": "5540217864",
+    "actualizado_en": "2025-12-25T20:15:06.926Z",
+    "ultima_compra": null,
+    "sin_actividad": true,
+    "dias_desde_ultima_compra": 999,
+    "total_pedidos_12m": 0,
+    "tipo_cliente": "nuevo",
+    "perfil_recomendacion": null
+  },
+  {
+    "id": "5rQhHUuGBdAnK4JB3ymo",
+    "cliente": "Maru tenango",
+    "telefono": "5561322491",
+    "cumpleaños": "",
+    "actualizado_en": "2026-02-01T02:23:49.694Z",
+    "variedad_colores": 1,
+    "ultima_compra": "2026-02-01",
+    "sin_actividad": false,
+    "tallas_mas_usadas": [
+      "32-34"
+    ],
+    "dias_desde_ultima_compra": 0,
+    "total_pedidos_12m": 1,
+    "tipo_cliente": "activo",
+    "perfil_recomendacion": {
+      "tipo_cliente": "activo",
+      "color_marketing": "amarillo",
+      "total_pedidos_12m": 1,
+      "sin_actividad": false,
+      "ultima_compra": "2026-02-01",
+      "dias_desde_ultima_compra": 0,
+      "periodo_analisis": "12_meses",
+      "frecuencia_compra": "esporadico",
+      "frecuencia_compra_mensual": 0.08,
+      "gasto_total_12m": 200,
+      "gasto_promedio_por_compra": 200,
+      "ticket_maximo": 200,
+      "ticket_minimo": 200,
+      "presupuesto_estimado_max": 200,
+      "rango_precio_min": 200,
+      "rango_precio_max": 200,
+      "satisfaccion_promedio": 4,
+      "satisfaccion_ultimas_3_compras": 4,
+      "categorias_favoritas": [
+        "PLAYERAS"
+      ],
+      "colores_favoritos": [
+        "Rosa Fucsia"
+      ],
+      "prendas_mas_compradas": [
+        "Playera juvenil 9 corazones"
+      ],
+      "tallas_mas_usadas": [
+        "32-34"
+      ],
+      "estilo_compra": "nuevo",
+      "variedad_colores": 1,
+      "variedad_categorias": 1,
+      "actualizado_en": "2026-02-01T02:23:49.694Z",
+      "pedidos_analizados": 1
+    }
+  },
+  {
+    "id": "5zzOF7hcc0PJygYsn35O",
+    "cliente": "Veronica Rodriguez",
+    "telefono": "9541498264",
+    "cumpleaños": "",
+    "cumpleanos": "",
+    "variedad_colores": 1,
+    "ultima_compra": "2025-12-18",
+    "sin_actividad": false,
+    "tallas_mas_usadas": [
+      "(32-36)"
+    ],
+    "total_pedidos_12m": 1,
+    "tipo_cliente": "activo",
+    "actualizado_en": "2026-01-09T15:50:05.696Z",
+    "dias_desde_ultima_compra": 22,
+    "perfil_recomendacion": {
+      "tipo_cliente": "activo",
+      "color_marketing": "amarillo",
+      "total_pedidos_12m": 1,
+      "sin_actividad": false,
+      "ultima_compra": "2025-12-18",
+      "dias_desde_ultima_compra": 22,
+      "periodo_analisis": "12_meses",
+      "frecuencia_compra": "esporadico",
+      "frecuencia_compra_mensual": 0.08,
+      "gasto_total_12m": 560,
+      "gasto_promedio_por_compra": 560,
+      "ticket_maximo": 560,
+      "ticket_minimo": 560,
+      "presupuesto_estimado_max": 560,
+      "rango_precio_min": 560,
+      "rango_precio_max": 560,
+      "satisfaccion_promedio": 4,
+      "satisfaccion_ultimas_3_compras": 4,
+      "categorias_favoritas": [
+        "MAXI_VESTIDOS"
+      ],
+      "colores_favoritos": [
+        "Negro LV"
+      ],
+      "prendas_mas_compradas": [
+        "Camisero LV"
+      ],
+      "tallas_mas_usadas": [
+        "(32-36)"
+      ],
+      "estilo_compra": "nuevo",
+      "variedad_colores": 1,
+      "variedad_categorias": 1,
+      "actualizado_en": "2026-01-09T15:50:05.696Z",
+      "pedidos_analizados": 1
+    }
+  },
+  {
+    "id": "6tCmWBClocL9xnadrdaV",
+    "cliente": "Angeles Romero",
+    "cumpleaños": "2025-08-12",
+    "telefono": "5534598505",
+    "actualizado_en": "2025-12-25T20:15:07.306Z",
+    "ultima_compra": null,
+    "sin_actividad": true,
+    "dias_desde_ultima_compra": 999,
+    "total_pedidos_12m": 0,
+    "tipo_cliente": "nuevo",
+    "perfil_recomendacion": null
+  },
+  {
+    "id": "7CkXp3hN31novJugL9vd",
+    "cliente": "Alex Tienda",
+    "cumpleaños": "",
+    "telefono": "5656476882",
+    "actualizado_en": "2025-12-25T20:15:07.415Z",
+    "ultima_compra": null,
+    "sin_actividad": true,
+    "dias_desde_ultima_compra": 999,
+    "total_pedidos_12m": 0,
+    "tipo_cliente": "nuevo",
+    "perfil_recomendacion": null
+  },
+  {
+    "id": "7PHLRvj60cvfer02FZqJ",
+    "cliente": "Chez",
+    "cumpleaños": "1994-03-29",
+    "telefono": "5571297722",
+    "actualizado_en": "2025-12-25T20:15:07.592Z",
+    "ultima_compra": null,
+    "sin_actividad": true,
+    "dias_desde_ultima_compra": 999,
+    "total_pedidos_12m": 0,
+    "tipo_cliente": "nuevo",
+    "perfil_recomendacion": null
+  },
+  {
+    "id": "7XUtnNVMcSjLSzG4A3rG",
+    "cliente": "Lady cremeria",
+    "cumpleaños": "2003-11-01",
+    "telefono": "5656476882",
+    "actualizado_en": "2025-12-25T20:15:07.670Z",
+    "ultima_compra": null,
+    "sin_actividad": true,
+    "dias_desde_ultima_compra": 999,
+    "total_pedidos_12m": 0,
+    "tipo_cliente": "nuevo",
+    "perfil_recomendacion": null
+  },
+  {
+    "id": "7c9IIHHLkWhAn9XpAuKX",
+    "cliente": "Eder Caballero",
+    "cumpleaños": "2025-08-22",
+    "telefono": "5621999996",
+    "actualizado_en": "2025-12-25T20:15:07.771Z",
+    "variedad_colores": 1,
+    "ultima_compra": "2025-12-23",
+    "sin_actividad": false,
+    "tallas_mas_usadas": [
+      "34-36"
+    ],
+    "dias_desde_ultima_compra": 2,
+    "total_pedidos_12m": 1,
+    "tipo_cliente": "activo",
+    "perfil_recomendacion": {
+      "tipo_cliente": "activo",
+      "total_pedidos_12m": 1,
+      "sin_actividad": false,
+      "ultima_compra": "2025-12-23",
+      "dias_desde_ultima_compra": 2,
+      "periodo_analisis": "12_meses",
+      "frecuencia_compra": "esporadico",
+      "frecuencia_compra_mensual": 0.08,
+      "gasto_total_12m": 350,
+      "gasto_promedio_por_compra": 350,
+      "presupuesto_estimado_max": 350,
+      "rango_precio_min": 350,
+      "rango_precio_max": 350,
+      "satisfaccion_promedio": 3,
+      "satisfaccion_ultimas_3_compras": 3,
+      "categorias_favoritas": [
+        "BLUSONES"
+      ],
+      "colores_favoritos": [
+        "Azul"
+      ],
+      "prendas_mas_compradas": [
+        "Blusón grecas"
+      ],
+      "estilo_compra": "nuevo",
+      "variedad_colores": 1,
+      "variedad_categorias": 1,
+      "actualizado_en": "2025-12-25T20:15:07.771Z",
+      "pedidos_analizados": 1
+    }
+  },
+  {
+    "id": "7vnMx9L8pjcE3hY5HLuv",
+    "cliente": "Vane Rueda",
+    "cumpleaños": "",
+    "telefono": "5574804082",
+    "actualizado_en": "2025-12-25T20:15:07.877Z",
+    "ultima_compra": null,
+    "sin_actividad": true,
+    "dias_desde_ultima_compra": 999,
+    "total_pedidos_12m": 0,
+    "tipo_cliente": "nuevo",
+    "perfil_recomendacion": null
+  },
+  {
+    "id": "8Ba9V58aipUFBEm4vwed",
+    "cliente": "Manzanita",
+    "cumpleaños": "",
+    "telefono": "5546691794",
+    "actualizado_en": "2025-12-25T20:15:07.984Z",
+    "ultima_compra": null,
+    "sin_actividad": true,
+    "dias_desde_ultima_compra": 999,
+    "total_pedidos_12m": 0,
+    "tipo_cliente": "nuevo",
+    "perfil_recomendacion": null
+  }
+]

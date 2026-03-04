@@ -1,0 +1,467 @@
+[
+  {
+    "id": "0Qq5TRuMZKoS8ZPYLHSk",
+    "prenda": "Vestido manga 3/4",
+    "detalles": "mezclilla ligera, cinta amarre.",
+    "costo": 215,
+    "precio": 390,
+    "talla": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "categoria": "Vestidos",
+    "proveedor": "Oscar impression fashion",
+    "fecha": "2025-08-01",
+    "fotos": [
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/migrated-1755880494450-0ip9euw94-ra8iqb9nbjklbk6fhu1q.png",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/migrated-1755880495141-7jqsjy77a-bbb7j5dapiu7nomrsjab.png",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/migrated-1755880496175-ridlusuii-ddbo0efeiehybn6wqy6u.png",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/migrated-1755880496758-bt3oihq69-x3tcdpteja0r5my9f3py.png"
+    ]
+  },
+  {
+    "id": "0UT1Di2O1fNMs9950XbA",
+    "prenda": "Leggins jeans",
+    "detalles": "Licra algodon ajustable",
+    "costo": 160,
+    "precio": 310,
+    "talla": [
+      "5",
+      "7",
+      "9",
+      "11",
+      "13",
+      "15"
+    ],
+    "categoria": "Leggins",
+    "proveedor": "Esnaly jeans",
+    "fecha": "2025-06-23",
+    "fotos": [
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/migrated-1755880497642-dvn7xnur0-nscbljzffboodg8vv5pq.jpg"
+    ]
+  },
+  {
+    "id": "11GOtuFzi4gYCtpevwxV",
+    "prenda": "Saco paloma ",
+    "detalles": "Tela ponti strechs, puño paloma, botones espejo ",
+    "costo": 200,
+    "precio": 350,
+    "talla": [
+      "(30-32)",
+      "(32-34)",
+      "(34-36)",
+      "(36-38)"
+    ],
+    "categoria": "Sacos",
+    "proveedor": "Faustiny Junior",
+    "fecha": "2025-02-20",
+    "fotos": [
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/migrated-1755880498346-a10m019ef-luzh3ftmdbyusrjkethn.jpg"
+    ]
+  },
+  {
+    "id": "12ujOLfbui34YKouaT3R",
+    "prenda": "Camiseta Nike One",
+    "detalles": "- Confeccionada en 89% poliester y 11% spandex.\n- Refuerzo en axilas para mayor movilidad\nTONOS: Rosa",
+    "costo": 360,
+    "precio": 899,
+    "talla": [
+      "(32-34)"
+    ],
+    "categoria": "Playeras deportivas",
+    "proveedor": "Nike",
+    "fotos": [
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764343959362-vj29fkzbw-malim-1764343958589-0-1-IMG_20251127_191712_085019.jpg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764343959362-p06s793fk-malim-1764343958588-0-0-IMG_20251127_190354_085028.jpg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764343961638-t7ntcdpcz-malim-1764343960833-1-0-IMG_20251127_191741_085008.jpg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764343961638-mlxztc234-malim-1764343960833-1-1-IMG_20251127_191753_085000.jpg"
+    ],
+    "fecha": "2025-11-28",
+    "fechaCreacion": {
+      "_seconds": 1764343962,
+      "_nanoseconds": 287000000
+    },
+    "descripcion": "",
+    "oferta": 30
+  },
+  {
+    "id": "1yu8fHe3pd05U089kS7T",
+    "prenda": "saco basico botones",
+    "detalles": "ponti stretch botones espejo",
+    "costo": 175,
+    "precio": 335,
+    "talla": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "categoria": "Sacos",
+    "proveedor": "Faustiny Junior",
+    "fecha": "2025-07-25",
+    "fotos": [
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/migrated-1755880503602-rdvhxsgm3-c2xkyn4yk3wxijbj0nl1.png"
+    ]
+  },
+  {
+    "id": "21bxHOTuaU0zOWfI73nX",
+    "prenda": "Jumpsuit liso",
+    "detalles": "Tecno ajustable\nTONOS: Negro, Rojo, Rey, Verde, Guinda, Shedrón, Ciruela, Beige",
+    "costo": 190,
+    "precio": 365,
+    "talla": [
+      "(36)",
+      "(38)"
+    ],
+    "categoria": "Palazzos",
+    "proveedor": "Victor vestidos buenos aires",
+    "oferta": 0,
+    "fotos": [
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764038131517-io67ai17n-malim-1764038132764-0-0-image_34_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764038131517-o2wzdmom2-malim-1764038132764-0-1-image_33_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764038133371-i5oo0wtid-malim-1764038134627-1-1-image_32_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764038133371-v45gtg7xv-malim-1764038134626-1-0-image_36_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764038135202-jtw6viihr-malim-1764038136408-2-0-image_31_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764038135202-h66rrreji-malim-1764038136408-2-1-image_35_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764038136944-ju9gc6ik1-malim-1764038138210-3-0-image_30_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764038136944-16vnltnt3-malim-1764038138210-3-1-image_37_watermarked.jpeg"
+    ],
+    "fecha": "2025-11-24",
+    "fechaCreacion": {
+      "_seconds": 1764038139,
+      "_nanoseconds": 151000000
+    },
+    "descripcion": "Descubre el jumpsuit liso que transformará tu guardarropa. Con su diseño versátil y tonos vibrantes como negro, rojo y verde, es la prenda perfecta para cualquier ocasión. 🌈 Su tejido tecno ajustable te brinda la comodidad que mereces, sin sacrificar estilo. ¡Ideal para lucir increíble sin complicaciones! \n\nDisponibles en tallas 36 y 38, a solo $365 pesos, es el momento de darle un toque fresco a tu look. No te quedes sin el tuyo. ✨ “Encuentra esta y más opciones en nuestro catálogo, lo encuentras en el primer comentario.”"
+  },
+  {
+    "id": "2BIAAomzg4o65q8OVKLG",
+    "prenda": "Blusa bordada ",
+    "detalles": "Bordado artesanal \nTONOS: Blanco, DISEÑO: Morado, Camel, Fiusha, Verde, Azul, Cielo, Bandera",
+    "costo": 100,
+    "precio": 230,
+    "talla": [
+      "(32-34)"
+    ],
+    "categoria": "Blusas",
+    "proveedor": "Pablo Just Chik",
+    "oferta": 0,
+    "fotos": [
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1763949226945-6nojf2oad-malim-1763949227285-0-0-image_17_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1763949226945-iqdstme1o-malim-1763949227285-0-1-image_13_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1763949229106-q23w6fetn-malim-1763949229443-1-0-image_16_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1763949229106-ljmqz7ikv-malim-1763949229444-1-1-image_12_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1763949231232-ca40j7y4o-malim-1763949231490-2-1-image_11_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1763949231232-jcibdedmb-malim-1763949231490-2-0-image_14_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1763949233330-gau7sf6is-malim-1763949233633-3-1-image_10_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1763949233330-58s0mkn48-malim-1763949233632-3-0-image_15_watermarked.jpeg"
+    ],
+    "fecha": "2025-11-22",
+    "fechaCreacion": {
+      "_seconds": 1763949234,
+      "_nanoseconds": 869000000
+    }
+  },
+  {
+    "id": "2MRhorIUqA77mEtgCaMQ",
+    "prenda": "Playera One Classic Twist",
+    "detalles": "- Composición 89% poliester y 11% elastano.\n- Dobladillo trasero más largo que ofrece mayor cobertura.\n- Protege contra el sudor.\nTONOS: Negro",
+    "costo": 360,
+    "precio": 899,
+    "talla": [
+      "(32-34)"
+    ],
+    "categoria": "Playeras deportivas",
+    "proveedor": "Nike",
+    "oferta": 30,
+    "fecha": "2025-11-28",
+    "fechaCreacion": {
+      "_seconds": 1764344195,
+      "_nanoseconds": 454000000
+    },
+    "fotos": [
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764344229682-byfsb9pho-malim-1764344228713-0-1-IMG_20251127_170310_085121.jpg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764344229682-jg6oglyf7-malim-1764344228713-0-0-IMG_20251127_170440_085110.jpg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764344231712-ftoj6rac8-malim-1764344231065-1-0-IMG_20251127_171001_085101.jpg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764344231712-ml0duoeu0-malim-1764344231066-1-1-IMG_20251127_204925_085353.jpg"
+    ]
+  },
+  {
+    "id": "2WuGc0LSLg4oLJuZaEF6",
+    "prenda": "Vestido botones cinturón evilla",
+    "detalles": "Mezclilla stretch , cinturón reforzado",
+    "costo": 210,
+    "precio": 400,
+    "talla": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "categoria": "Vestidos",
+    "proveedor": "Oscar impression fashion",
+    "fecha": "2025-08-01",
+    "fotos": [
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/migrated-1755880504709-2o0c63mh7-z3xyxlwnmcxw9lqrv9gf.png",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/migrated-1755880505583-rvf1jid78-vl1tkxbqwvl9bjsenrwy.png",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/migrated-1755880506413-ccs7usuev-hmo1fia3d3wgerfndrzq.png",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/migrated-1755880507284-0iwo5gyv7-isc6pyghlfjv2djp8n7d.png"
+    ]
+  },
+  {
+    "id": "2iGFk8EtmC4JqwoQHsOe",
+    "prenda": "Abrigo trenzado ",
+    "detalles": "Shelpa trenzada, cierre reforzado, gorro y bolsas funcionales \nTONOS: Guinda, Hueso, Beige, Verde olivo, Negro, Rosa",
+    "costo": 190,
+    "precio": 360,
+    "talla": [
+      "(34-36)"
+    ],
+    "categoria": "Abrigos",
+    "proveedor": "ARE GÓMEZ ",
+    "oferta": 0,
+    "fotos": [
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1765223886771-lyyrwvjzf-malim-1765223885190-0-1-image_3_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1765223886771-tydceh9ab-malim-1765223885189-0-0-image_2_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1765223888809-khawf642f-malim-1765223888819-1-0-image_4_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1765223888809-4m0hs6qbq-malim-1765223888819-1-1-image_5_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1765223890501-049xyzmzc-malim-1765223890806-2-0-image_6_watermarked.jpeg"
+    ],
+    "fecha": "2025-12-08",
+    "fechaCreacion": {
+      "_seconds": 1765223891,
+      "_nanoseconds": 763000000
+    },
+    "descripcion": "¡El abrigo trenzado que estabas esperando ha llegado! 🧥 Con su suave tela de shelpa y un diseño que abraza tu figura, disfrutarás de comodidad y estilo en cada momento. Disponible en tonos irresistibles como guinda, hueso y verde olivo, este abrigo es perfecto para cualquier ocasión. \n\nSu cierre reforzado y las prácticas bolsas funcionales te ofrecen esa versatilidad que tanto necesitas. Con tallas del 34 al 36, ¡no te quedes sin el tuyo! A solo $360 pesos, es un lujo al alcance de todas. \n\n✨ “Encuentra esta y más opciones en nuestro catálogo, lo encuentras en el primer comentario."
+  },
+  {
+    "id": "4DfPYAeIzhf8QrbAi3OO",
+    "prenda": "Sudadera navideña inter",
+    "detalles": "Inter ajustable , efecto crochet, aplicación dtf \nTONOS : Negro ",
+    "costo": 95,
+    "precio": 215,
+    "talla": [
+      "(32-36)"
+    ],
+    "categoria": "Sudaderas",
+    "proveedor": "Alfredo",
+    "oferta": 0,
+    "fecha": "2025-11-21",
+    "fechaCreacion": {
+      "_seconds": 1763943569,
+      "_nanoseconds": 442000000
+    },
+    "fotos": [
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1763943568037-bzcj9an8e-malim-1763943566936-0-0-IMG_20251123_181703.jpg"
+    ]
+  },
+  {
+    "id": "5LBudcPRzzj8CjJeotB6",
+    "prenda": "Vestido linea pedrería",
+    "detalles": "Tejido de punto con pedrería.\nTONOS: Negro, Café, Rojo, Gris, Hueso",
+    "costo": 140,
+    "precio": 280,
+    "talla": [
+      "(30-32)",
+      "(32-34)"
+    ],
+    "categoria": "Vestidos",
+    "proveedor": "Junior",
+    "oferta": 0,
+    "fotos": [
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1765511060108-rtgi68yw4-malim-1765511060806-0-1-image_44_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1765511060108-zmeb9m9lb-malim-1765511060805-0-0-image_45_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1765511062269-wezy7c673-malim-1765511063084-1-0-image_43_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1765511062269-udtk6sfnc-malim-1765511063084-1-1-image_42_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1765511064156-gtx53t06l-malim-1765511065231-2-0-image_41_watermarked.jpeg"
+    ],
+    "fecha": "2025-12-11",
+    "fechaCreacion": {
+      "_seconds": 1765511066,
+      "_nanoseconds": 268000000
+    },
+    "descripcion": "Descubre la elegancia y comodidad del Vestido línea pedrería, una pieza que se adapta a tu estilo y a cualquier ocasión. Su tejido de punto suave y las delicadas piedras añaden un toque chic que te hará brillar sin esfuerzo. 🌟\n\nDisponible en tonos irresistibles como negro, café, rojo, gris y hueso, y en tallas (30-32) y (32-34), este vestido es un must-have que no puede faltar en tu guardarropa. Todo esto por solo $280 pesos. ¡Versatilidad y calidad al alcance de tu mano! \n\n✨ “Encuentra esta y más opciones en nuestro catálogo, lo encuentras en el primer comentario.”"
+  },
+  {
+    "id": "6CZq6f7aGjhGIgq4ImzR",
+    "prenda": "Vestido largo tejido ",
+    "detalles": "Tejido fino acanalado, Manga larga\nTONOS: Marrón o terracota, Crema, Negro",
+    "costo": 160,
+    "precio": 305,
+    "talla": [
+      "(32-34)"
+    ],
+    "categoria": "Vestidos",
+    "proveedor": "Eder",
+    "oferta": 0,
+    "fotos": [
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764037491639-rgbz3l7aq-malim-1764037491546-0-1-image_45_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764037491639-sbk81kyd2-malim-1764037491545-0-0-image_46_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764037493495-gimolqenm-malim-1764037494807-1-0-image_23_watermarked.jpeg"
+    ],
+    "fecha": "2025-11-24",
+    "fechaCreacion": {
+      "_seconds": 1764037495,
+      "_nanoseconds": 620000000
+    }
+  },
+  {
+    "id": "7lV2aMa6PmMYhjoXkyxq",
+    "prenda": "Chaleco corto mezclilla ",
+    "detalles": "Mezclilla stretch, boton metálico reforzado",
+    "costo": 180,
+    "precio": 350,
+    "talla": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "categoria": "Chalecos",
+    "proveedor": "Oscar impression fashion",
+    "fecha": "2025-08-11",
+    "fotos": [
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/migrated-1755880536088-f4qagadki-m90xzvd36xfu56y20ibh.png",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/migrated-1755880536844-rs24jo18u-vieuh99pi2sb0f2uvxx3.png",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/migrated-1755880537543-5kiglp4ey-hcr0rutah3kv8drxp2ad.png"
+    ]
+  },
+  {
+    "id": "80rCO4H7qxzzlSqTjcyZ",
+    "prenda": "Body licra pedrería",
+    "detalles": "Licra fina gruesa con pedrería. Cuello cuadrado. Broche inferior reforzado.\nTONOS: Verde, Café, Hueso, Negro, Rojo",
+    "costo": 210,
+    "precio": 400,
+    "talla": [
+      "(30-32)",
+      "(32-34)"
+    ],
+    "categoria": "Blusas",
+    "proveedor": "Junior",
+    "oferta": 0,
+    "fotos": [
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764713998738-f7kwfiti8-malim-1764713997284-0-1-image_52_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764713998738-bsv6tfof8-malim-1764713997284-0-0-image_51_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764714000629-3nnfek6eo-malim-1764714000705-1-0-image_53_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764714000629-szvup11j3-malim-1764714000706-1-1-image_54_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764714002776-3aiaztafz-malim-1764714002960-2-0-image_55_watermarked.jpeg"
+    ],
+    "fecha": "2025-12-02",
+    "fechaCreacion": {
+      "_seconds": 1764714003,
+      "_nanoseconds": 955000000
+    },
+    "descripcion": "Descubre la elegancia y el confort del Body Licra Pedrería, una prenda diseñada para realzar tu figura con su cuello cuadrado y delicada pedrería. Perfecto para cualquier ocasión, este body se adapta a tu estilo, ya sea que busques un look casual o algo más sofisticado. 🌟\n\nDisponible en tonos vibrantes como verde, café, hueso, negro y rojo, y en tallas 30-32 y 32-34, es la elección ideal para mujeres que valoran tanto la calidad como la versatilidad. ¡Te encantará sentirte cómoda y segura! 💖\n\nTodo esto por solo $400 pesos. ✨ “Encuentra esta y más opciones en nuestro catálogo, lo encuentras en el primer comentario.”"
+  },
+  {
+    "id": "8e8Kli7yFGZPALchDOXX",
+    "prenda": "Abrigo animado ",
+    "detalles": "Flannel estampado, forro aborregado de calidad\nTONOS: Verde, Azul",
+    "costo": 240,
+    "precio": 460,
+    "talla": [
+      "(32-36)"
+    ],
+    "categoria": "Abrigos",
+    "proveedor": "Juárez",
+    "oferta": 0,
+    "fotos": [
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764822595225-leclzj9av-malim-1764822596633-0-1-image_4_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764822595225-wssnv9wxd-malim-1764822596632-0-0-image_3_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764822597071-47djngsie-malim-1764822598484-1-1-image_2_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764822597071-9gtxs79br-malim-1764822598484-1-0-image_1_watermarked.jpeg"
+    ],
+    "fecha": "2025-12-03",
+    "fechaCreacion": {
+      "_seconds": 1764822599,
+      "_nanoseconds": 629000000
+    },
+    "descripcion": "¡Dale un toque especial a tu look con nuestro adorable Abrigo Animado! 🌟 Hecho de flannel estampado y con un forro aborregado de calidad, no solo te abriga, sino que también te envuelve en una comodidad inigualable. Disponible en vibrantes tonos verde y azul, este abrigo se adapta a cualquier ocasión, desde un día en la oficina hasta una salida con amigas. 🥰\n\nCon tallas que van del 32 al 36, es el complemento perfecto para tu guardarropa. ¡Y todo esto por solo $460 pesos! No dejes pasar la oportunidad de lucir fabulosa y sentirte cómoda al mismo tiempo. \n\n✨ “Encuentra esta y más opciones en nuestro catálogo, lo encuentras en el primer comentario.”"
+  },
+  {
+    "id": "8gFZmsxT8OkZKA0xsZzf",
+    "prenda": "saco ponti cuello V",
+    "costo": 205,
+    "precio": 355,
+    "categoria": "Sacos",
+    "proveedor": "Faustiny Junior",
+    "fecha": "2025-07-04",
+    "fotos": [
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/migrated-1755880543441-5xr8hg7ux-dwttkikrt9gsdc6f1nut.png"
+    ],
+    "talla": [
+      "32"
+    ],
+    "detalles": "Pontie strech, bolsas funcionales, botones en manga. TONO: Hueso"
+  },
+  {
+    "id": "AmnVYpZS5ZbeD5NTHxhZ",
+    "prenda": "Vestido Solapa",
+    "detalles": "Crepe, manga 3/4, solapa al cuello, cinturón forrado, botones forrados\nTONO : Negro\nDISPONIBLE ENTREGA INMEDIATA \n",
+    "costo": 190,
+    "precio": 370,
+    "talla": [
+      "(36)"
+    ],
+    "categoria": "Maxi vestidos",
+    "proveedor": "Eres Bella vestidos ",
+    "oferta": 0,
+    "fotos": [
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1762658842676-nd7jnxw4d-malim-1762658844145-0-0-image_19_watermarked.jpeg"
+    ],
+    "fecha": "2025-11-08",
+    "fechaCreacion": {
+      "_seconds": 1762658845,
+      "_nanoseconds": 267000000
+    }
+  },
+  {
+    "id": "BH2DSkPplX01HAQM4ypv",
+    "prenda": "Falda lapiz",
+    "detalles": "Super ponti strech lisa (11 tonos disponibles)",
+    "costo": 100,
+    "precio": 230,
+    "talla": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "categoria": "Faldas",
+    "proveedor": "Faustiny Junior",
+    "fecha": "2025-03-06",
+    "fotos": [
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/migrated-1755880549134-zkdaeehvz-kukokvpdw9cixoe6lsgr.png"
+    ]
+  },
+  {
+    "id": "CbgQBj2xJrpwZsSpVWkK",
+    "prenda": "Sudadera peluche",
+    "costo": 105,
+    "precio": 250,
+    "talla": [
+      "(32)",
+      "(34)",
+      "(36)"
+    ],
+    "categoria": "Sudaderas",
+    "proveedor": "Junior",
+    "fecha": "2025-11-06",
+    "fechaCreacion": {
+      "_seconds": 1762486211,
+      "_nanoseconds": 504000000
+    },
+    "descripcion": "Descubre la suavidad y el estilo de nuestra increíble sudadera de peluche. Con un cierre metálico y bolsas funcionales, es la prenda perfecta para lucir chic y sentirte cómoda todo el día. Disponible en tonos vibrantes como Hueso, Rosa, Cielo y más, se adapta a cualquier look.\n\nYa sea para un día casual o una salida especial, la versatilidad de esta sudadera te acompañará en cada momento. Y lo mejor, ¡todo esto por solo $250 pesos! \n\n✨ Encuentra esta y más opciones en nuestro catálogo, lo encuentras en el primer comentario.",
+    "oferta": 10,
+    "fotos": [
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1762486203540-6fvtig6xc-malim-1762486204250-0-1-image_4_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1762486203540-498vv00mn-malim-1762486204250-0-0-image_1_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1762486205413-mjtb7v3ri-malim-1762486206786-1-1-image_5_watermarked.jpeg",
+      "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1762486209085-bjdznsv8w-malim-1762486210577-3-0-image_7_watermarked.jpeg"
+    ],
+    "detalles": "Sudadera peluche, cierre metálico, bolsas funcionales, jareta reforazada\nTONOS: Hueso, Camel, Marino"
+  }
+]

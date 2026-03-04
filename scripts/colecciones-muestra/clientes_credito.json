@@ -1,0 +1,87 @@
+[
+  {
+    "id": "1wvIZRdRReGLc6Xj3SJw",
+    "cliente": "Ivonne estética",
+    "saldoTotal": 450,
+    "movimientos": [
+      {
+        "tipo": "devolucion",
+        "monto": 450,
+        "referencia": "6kw7bIzR1Dadwr7BNbwf",
+        "fecha": "2026-02-25",
+        "balance_anterior": 0,
+        "balance_nuevo": 450
+      }
+    ],
+    "fechaCreacion": {
+      "_seconds": 1772035700,
+      "_nanoseconds": 943000000
+    },
+    "timestamp": {
+      "_seconds": 1772035700,
+      "_nanoseconds": 943000000
+    }
+  },
+  {
+    "id": "ljtTdbMoWOrSxAr89KlP",
+    "cliente": "Eder Caballero",
+    "fechaCreacion": {
+      "_seconds": 1766514199,
+      "_nanoseconds": 925000000
+    },
+    "fechaActualizacion": "2025-12-23",
+    "timestamp": {
+      "_seconds": 1766514924,
+      "_nanoseconds": 893000000
+    },
+    "movimientos": [
+      {
+        "balance_anterior": 0,
+        "referencia": "rL3NXuyqidyLrhBkXl24",
+        "tipo": "devolucion",
+        "fecha": "2025-12-23",
+        "balance_nuevo": 260,
+        "monto": 260
+      },
+      {
+        "tipo": "débito",
+        "motivo": "aplicado_a_pago",
+        "monto": 260,
+        "referencia": "4daoqrBPlghjRgrFtHZt",
+        "fechaRegistro": "2025-12-23",
+        "balance_anterior": 260,
+        "balance_nuevo": 0,
+        "timestamp": {
+          "_seconds": 1766514817,
+          "_nanoseconds": 814000000
+        }
+      },
+      {
+        "tipo": "devolucion",
+        "monto": 260,
+        "referencia": "S3vyoxJSBXTYs2W1SkzV",
+        "fecha": "2025-12-23",
+        "balance_anterior": 0,
+        "balance_nuevo": 260
+      },
+      {
+        "tipo": "débito",
+        "motivo": "aplicado_a_pago",
+        "monto": 260,
+        "referencia": "SpeUc6oL7hzUTrmsGCHg",
+        "fechaRegistro": "2025-12-23",
+        "balance_anterior": 260,
+        "balance_nuevo": 0,
+        "timestamp": {
+          "_seconds": 1766514976,
+          "_nanoseconds": 2000000
+        }
+      }
+    ],
+    "fechaUltimaActualizacion": {
+      "_seconds": 1766514976,
+      "_nanoseconds": 2000000
+    },
+    "saldoTotal": 0
+  }
+]

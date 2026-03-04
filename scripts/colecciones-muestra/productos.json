@@ -1,0 +1,1844 @@
+[
+  {
+    "id": "1JPZYSmLPWNu79pEPxbu",
+    "longDescription": "",
+    "cost": 195,
+    "shortDetails": "Tela inter delgada ajustable",
+    "publicPrice": 390,
+    "creationDate": "18/12/2025, 10:50:45 a.m.",
+    "dateAdded": 1766076645071,
+    "productSku": "MAL-CON-CON-T16SA",
+    "offerPercentage": 0,
+    "supplier": "Alfredo",
+    "category": "CONJUNTOS_DEPORTIVOS",
+    "publishOnline": false,
+    "name": "Conjunto deportivo inter",
+    "variants": [
+      {
+        "sizes": [
+          {
+            "stock": 0,
+            "isInStock": false,
+            "size": "32-36"
+          },
+          {
+            "stock": 0,
+            "isInStock": false,
+            "size": "38-40"
+          }
+        ],
+        "id": 1766076678618,
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766077143560-gcjftvaqu-MAL_CON_CON_T16SA_TUR_XXX-img-1766077142146-hrygl2-0.webp"
+        ],
+        "hexColor": "#50D3E3",
+        "imageIds": [],
+        "variantSku": "MAL-CON-CON-T16SA-TUR-XXX",
+        "colorName": "Turquesa Nike",
+        "publishOnline": true
+      },
+      {
+        "colorName": "Rosa vieja Nike",
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766077145181-40ttp8c3d-MAL_CON_CON_T16SA_ROS_XXX-img-1766077144704-qpxzwu-0.webp"
+        ],
+        "sizes": [
+          {
+            "size": "32-36",
+            "isInStock": false,
+            "stock": 0
+          },
+          {
+            "size": "38-40",
+            "isInStock": false,
+            "stock": 0
+          }
+        ],
+        "hexColor": "#F39FE7",
+        "imageIds": [],
+        "id": 1766076802151,
+        "variantSku": "MAL-CON-CON-T16SA-ROS-XXX",
+        "publishOnline": true
+      },
+      {
+        "variantSku": "MAL-CON-CON-T16SA-BLA-XXX",
+        "id": 1766076834671,
+        "colorName": "Blanco CK",
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766077146324-iwx9822a6-MAL_CON_CON_T16SA_BLA_XXX-img-1766077146113-3my1kr-0.webp"
+        ],
+        "hexColor": "#FFFFFF",
+        "imageIds": [],
+        "sizes": [
+          {
+            "isInStock": false,
+            "stock": 0,
+            "size": "32-36"
+          },
+          {
+            "isInStock": false,
+            "size": "38-40",
+            "stock": 0
+          }
+        ],
+        "publishOnline": true
+      },
+      {
+        "hexColor": "#E7C1E2",
+        "id": 1766076857886,
+        "colorName": "Rosa",
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766077147221-paxmcbz87-MAL_CON_CON_T16SA_ROS_XXX-img-1766077147143-d5e45z-0.webp"
+        ],
+        "imageIds": [],
+        "variantSku": "MAL-CON-CON-T16SA-ROS-XXX",
+        "sizes": [
+          {
+            "size": "32-36",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "38-40",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "publishOnline": true
+      },
+      {
+        "imageIds": [],
+        "variantSku": "MAL-CON-CON-T16SA-BLA-XXX",
+        "sizes": [
+          {
+            "isInStock": false,
+            "stock": 0,
+            "size": "32-36"
+          },
+          {
+            "stock": 0,
+            "size": "38-40",
+            "isInStock": false
+          }
+        ],
+        "id": 1766076923829,
+        "colorName": "Blanco GAP",
+        "hexColor": "#FFFFFF",
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766077148274-4shxoxp6m-MAL_CON_CON_T16SA_BLA_XXX-img-1766077148061-87kec4-0.webp"
+        ],
+        "publishOnline": true
+      },
+      {
+        "sizes": [
+          {
+            "stock": 0,
+            "isInStock": false,
+            "size": "32-36"
+          },
+          {
+            "size": "38-40",
+            "isInStock": false,
+            "stock": 0
+          }
+        ],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766077149589-u3z62opyz-MAL_CON_CON_T16SA_GRI_XXX-img-1766077149194-nelsm0-0.webp"
+        ],
+        "colorName": "Gris GAP",
+        "variantSku": "MAL-CON-CON-T16SA-GRI-XXX",
+        "imageIds": [],
+        "hexColor": "#CCCCCC",
+        "id": 1766076960698,
+        "publishOnline": true
+      },
+      {
+        "sizes": [
+          {
+            "size": "32-36",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "isInStock": false,
+            "stock": 0,
+            "size": "38-40"
+          }
+        ],
+        "colorName": "Negro CK",
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766077150544-3ehat4tbx-MAL_CON_CON_T16SA_NEG_XXX-img-1766077150416-mv4yni-0.webp"
+        ],
+        "variantSku": "MAL-CON-CON-T16SA-NEG-XXX",
+        "hexColor": "#000000",
+        "imageIds": [],
+        "id": 1766076982528,
+        "publishOnline": true
+      },
+      {
+        "id": 1766077016022,
+        "sizes": [
+          {
+            "stock": 0,
+            "isInStock": false,
+            "size": "32-36"
+          },
+          {
+            "stock": 0,
+            "size": "38-40",
+            "isInStock": false
+          }
+        ],
+        "variantSku": "MAL-CON-CON-T16SA-BLA-XXX",
+        "colorName": "Blanco Nike",
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766077151686-sf8euwc6f-MAL_CON_CON_T16SA_BLA_XXX-img-1766077151337-0f46i0-0.webp"
+        ],
+        "hexColor": "#FFFFFF",
+        "imageIds": [],
+        "publishOnline": true
+      },
+      {
+        "imageIds": [],
+        "colorName": "Guinda Nike",
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766077152766-1qa49zevb-MAL_CON_CON_T16SA_GUI_XXX-img-1766077152569-xzv9fd-0.jpg"
+        ],
+        "id": 1766077058195,
+        "hexColor": "#720A2F",
+        "variantSku": "MAL-CON-CON-T16SA-GUI-XXX",
+        "sizes": [
+          {
+            "size": "32-36",
+            "isInStock": false,
+            "stock": 0
+          }
+        ],
+        "publishOnline": true
+      }
+    ]
+  },
+  {
+    "id": "MAL-ABR-ABR-836LP",
+    "category": "ABRIGOS",
+    "supplier": "Juárez",
+    "cost": 200,
+    "publicPrice": 380,
+    "offerPercentage": 0,
+    "productSku": "MAL-ABR-ABR-836LP",
+    "creationDate": "17/12/2025, 05:23:07 p. m.",
+    "dateAdded": 1765992187036,
+    "publishOnline": true,
+    "shortDetails": "Polar con forro aborregado",
+    "longDescription": "Imagina envolverte en la calidez de nuestro Abrigo Cuadros, un abrazo suave y acogedor que te acompaña en esos momentos especiales. Con su polar de forro aborregado, cada vez que te lo pongas sentirás la felicidad de los días soleados y las risas compartidas con amigos. Disponible en tallas 32-34, este abrigo se adapta a ti como si hubiera sido hecho a medida, ofreciéndote un estilo único en tonalidades que van desde el marino profundo hasta el vibrante rojo, pasando por el suave rosa, el cálido café, el elegante beige, y divertidos estampados como el animal y la cebra.\n\nPor solo $380.00, no solo adquieres un abrigo, sino una pieza que te conecta con esos momentos de alegría, esos paseos de otoño y las charlas interminables a la luz de las estrellas. Atrévete a lucir y sentir la felicidad que mereces cada día.",
+    "name": "Abrigo aborregado ",
+    "variants": [
+      {
+        "id": 1768238515641,
+        "variantSku": "MAL-ABR-ABR-836LP-AZU-XXX",
+        "colorName": "Azul Marino",
+        "hexColor": "#000080",
+        "sizes": [
+          {
+            "size": "32-34",
+            "stock": 1,
+            "isInStock": true
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1768238645516-jd53lbb0p-MAL_ABR_ABR_836LP_AZU_XXX-img-1768238643471-2n7mf7-0.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MAL-ABR-ABR-SCP83",
+    "name": "Abrigo animado ",
+    "category": "ABRIGOS",
+    "supplier": "Juárez",
+    "cost": 240,
+    "publicPrice": 460,
+    "offerPercentage": 0,
+    "productSku": "MAL-ABR-ABR-SCP83",
+    "creationDate": "17/12/2025, 05:23:06 p. m.",
+    "dateAdded": 1765992186904,
+    "longDescription": "",
+    "shortDetails": "Flannel estampado, forro aborregado de calidad.",
+    "variants": [
+      {
+        "id": 1765992186904,
+        "sizes": [
+          {
+            "stock": 0,
+            "isInStock": false,
+            "size": "(32-36)"
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764822595225-leclzj9av-malim-1764822596633-0-1-image_4_watermarked.jpeg",
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766067028682-lm517ccly-MAL_ABR_ABR_SCP83_MIC_XXX-img-1766067028007-1mi2rf-0.jpeg"
+        ],
+        "variantSku": "MAL-ABR-ABR-SCP83-MIC-XXX",
+        "colorName": "Mickey",
+        "hexColor": "#70ACF3"
+      },
+      {
+        "sizes": [
+          {
+            "stock": 0,
+            "size": "(32-36)",
+            "isInStock": false
+          }
+        ],
+        "id": 1765992186906,
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1764822597071-47djngsie-malim-1764822598484-1-1-image_2_watermarked.jpeg",
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766067030027-p3wwi8ob2-MAL_ABR_ABR_SCP83_GRI_XXX-img-1766067029316-vt9jpo-0.jpeg"
+        ],
+        "hexColor": "#7ED321",
+        "variantSku": "MAL-ABR-ABR-SCP83-GRI-XXX",
+        "colorName": "Grinch",
+        "imageIds": []
+      }
+    ],
+    "publishOnline": false
+  },
+  {
+    "id": "MAL-ABR-ABR-YPPWI",
+    "name": "Abrigo trenzado ",
+    "category": "ABRIGOS",
+    "supplier": "ARE GÓMEZ ",
+    "cost": 190,
+    "publicPrice": 360,
+    "offerPercentage": 0,
+    "productSku": "MAL-ABR-ABR-YPPWI",
+    "creationDate": "17/12/2025, 05:23:06 p. m.",
+    "dateAdded": 1765992186895,
+    "longDescription": "",
+    "shortDetails": "Shelpa trenzada, cierre reforzado, gorro y bolsas funcionales ",
+    "variants": [
+      {
+        "colorName": "Hueso",
+        "hexColor": "#E9DFD7",
+        "id": 1765992186894,
+        "imageIds": [],
+        "sizes": [
+          {
+            "size": "(34-36)",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "variantSku": "MAL-ABR-ABR-YPPWI-HUE-XXX",
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1765223886771-lyyrwvjzf-malim-1765223885190-0-1-image_3_watermarked.jpeg"
+        ]
+      },
+      {
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1765223886771-tydceh9ab-malim-1765223885189-0-0-image_2_watermarked.jpeg"
+        ],
+        "colorName": "Guinda",
+        "sizes": [
+          {
+            "isInStock": false,
+            "size": "(34-36)",
+            "stock": 0
+          }
+        ],
+        "id": 1765992186895,
+        "imageIds": [],
+        "hexColor": "#7E123F",
+        "variantSku": "MAL-ABR-ABR-YPPWI-GUI-XXX"
+      },
+      {
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1765223888809-khawf642f-malim-1765223888819-1-0-image_4_watermarked.jpeg"
+        ],
+        "colorName": "Beige",
+        "sizes": [
+          {
+            "isInStock": false,
+            "size": "(34-36)",
+            "stock": 0
+          }
+        ],
+        "hexColor": "#E0B998",
+        "imageIds": [],
+        "id": 1765992186896,
+        "variantSku": "MAL-ABR-ABR-YPPWI-BEI-XXX"
+      },
+      {
+        "hexColor": "#637E42",
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1765223888809-4m0hs6qbq-malim-1765223888819-1-1-image_5_watermarked.jpeg"
+        ],
+        "imageIds": [],
+        "variantSku": "MAL-ABR-ABR-YPPWI-OLI-XXX",
+        "id": 1765992186897,
+        "sizes": [
+          {
+            "size": "(34-36)",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "colorName": "Olivo"
+      },
+      {
+        "hexColor": "#000000",
+        "imageIds": [],
+        "colorName": "Negro",
+        "variantSku": "MAL-ABR-ABR-YPPWI-NEG-XXX",
+        "sizes": [
+          {
+            "size": "(34-36)",
+            "isInStock": false,
+            "stock": 0
+          }
+        ],
+        "id": 1765992186899,
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1765223890501-049xyzmzc-malim-1765223890806-2-0-image_6_watermarked.jpeg"
+        ]
+      }
+    ],
+    "publishOnline": false
+  },
+  {
+    "id": "MAL-ACC-BUF-P5SIJ",
+    "name": "Bufanda inspo",
+    "supplier": "Junior",
+    "cost": 120,
+    "publicPrice": 250,
+    "productSku": "MAL-ACC-BUF-P5SIJ",
+    "creationDate": "17/12/2025, 05:23:07 p. m.",
+    "dateAdded": 1765992187032,
+    "publishOnline": true,
+    "shortDetails": "Tejido de punto fino suave",
+    "category": "BUFANDAS",
+    "longDescription": "Descubre la Bufanda Inspo, el accesorio que transformará tus días en momentos inolvidables. Con su tejido de punto fino y suave, cada vez que la lleves puesta sentirás un abrazo cálido que te envuelve en felicidad. Disponible en elegantes tonos negro y beige, esta bufanda UNITALLA es perfecta para cualquier ocasión, ya sea un paseo por el parque o una cena especial con amigos. Imagina los recuerdos que crearás, las risas compartidas y las miradas cómplices que nacerán mientras luces este accesorio único. Por solo $250.00, te llevas más que una bufanda; te llevas una pieza que te acompañará en tus momentos más queridos, elevando tu estilo y confort. Deja que la Bufanda Inspo sea parte de tu historia y crea esos instantes mágicos que atesorarás para siempre. ",
+    "offerPercentage": 15,
+    "variants": [
+      {
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1762315135093-l1q1bxslh-malim-1762315136022-0-1-image_39_watermarked.jpeg"
+        ],
+        "variantSku": "MAL-ACC-BUF-P5SIJ-BEI-XXX",
+        "hexColor": "#F5F5DC",
+        "id": 1765992187033,
+        "sizes": [
+          {
+            "size": "UNITALLA",
+            "stock": 1,
+            "isInStock": true
+          }
+        ],
+        "imageIds": [],
+        "colorName": "Beige"
+      }
+    ]
+  },
+  {
+    "id": "MAL-BLU-BLU-2BKHP",
+    "cost": 110,
+    "shortDetails": "Tejido de punto suave, mangas cortas, cuello estilo perkins, estilo casual elegante",
+    "publicPrice": 220,
+    "creationDate": "25/12/2025, 9:57:59 p.m.",
+    "dateAdded": 1766721479781,
+    "productSku": "MAL-BLU-BLU-2BKHP",
+    "offerPercentage": 0,
+    "supplier": "Junior",
+    "name": "Blusa básica ",
+    "category": "BLUSAS",
+    "longDescription": "La blusa básica que transformará tus días en momentos inolvidables. Confeccionada en un suave tejido de punto, te abrazará con la comodidad que mereces mientras te permite brillar en cada ocasión. Imagina la sensación de libertad al moverte con sus mangas cortas y el elegante cuello estilo perkins, que añaden un toque de sofisticación a tu estilo casual. Disponible en tallas 32-36 y en una gama de colores vibrantes como Rojo Brillante, Guinda y Verde Oliva, esta blusa se adapta a tu personalidad, permitiéndote expresar tu esencia única. Por solo $220.00, no solo inviertes en una prenda, sino en la posibilidad de crear recuerdos felices y compartir sonrisas. Perfecta para una salida con amigos o una cena especial, cada vez que la uses, sentirás la conexión con esos momentos que te llenan el alma. Haz de cada día una celebración. Revisa todo nuestro catálogo en el primer comentario. 💝",
+    "publishOnline": false,
+    "variants": [
+      {
+        "variantSku": "MAL-BLU-BLU-2BKHP-NEG-XXX",
+        "colorName": "Negro",
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766722018518-s1xpi00zq-MAL_BLU_BLU_2BKHP_NEG_XXX-img-1766722019747-eboo1v-0.webp"
+        ],
+        "imageIds": [],
+        "sizes": [
+          {
+            "isInStock": false,
+            "size": "32-36",
+            "stock": 0
+          }
+        ],
+        "id": 1766721887633,
+        "hexColor": "#000000"
+      },
+      {
+        "id": 1766721907490,
+        "hexColor": "#FFFFFF",
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766722019928-0rfu26wxt-MAL_BLU_BLU_2BKHP_HUE_XXX-img-1766722021179-jupg8a-0.webp"
+        ],
+        "colorName": "Blanco",
+        "imageIds": [],
+        "sizes": [
+          {
+            "stock": 0,
+            "size": "32-36",
+            "isInStock": false
+          }
+        ],
+        "variantSku": "MAL-BLU-BLU-2BKHP-BLA-XXX"
+      },
+      {
+        "id": 1766721928284,
+        "variantSku": "MAL-BLU-BLU-2BKHP-CAM-XXX",
+        "colorName": "Camel",
+        "hexColor": "#C19A6B",
+        "sizes": [
+          {
+            "stock": 0,
+            "isInStock": false,
+            "size": "32-36"
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766722021110-u1uem0lbk-MAL_BLU_BLU_2BKHP_BEI_XXX-img-1766722022297-8fcd65-0.webp"
+        ]
+      },
+      {
+        "hexColor": "#CCCCCC",
+        "imageIds": [],
+        "sizes": [
+          {
+            "isInStock": false,
+            "stock": 0,
+            "size": "32-36"
+          }
+        ],
+        "id": 1769647397257,
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1769647465483-mt6ph7741-MAL_BLU_BLU_2BKHP_COL_XXX-img-1769647465031-qwxsbv-0.webp"
+        ],
+        "colorName": "Color 4",
+        "variantSku": "MAL-BLU-BLU-2BKHP-COL-XXX"
+      }
+    ]
+  },
+  {
+    "id": "MAL-BLU-BLU-AOVOD",
+    "longDescription": "",
+    "cost": 170,
+    "shortDetails": "Crepé stretch, corte relajado, cuello \"V\" tipo Mao, mangas 3/4, cinturón de la misma tela",
+    "publicPrice": 350,
+    "creationDate": "4/2/2026, 6:36:36 p.m.",
+    "dateAdded": 1770251796035,
+    "productSku": "MAL-BLU-BLU-AOVOD",
+    "offerPercentage": 0,
+    "supplier": "Marco Blusas sensación",
+    "name": "Blusón liso",
+    "publishOnline": true,
+    "category": "BLUSONES",
+    "variants": [
+      {
+        "hexColor": "#722F37",
+        "colorName": "Rojo Vino",
+        "id": 1770252147385,
+        "sizes": [
+          {
+            "size": "32-34",
+            "isInStock": true,
+            "stock": 1
+          },
+          {
+            "size": "36",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "38",
+            "isInStock": false,
+            "stock": 0
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1770252258824-8r6oza5ex-MAL_BLU_BLU_AOVOD_ROJ_XXX-img-1770252258054-v85x14-0.webp"
+        ],
+        "publishOnline": true,
+        "variantSku": "MAL-BLU-BLU-AOVOD-ROJ-XXX"
+      },
+      {
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1770252259938-ft0dl8zgp-MAL_BLU_BLU_AOVOD_CHO_XXX-img-1770252260962-vbsump-0.webp"
+        ],
+        "publishOnline": true,
+        "variantSku": "MAL-BLU-BLU-AOVOD-CHO-XXX",
+        "imageIds": [],
+        "id": 1770252171258,
+        "sizes": [
+          {
+            "size": "32-34",
+            "isInStock": false,
+            "stock": 0
+          },
+          {
+            "stock": 0,
+            "isInStock": false,
+            "size": "36"
+          },
+          {
+            "isInStock": false,
+            "stock": 0,
+            "size": "38"
+          }
+        ],
+        "colorName": "Chocolate",
+        "hexColor": "#3E2723"
+      },
+      {
+        "id": 1770252208477,
+        "sizes": [
+          {
+            "size": "32-34",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "36",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "38",
+            "isInStock": false,
+            "stock": 0
+          }
+        ],
+        "colorName": "Verde Oliva",
+        "hexColor": "#556B2F",
+        "publishOnline": true,
+        "variantSku": "MAL-BLU-BLU-AOVOD-VER-XXX",
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1770252260919-x66nzk8tu-MAL_BLU_BLU_AOVOD_VER_XXX-img-1770252261878-7uy8cq-0.webp"
+        ],
+        "imageIds": []
+      },
+      {
+        "hexColor": "#000000",
+        "colorName": "Negro",
+        "sizes": [
+          {
+            "stock": 0,
+            "isInStock": false,
+            "size": "32-34"
+          },
+          {
+            "size": "36",
+            "isInStock": false,
+            "stock": 0
+          },
+          {
+            "size": "38",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "id": 1770252232378,
+        "imageIds": [],
+        "publishOnline": false,
+        "variantSku": "MAL-BLU-BLU-AOVOD-NEG-XXX",
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1770252261914-ir2qn1ann-MAL_BLU_BLU_AOVOD_NEG_XXX-img-1770252262913-n83dsm-0.webp"
+        ]
+      },
+      {
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1772036084730-msux4lsod-MAL_BLU_BLU_AOVOD_NEG_XXX-img-1772036083223-0knmho-0.webp"
+        ],
+        "publishOnline": true,
+        "variantSku": "MAL-BLU-BLU-AOVOD-NEG-XXX",
+        "colorName": "Negro",
+        "hexColor": "#000000",
+        "id": 1772036041853,
+        "sizes": [
+          {
+            "size": "32-34",
+            "isInStock": false,
+            "stock": 0
+          },
+          {
+            "stock": 0,
+            "isInStock": false,
+            "size": "36"
+          },
+          {
+            "stock": 0,
+            "isInStock": false,
+            "size": "38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MAL-BLU-BLU-AVCL5",
+    "longDescription": "",
+    "cost": 150,
+    "shortDetails": "Crepé ligero, con pliegues en el cuello, la zona del busto tiene más vuelo, garantiza que la prenda no se sienta apretada al pecho. Brinda una caída favorecedora. Encaje floral en hombros y pecho.",
+    "publicPrice": 300,
+    "variants": [
+      {
+        "id": 1771290981310,
+        "variantSku": "MAL-BLU-BLU-AVCL5-PAL-XXX",
+        "colorName": "Palo de Rosa",
+        "hexColor": "#EABFB9",
+        "sizes": [
+          {
+            "size": "XXXL",
+            "stock": 1,
+            "isInStock": true
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1771291082200-tdob94162-MAL_BLU_BLU_AVCL5_PAL_XXX-img-1771291080764-eqrb86-0.webp",
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1771291082200-sz32gkjrn-MAL_BLU_BLU_AVCL5_PAL_XXX-img-1771291080764-32ocsf-1.webp"
+        ],
+        "publishOnline": true
+      }
+    ],
+    "creationDate": "16/2/2026, 6:55:15 p.m.",
+    "dateAdded": 1771289715359,
+    "productSku": "MAL-BLU-BLU-AVCL5",
+    "offerPercentage": 0,
+    "supplier": "Temu",
+    "name": "Blusa curvy encaje floral",
+    "publishOnline": true,
+    "category": "BLUSAS"
+  },
+  {
+    "id": "MAL-BLU-BLU-DKBDH",
+    "longDescription": "",
+    "cost": 185,
+    "shortDetails": "Cey, tela ligera y fresca, cuello mao, botones frontales y manga 3/4.",
+    "publicPrice": 352,
+    "variants": [
+      {
+        "id": 1770863296025,
+        "variantSku": "MAL-BLU-BLU-DKBDH-ROS-XXX",
+        "colorName": "Rosa Fucsia",
+        "hexColor": "#FF1493",
+        "sizes": [
+          {
+            "size": "30",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "36",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1770863507086-g0eu53xts-MAL_BLU_BLU_DKBDH_ROS_XXX-img-1770863507361-i3ya4u-0.webp"
+        ],
+        "publishOnline": true
+      },
+      {
+        "id": 1770863324774,
+        "variantSku": "MAL-BLU-BLU-DKBDH-AMA-XXX",
+        "colorName": "Amarillo",
+        "hexColor": "#FFFF00",
+        "sizes": [
+          {
+            "size": "30",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "36",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1770863508366-ixv2cmrwt-MAL_BLU_BLU_DKBDH_AMA_XXX-img-1770863509697-1vfext-0.webp"
+        ],
+        "publishOnline": true
+      },
+      {
+        "id": 1770863345183,
+        "variantSku": "MAL-BLU-BLU-DKBDH-VER-XXX",
+        "colorName": "Verde Lima",
+        "hexColor": "#32CD32",
+        "sizes": [
+          {
+            "size": "30",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "36",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1770863509222-9pjeyrgw4-MAL_BLU_BLU_DKBDH_VER_XXX-img-1770863510612-3xtsdi-0.webp"
+        ],
+        "publishOnline": true
+      },
+      {
+        "id": 1770863404706,
+        "variantSku": "MAL-BLU-BLU-DKBDH-COL-XXX",
+        "colorName": "Color 4",
+        "hexColor": "#D745FB",
+        "sizes": [
+          {
+            "size": "30",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "36",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1770863510290-7as5zhesg-MAL_BLU_BLU_DKBDH_COL_XXX-img-1770863511433-vnuvqp-0.webp"
+        ],
+        "publishOnline": true
+      },
+      {
+        "id": 1770863461117,
+        "variantSku": "MAL-BLU-BLU-DKBDH-NEG-XXX",
+        "colorName": "Negro",
+        "hexColor": "#000000",
+        "sizes": [
+          {
+            "size": "30",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "36",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1770863511212-sjgjkhzk8-MAL_BLU_BLU_DKBDH_NEG_XXX-img-1770863512561-fs748f-0.webp"
+        ],
+        "publishOnline": true
+      },
+      {
+        "id": 1770863482759,
+        "variantSku": "MAL-BLU-BLU-DKBDH-AZU-XXX",
+        "colorName": "Azul Rey",
+        "hexColor": "#0033A0",
+        "sizes": [
+          {
+            "size": "30",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "36",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1770863512114-k1p2wbc80-MAL_BLU_BLU_DKBDH_AZU_XXX-img-1770863513481-wla85i-0.webp"
+        ],
+        "publishOnline": true
+      }
+    ],
+    "creationDate": "11/2/2026, 8:26:16 p.m.",
+    "dateAdded": 1770863176517,
+    "productSku": "MAL-BLU-BLU-DKBDH",
+    "offerPercentage": 0,
+    "supplier": "Oscar impression fashion",
+    "name": "BLUSÓN CAMISERO LISO",
+    "category": "BLUSONES",
+    "publishOnline": true
+  },
+  {
+    "id": "MAL-BLU-BLU-DKF20",
+    "longDescription": "",
+    "cost": 30,
+    "shortDetails": "Forway estampado flora, tela mesh fino, hombros descubiertos.",
+    "publicPrice": 130,
+    "creationDate": "27/1/2026, 9:44:20 p.m.",
+    "dateAdded": 1769571860621,
+    "productSku": "MAL-BLU-BLU-DKF20",
+    "offerPercentage": 0,
+    "supplier": "Junior",
+    "name": "Blusa flores mesh",
+    "publishOnline": true,
+    "category": "BLUSAS",
+    "variants": [
+      {
+        "sizes": [
+          {
+            "stock": 1,
+            "isInStock": true,
+            "size": "32"
+          }
+        ],
+        "imageIds": [],
+        "id": 1769572026273,
+        "hexColor": "#E6DDC5",
+        "colorName": "Hueso",
+        "variantSku": "MAL-BLU-BLU-DKF20-HUE-XXX",
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1769572156172-dwgvd0qk3-MAL_BLU_BLU_DKF20_HUE_XXX-img-1769572157211-652kqa-0.webp"
+        ],
+        "publishOnline": true
+      }
+    ]
+  },
+  {
+    "id": "MAL-BLU-BLU-DM7UB",
+    "longDescription": "",
+    "cost": 130,
+    "shortDetails": "Lino estampado, silueta ligeramente acampanada, largo a la parte superior del muslo, cuello clásico, botonadura frontal completa, mangas japonesas, incluye lazo de la misma tela.",
+    "publicPrice": 300,
+    "variants": [
+      {
+        "id": 1770093190138,
+        "variantSku": "MAL-BLU-BLU-DM7UB-ARE-XXX",
+        "colorName": "Arena",
+        "hexColor": "#D9C3A1",
+        "sizes": [
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "36",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1770093402052-qk5c0p9al-MAL_BLU_BLU_DM7UB_ARE_XXX-img-1770093401791-1ol82v-0.webp"
+        ]
+      },
+      {
+        "id": 1770093243063,
+        "variantSku": "MAL-BLU-BLU-DM7UB-NEG-XXX",
+        "colorName": "Negro",
+        "hexColor": "#000000",
+        "sizes": [
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "36",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1770093403438-kw4jeszmu-MAL_BLU_BLU_DM7UB_NEG_XXX-img-1770093404498-urezpd-0.webp"
+        ]
+      },
+      {
+        "id": 1770093271779,
+        "variantSku": "MAL-BLU-BLU-DM7UB-PAL-XXX",
+        "colorName": "Palo de Rosa",
+        "hexColor": "#EABFB9",
+        "sizes": [
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "36",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1770093405001-su1rtd0jn-MAL_BLU_BLU_DM7UB_PAL_XXX-img-1770093406170-61t2ah-0.webp"
+        ]
+      },
+      {
+        "id": 1770093353465,
+        "variantSku": "MAL-BLU-BLU-DM7UB-VER-XXX",
+        "colorName": "Verde Oliva",
+        "hexColor": "#556B2F",
+        "sizes": [
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "36",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1770093406537-7d6sbcm8i-MAL_BLU_BLU_DM7UB_VER_XXX-img-1770093407486-w7jj7z-0.webp"
+        ]
+      }
+    ],
+    "creationDate": "2/2/2026, 10:28:23 p.m.",
+    "dateAdded": 1770092903351,
+    "productSku": "MAL-BLU-BLU-DM7UB",
+    "offerPercentage": 0,
+    "supplier": "Marco Blusas sensación",
+    "name": "Blusón hojas",
+    "publishOnline": true,
+    "category": "BLUSONES"
+  },
+  {
+    "id": "MAL-BLU-BLU-DY9U8",
+    "longDescription": "",
+    "cost": 140,
+    "shortDetails": "Algodón viscosa con pedrería frontal, corte semi ajustada, largo a la cadera, cuello redondo y manga corta con una banda decorativa tipo greca con pedrería con acabado premium. ESTILO: Femenino y glamuroso, De dia ( con jeans) Tarde-noche:  pantalón de vestir o leggings efecto piel.",
+    "publicPrice": 280,
+    "creationDate": "15/1/2026, 6:01:28 p.m.",
+    "dateAdded": 1768521688866,
+    "productSku": "MAL-BLU-BLU-DY9U8",
+    "offerPercentage": 0,
+    "supplier": "Junior",
+    "name": "Blusón pluma estilizada",
+    "category": "BLUSONES",
+    "publishOnline": false,
+    "variants": [
+      {
+        "id": 1768522061949,
+        "imageIds": [],
+        "colorName": "Negro",
+        "hexColor": "#000000",
+        "variantSku": "MAL-BLU-BLU-DY9U8-NEG-XXX",
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1768522137502-eh36g57wk-MAL_BLU_BLU_DY9U8_NEG_XXX-img-1768522137142-gg7hyo-0.webp"
+        ],
+        "sizes": [
+          {
+            "stock": 0,
+            "size": "36-38",
+            "isInStock": false
+          }
+        ],
+        "publishOnline": true
+      },
+      {
+        "colorName": "Gris Claro",
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1768522138897-efal7ae42-MAL_BLU_BLU_DY9U8_GRI_XXX-img-1768522139562-iihn4i-0.webp"
+        ],
+        "hexColor": "#E8E8E8",
+        "id": 1768522078557,
+        "imageIds": [],
+        "sizes": [
+          {
+            "stock": 0,
+            "isInStock": false,
+            "size": "36-38"
+          }
+        ],
+        "variantSku": "MAL-BLU-BLU-DY9U8-GRI-XXX",
+        "publishOnline": true
+      },
+      {
+        "sizes": [
+          {
+            "isInStock": false,
+            "stock": 0,
+            "size": "36-38"
+          }
+        ],
+        "imageIds": [],
+        "id": 1768522103084,
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1768522139948-vq4bk36t0-MAL_BLU_BLU_DY9U8_ROS_XXX-img-1768522140691-qpxr5c-0.webp"
+        ],
+        "variantSku": "MAL-BLU-BLU-DY9U8-ROS-XXX",
+        "colorName": "Rosa",
+        "hexColor": "#FFC0CB",
+        "publishOnline": true
+      },
+      {
+        "imageIds": [],
+        "id": 1768522115634,
+        "hexColor": "#FFFFFF",
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1768522140970-41l8x47j0-MAL_BLU_BLU_DY9U8_BLA_XXX-img-1768522141707-ehnkl6-0.webp"
+        ],
+        "variantSku": "MAL-BLU-BLU-DY9U8-BLA-XXX",
+        "sizes": [
+          {
+            "stock": 0,
+            "isInStock": false,
+            "size": "36-38"
+          }
+        ],
+        "colorName": "Blanco",
+        "publishOnline": true
+      }
+    ]
+  },
+  {
+    "id": "MAL-BLU-BLU-E2WOL",
+    "longDescription": "",
+    "cost": 180,
+    "shortDetails": "Satín de alta calidad, suave al tacto, caida ligera, manga larga y botones frontales funcionales.",
+    "publicPrice": 350,
+    "variants": [
+      {
+        "id": 1770862891682,
+        "variantSku": "MAL-BLU-BLU-E2WOL-BEI-XXX",
+        "colorName": "Beige",
+        "hexColor": "#F5F5DC",
+        "sizes": [
+          {
+            "size": "30",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "36",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1770863050897-4w2s5zu9i-MAL_BLU_BLU_E2WOL_BEI_XXX-img-1770863051190-1tdud6-0.webp"
+        ],
+        "publishOnline": true
+      },
+      {
+        "id": 1770862928981,
+        "variantSku": "MAL-BLU-BLU-E2WOL-ROJ-XXX",
+        "colorName": "Rojo Brillante",
+        "hexColor": "#FF0000",
+        "sizes": [
+          {
+            "size": "30",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "36",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1770863052072-hesije45v-MAL_BLU_BLU_E2WOL_ROJ_XXX-img-1770863053388-4n6me1-0.webp"
+        ],
+        "publishOnline": true
+      },
+      {
+        "id": 1770862957046,
+        "variantSku": "MAL-BLU-BLU-E2WOL-PLA-XXX",
+        "colorName": "Plateado",
+        "hexColor": "#C0C0C0",
+        "sizes": [
+          {
+            "size": "30",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "36",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1770863052969-hqfv3xwa7-MAL_BLU_BLU_E2WOL_PLA_XXX-img-1770863054305-m36qfw-0.webp"
+        ],
+        "publishOnline": true
+      },
+      {
+        "id": 1770862979829,
+        "variantSku": "MAL-BLU-BLU-E2WOL-CHO-XXX",
+        "colorName": "Chocolate",
+        "hexColor": "#3E2723",
+        "sizes": [
+          {
+            "size": "30",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "36",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1770863053999-afopc4mc2-MAL_BLU_BLU_E2WOL_CHO_XXX-img-1770863055325-4mhjdy-0.webp"
+        ],
+        "publishOnline": true
+      }
+    ],
+    "creationDate": "11/2/2026, 8:19:23 p.m.",
+    "dateAdded": 1770862763356,
+    "productSku": "MAL-BLU-BLU-E2WOL",
+    "offerPercentage": 0,
+    "supplier": "Oscar impression fashion",
+    "name": "Blusa Satín ",
+    "category": "BLUSAS",
+    "publishOnline": true
+  },
+  {
+    "id": "MAL-BLU-BLU-EP0XU",
+    "longDescription": "",
+    "cost": 110,
+    "shortDetails": "Camiseta de punto algodón con elastano, con cuello V y manga corta, corte ajustado ( slim fit), se incorpora una pieza que imita una camisa de rayas blancas , cuello camisero clásico en punta, efecto \"Preppy\", da el aspecto de 2 capas, sin usar 2 prendas, para un look relajado",
+    "publicPrice": 220,
+    "creationDate": "10/1/2026, 10:49:22 p.m.",
+    "dateAdded": 1768106962129,
+    "productSku": "MAL-BLU-BLU-EP0XU",
+    "offerPercentage": 0,
+    "supplier": "Junior",
+    "name": "Blusa 2 en 1",
+    "category": "BLUSAS",
+    "publishOnline": true,
+    "variants": [
+      {
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1768329275665-zxfnsmcwl-MAL_BLU_BLU_EP0XU_NEG_XXX-img-1768329274208-bunncr-0.webp"
+        ],
+        "colorName": "Negro",
+        "sizes": [
+          {
+            "size": "32-34",
+            "stock": 1,
+            "isInStock": true
+          }
+        ],
+        "id": 1768329235189,
+        "hexColor": "#000000",
+        "imageIds": [],
+        "variantSku": "MAL-BLU-BLU-EP0XU-NEG-XXX"
+      }
+    ]
+  },
+  {
+    "id": "MAL-BLU-BLU-GW397",
+    "longDescription": "",
+    "cost": 135,
+    "shortDetails": "Punto premium stretch. Corte ajustado, escote cuadrado, y ondas en cuello y mangas.",
+    "publicPrice": 270,
+    "creationDate": "16/2/2026, 7:44:30 p.m.",
+    "dateAdded": 1771292670733,
+    "productSku": "MAL-BLU-BLU-GW397",
+    "offerPercentage": 0,
+    "supplier": "Temu",
+    "name": "BLUSA CUELLO ONDULADO",
+    "category": "BLUSAS",
+    "variants": [
+      {
+        "id": 1771292887233,
+        "variantSku": "MAL-BLU-BLU-GW397-NEG-XXX",
+        "colorName": "Negro",
+        "hexColor": "#000000",
+        "sizes": [
+          {
+            "size": "36-38",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1771292914389-yed85z11y-MAL_BLU_BLU_GW397_NEG_XXX-img-1771292914996-jmx1ia-0.webp"
+        ],
+        "publishOnline": true
+      }
+    ],
+    "publishOnline": false
+  },
+  {
+    "id": "MAL-BLU-BLU-GZG75",
+    "cost": 120,
+    "shortDetails": "Tejido de punto cuello cuadrado",
+    "publicPrice": 250,
+    "creationDate": "23/12/2025, 1:24:06 p.m.",
+    "dateAdded": 1766517846625,
+    "productSku": "MAL-BLU-BLU-GZG75",
+    "offerPercentage": 0,
+    "supplier": "Junior",
+    "name": "Blusa corta rayas",
+    "publishOnline": true,
+    "category": "BLUSAS",
+    "longDescription": "Descubre la magia de la Blusa Corta Rayas, una prenda que transforma cada momento cotidiano en una celebración de tu estilo. Con un tejido de punto suave y un elegante cuello cuadrado, sentirás la frescura y comodidad que mereces en tu día a día. Disponible en tallas 32-34 y en una paleta de colores que va desde el clásico negro hasta un vibrante rojo vino, esta blusa es perfecta para esas salidas con amigos o esos momentos especiales que se convierten en recuerdos inolvidables. Imagina la sonrisa en tu rostro al mirarte al espejo y ver cómo realza tu esencia única. Por solo $250.00, no solo adquieres una prenda, sino una invitación a vivir cada día con alegría y confianza. Elige la Blusa Corta Rayas y deja que tu estilo hable de las experiencias que atesorarás.",
+    "variants": [
+      {
+        "imageIds": [],
+        "hexColor": "#FFFFFF",
+        "colorName": "Blanco",
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766518098278-e0zte3eit-MAL_BLU_BLU_GZG75_BLA_XXX-img-1766518098322-k3drzg-0.webp"
+        ],
+        "id": 1766518047759,
+        "variantSku": "MAL-BLU-BLU-GZG75-BLA-XXX",
+        "sizes": [
+          {
+            "size": "32-34",
+            "isInStock": true,
+            "stock": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MAL-BLU-BLU-KPXXZ",
+    "cost": 100,
+    "shortDetails": "Tejido de punto suave liso, cuello alto suave",
+    "publicPrice": 240,
+    "creationDate": "30/12/2025, 8:08:25 p.m.",
+    "dateAdded": 1767146905274,
+    "productSku": "MAL-BLU-BLU-KPXXZ",
+    "offerPercentage": 15,
+    "supplier": "Junior",
+    "name": "Blusa cuello alto",
+    "category": "BLUSAS",
+    "longDescription": "Descubre la comodidad y elegancia de nuestra Blusa Cuello Alto, diseñada para abrazar tu figura con su tejido de punto suave y liso. Perfecta para cualquier ocasión, su cuello alto te ofrece un toque de sofisticación que resalta tu estilo personal. Disponible en una variedad de colores como Gris Claro, Azul Marino y Rojo Oscuro, podrás elegir el que mejor refleje tu esencia. ¡Y no olvides que ahora puedes llevarla por solo $204.00 gracias a nuestro emocionante 15% de descuento! No te pierdas esta oportunidad. Revisa todo nuestro catálogo en el primer comentario. 💝",
+    "variants": [
+      {
+        "variantSku": "MAL-BLU-BLU-KPXXZ-GRI-XXX",
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1767147138767-rifakhx9e-MAL_BLU_BLU_KPXXZ_GRI_XXX-img-1767147139306-4uroue-0.webp"
+        ],
+        "imageIds": [],
+        "colorName": "Gris Claro",
+        "sizes": [
+          {
+            "size": "32-34",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "id": 1767146960949,
+        "hexColor": "#E8E8E8"
+      },
+      {
+        "colorName": "Palo de Rosa",
+        "sizes": [
+          {
+            "isInStock": false,
+            "stock": 0,
+            "size": "32-34"
+          }
+        ],
+        "hexColor": "#EABFB9",
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1767147145565-b7c5upbt6-MAL_BLU_BLU_KPXXZ_PAL_XXX-img-1767147146180-dgnvqn-0.webp"
+        ],
+        "variantSku": "MAL-BLU-BLU-KPXXZ-PAL-XXX",
+        "id": 1767147072464
+      }
+    ],
+    "publishOnline": false
+  },
+  {
+    "id": "MAL-BLU-BLU-L31UD",
+    "longDescription": "",
+    "cost": 125,
+    "shortDetails": "Tejido de punto delgado, cuello semi alto cómodo y manga japonesa, detalle de bolsita.",
+    "publicPrice": 250,
+    "creationDate": "25/2/2026, 10:01:28 p.m.",
+    "dateAdded": 1772078488770,
+    "productSku": "MAL-BLU-BLU-L31UD",
+    "offerPercentage": 0,
+    "supplier": "Junior",
+    "name": "Blusa manga japonesa",
+    "publishOnline": true,
+    "category": "BLUSAS",
+    "variants": [
+      {
+        "id": 1772078971309,
+        "variantSku": "MAL-BLU-BLU-L31UD-CHO-XXX",
+        "colorName": "Chocolate",
+        "hexColor": "#3E2723",
+        "sizes": [
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 1,
+            "isInStock": true
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1772079509643-dth0s6buz-MAL_BLU_BLU_L31UD_CHO_XXX-img-1772079509526-qe5b67-0.webp"
+        ],
+        "publishOnline": true
+      },
+      {
+        "id": 1772079002167,
+        "variantSku": "MAL-BLU-BLU-L31UD-ARE-XXX",
+        "colorName": "Arena",
+        "hexColor": "#D9C3A1",
+        "sizes": [
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1772079510950-vpc3f2e08-MAL_BLU_BLU_L31UD_ARE_XXX-img-1772079512138-n2i8h5-0.webp"
+        ],
+        "publishOnline": true
+      },
+      {
+        "id": 1772079021043,
+        "variantSku": "MAL-BLU-BLU-L31UD-MOS-XXX",
+        "colorName": "Mostaza",
+        "hexColor": "#D4A017",
+        "sizes": [
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 1,
+            "isInStock": true
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1772079512082-8n8n3b6dk-MAL_BLU_BLU_L31UD_MOS_XXX-img-1772079513268-7abgvf-0.webp"
+        ],
+        "publishOnline": true
+      },
+      {
+        "id": 1772079046242,
+        "variantSku": "MAL-BLU-BLU-L31UD-NEG-XXX",
+        "colorName": "Negro",
+        "hexColor": "#000000",
+        "sizes": [
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 1,
+            "isInStock": true
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1772079512986-3roi9l61n-MAL_BLU_BLU_L31UD_NEG_XXX-img-1772079514401-jfxj3s-0.webp"
+        ],
+        "publishOnline": true
+      },
+      {
+        "id": 1772079084085,
+        "variantSku": "MAL-BLU-BLU-L31UD-ROJ-XXX",
+        "colorName": "Rojo Vino",
+        "hexColor": "#722F37",
+        "sizes": [
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 1,
+            "isInStock": true
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1772079513970-ouuw9djlb-MAL_BLU_BLU_L31UD_ROJ_XXX-img-1772079515317-avghmu-0.webp"
+        ],
+        "publishOnline": true
+      },
+      {
+        "id": 1772079101760,
+        "variantSku": "MAL-BLU-BLU-L31UD-GRI-XXX",
+        "colorName": "Gris",
+        "hexColor": "#A9A9A9",
+        "sizes": [
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1772079515108-glrni3kff-MAL_BLU_BLU_L31UD_GRI_XXX-img-1772079516339-jkmkpt-0.webp"
+        ],
+        "publishOnline": true
+      },
+      {
+        "id": 1772079135718,
+        "variantSku": "MAL-BLU-BLU-L31UD-CRE-XXX",
+        "colorName": "Crema",
+        "hexColor": "#FFFDD0",
+        "sizes": [
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1772079516185-1x867n0mm-MAL_BLU_BLU_L31UD_CRE_XXX-img-1772079517468-l9a8rd-0.webp"
+        ],
+        "publishOnline": true
+      },
+      {
+        "id": 1772079162378,
+        "variantSku": "MAL-BLU-BLU-L31UD-ARE-XXX",
+        "colorName": "Arena",
+        "hexColor": "#8C7E6D",
+        "sizes": [
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1772079517407-9ks0fzwc4-MAL_BLU_BLU_L31UD_ARE_XXX-img-1772079518592-cyomxe-0.webp"
+        ],
+        "publishOnline": true
+      },
+      {
+        "id": 1772079300160,
+        "variantSku": "MAL-BLU-BLU-L31UD-ARE-XXX",
+        "colorName": "Arena",
+        "hexColor": "#A69581",
+        "sizes": [
+          {
+            "size": "32",
+            "stock": 0,
+            "isInStock": false
+          },
+          {
+            "size": "34",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1772079518659-ajdejxds4-MAL_BLU_BLU_L31UD_ARE_XXX-img-1772079519822-ggpa4r-0.webp"
+        ],
+        "publishOnline": true
+      }
+    ]
+  },
+  {
+    "id": "MAL-BLU-BLU-S26HX",
+    "longDescription": "",
+    "cost": 140,
+    "shortDetails": "Algodón con aplicación en relieve de flores de pedrería, con una lluvia de diminutos cristales. Corte recto y holgado, cuello redondo clásico, mangas cortas con detalles de pedrería que combinarn con el frente. USO SUGERIDO: Por ser  una prenda versátil puede usarse para un evento de día con jeans, o para una salida nocturna informal con pantalones de vestir o leggings de cuero.",
+    "publicPrice": 280,
+    "variants": [
+      {
+        "id": 1768528700309,
+        "variantSku": "MAL-BLU-BLU-S26HX-PAL-XXX",
+        "colorName": "Palo de Rosa",
+        "hexColor": "#EABFB9",
+        "sizes": [
+          {
+            "size": "36-38",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1768528828879-bksk81fqq-MAL_BLU_BLU_S26HX_PAL_XXX-img-1768528828784-a657p2-0.webp"
+        ]
+      },
+      {
+        "id": 1768528768548,
+        "variantSku": "MAL-BLU-BLU-S26HX-NEG-XXX",
+        "colorName": "Negro",
+        "hexColor": "#000000",
+        "sizes": [
+          {
+            "size": "36-38",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1768528829940-xol8wbnz1-MAL_BLU_BLU_S26HX_NEG_XXX-img-1768528830945-qzyk1l-0.webp"
+        ]
+      },
+      {
+        "id": 1768528784091,
+        "variantSku": "MAL-BLU-BLU-S26HX-BLA-XXX",
+        "colorName": "Blanco",
+        "hexColor": "#FFFFFF",
+        "sizes": [
+          {
+            "size": "36-38",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1768528831002-fo7422t5x-MAL_BLU_BLU_S26HX_BLA_XXX-img-1768528831977-8f1zuq-0.webp"
+        ]
+      },
+      {
+        "id": 1768528800292,
+        "variantSku": "MAL-BLU-BLU-S26HX-GRI-XXX",
+        "colorName": "Gris Claro",
+        "hexColor": "#E8E8E8",
+        "sizes": [
+          {
+            "size": "36-38",
+            "stock": 0,
+            "isInStock": false
+          }
+        ],
+        "imageIds": [],
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1768528832038-s5v88j9wh-MAL_BLU_BLU_S26HX_GRI_XXX-img-1768528833003-gonj88-0.webp"
+        ]
+      }
+    ],
+    "creationDate": "15/1/2026, 7:51:46 p.m.",
+    "dateAdded": 1768528306455,
+    "productSku": "MAL-BLU-BLU-S26HX",
+    "offerPercentage": 0,
+    "supplier": "Junior",
+    "name": "Blusón flores plata",
+    "publishOnline": true,
+    "category": "BLUSONES"
+  },
+  {
+    "id": "MAL-BLU-BLU-S87YR",
+    "longDescription": "",
+    "cost": 168,
+    "shortDetails": "Crepé saten premium, cuello y mangas con un corte ondulado, estilo fluido y relajado. Diseñada para brindar un ajuste más amplio y cómodo.",
+    "publicPrice": 320,
+    "creationDate": "16/2/2026, 7:19:27 p.m.",
+    "dateAdded": 1771291167614,
+    "productSku": "MAL-BLU-BLU-S87YR",
+    "offerPercentage": 0,
+    "supplier": "Temu",
+    "name": "BLUSA SCALLOP PLUS",
+    "category": "BLUSAS",
+    "variants": [
+      {
+        "id": 1771291410173,
+        "imageIds": [],
+        "colorName": "Verde Oscuro",
+        "hexColor": "#006400",
+        "imageUrls": [
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1771291520768-tkbf5wfhr-MAL_BLU_BLU_S87YR_VER_XXX-img-1771291519491-clvryd-0.webp",
+          "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1771291520768-muihxo80u-MAL_BLU_BLU_S87YR_VER_XXX-img-1771291519491-jky4fr-1.webp"
+        ],
+        "sizes": [
+          {
+            "isInStock": false,
+            "stock": 0,
+            "size": "XXXL"
+          }
+        ],
+        "variantSku": "MAL-BLU-BLU-S87YR-VER-XXX",
+        "publishOnline": true
+      },
+      {
+        "id": 1771292945013,
+        "variantSku": "MAL-BLU-BLU-S87YR-COL-XXX",
+        "colorName": "Color 2",
+        "hexColor": "#CCCCCC",
+        "sizes": [],
+        "imageIds": [],
+        "imageUrls": [],
+        "publishOnline": true
+      }
+    ],
+    "publishOnline": false
+  }
+]

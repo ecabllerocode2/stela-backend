@@ -1,0 +1,1575 @@
+[
+  {
+    "id": "0RdcHZHXTT7zjSsF2ddF",
+    "cliente": {
+      "nombre": "Chivis Guera",
+      "uid": ""
+    },
+    "fechaCreacion": "2026-02-19",
+    "fechaEntrega": null,
+    "entrega": "Punto de venta",
+    "lugar": "tlalmanalco",
+    "notas": "",
+    "estadoPedido": "pendiente",
+    "totalVenta": 355,
+    "descuentoPorcentaje": 0,
+    "descuentoMonto": 0,
+    "timestamp": {
+      "_seconds": 1771521525,
+      "_nanoseconds": 268000000
+    },
+    "items": [
+      {
+        "entregado": false,
+        "proveedor": "Junior",
+        "costo": 185,
+        "origen": "bajo_pedido",
+        "comprado": true,
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1771387220097-mvdb29daa-MAL_PAL_PAL_DMIQ9_NEG_XXX-img-1771387221004-tx47vw-0.webp",
+        "categoria": "PALAZZOS",
+        "color": "Negro",
+        "cantidad": 1,
+        "precio": 355,
+        "nombre": "Palazzo marmol",
+        "talla": "36",
+        "productoId": "MAL-PAL-PAL-DMIQ9",
+        "sku": "MAL-PAL-PAL-DMIQ9",
+        "pagadoProveedor": true
+      }
+    ],
+    "totalPagado": 355,
+    "saldoPendiente": 0,
+    "fechaUltimaActualizacion": "2026-02-25",
+    "estadoPago": "pagado",
+    "pagos": [
+      {
+        "monto": 355,
+        "fecha": "2026-02-25",
+        "metodo": "Transferencia",
+        "registradoPor": "Admin"
+      }
+    ]
+  },
+  {
+    "id": "11FQWQy2FDJ4CdDy578z",
+    "cliente": {
+      "nombre": "Jenny Lara",
+      "uid": ""
+    },
+    "fechaCreacion": "2026-02-05",
+    "entrega": "Punto de venta",
+    "lugar": "cdmx",
+    "notas": "",
+    "totalVenta": 1840,
+    "descuentoPorcentaje": 0,
+    "descuentoMonto": 0,
+    "timestamp": {
+      "_seconds": 1770251481,
+      "_nanoseconds": 632000000
+    },
+    "items": [
+      {
+        "categoria": "MAXI_VESTIDOS",
+        "comprado": true,
+        "nombre": "Maxi vestido punto ",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1769828382044-u9oqybeas-MAL_MAX_MAX_Y1GLC_ROS_XXX-img-1769828381680-upw8oq-0.jpg",
+        "proveedor": "Junior",
+        "cantidad": 1,
+        "color": "Rosa",
+        "costo": 210,
+        "productoId": "MAL-MAX-MAX-Y1GLC",
+        "origen": "bajo_pedido",
+        "sku": "MAL-MAX-MAX-Y1GLC",
+        "precio": 400,
+        "entregado": false,
+        "talla": "32-34",
+        "pagadoProveedor": true
+      },
+      {
+        "categoria": "MAXI_VESTIDOS",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1765237350084-fxnfeedyb-malim-1765237348457-0-0-1765227837476_edit_93705596913732_053945.jpg",
+        "costo": 280,
+        "entregado": false,
+        "nombre": "Camisero LV",
+        "sku": "MAL-MAX-CAM-Q29Q1",
+        "precio": 480,
+        "productoId": "MAL-MAX-CAM-Q29Q1",
+        "proveedor": "Pablo Just Chik",
+        "origen": "stock",
+        "comprado": true,
+        "talla": "(32-36)",
+        "color": "Negro LV",
+        "cantidad": 1
+      },
+      {
+        "productoId": "MAL-MAX-CAM-Q29Q1",
+        "proveedor": "Pablo Just Chik",
+        "precio": 480,
+        "entregado": false,
+        "cantidad": 1,
+        "comprado": true,
+        "sku": "MAL-MAX-CAM-Q29Q1",
+        "categoria": "MAXI_VESTIDOS",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1765237350084-fxnfeedyb-malim-1765237348457-0-0-1765227837476_edit_93705596913732_053945.jpg",
+        "origen": "stock",
+        "costo": 280,
+        "talla": "(32-36)",
+        "nombre": "Camisero LV",
+        "color": "Negro LV"
+      },
+      {
+        "cantidad": 1,
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1765237350084-fxnfeedyb-malim-1765237348457-0-0-1765227837476_edit_93705596913732_053945.jpg",
+        "precio": 480,
+        "categoria": "MAXI_VESTIDOS",
+        "costo": 280,
+        "color": "Negro LV",
+        "sku": "MAL-MAX-CAM-Q29Q1",
+        "origen": "stock",
+        "entregado": false,
+        "proveedor": "Pablo Just Chik",
+        "talla": "(32-36)",
+        "comprado": true,
+        "nombre": "Camisero LV",
+        "productoId": "MAL-MAX-CAM-Q29Q1"
+      }
+    ],
+    "fechaEnvio": "2026-02-08",
+    "estadoPedido": "entregado",
+    "fechaEntrega": "2026-02-08",
+    "totalPagado": 1840,
+    "saldoPendiente": 0,
+    "fechaUltimaActualizacion": "2026-02-18",
+    "estadoPago": "pagado",
+    "pagos": [
+      {
+        "monto": 1840,
+        "fecha": "2026-02-18",
+        "metodo": "Transferencia",
+        "registradoPor": "Admin"
+      }
+    ]
+  },
+  {
+    "id": "1QCyrabLnBpOoZqFIOWu",
+    "totalVenta": 560,
+    "cliente": {
+      "uid": "",
+      "nombre": "Luz Guera"
+    },
+    "fechaCreacion": "2026-01-09",
+    "descuentoMonto": 0,
+    "notas": "",
+    "descuentoPorcentaje": 0,
+    "entrega": "Punto de venta",
+    "items": [
+      {
+        "productoId": "MAL-MAX-CAM-Q29Q1",
+        "origen": "stock",
+        "costo": 280,
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1765237350084-fxnfeedyb-malim-1765237348457-0-0-1765227837476_edit_93705596913732_053945.jpg",
+        "entregado": false,
+        "cantidad": 1,
+        "precio": 560,
+        "talla": "(32-36)",
+        "comprado": true,
+        "categoria": "MAXI_VESTIDOS",
+        "sku": "MAL-MAX-CAM-Q29Q1",
+        "color": "Negro LV",
+        "proveedor": "Pablo Just Chik",
+        "nombre": "Camisero LV"
+      }
+    ],
+    "timestamp": {
+      "_seconds": 1767921104,
+      "_nanoseconds": 634000000
+    },
+    "estadoPago": "pagado",
+    "pagos": [
+      {
+        "monto": 560,
+        "fecha": "2026-01-08",
+        "metodo": "Efectivo",
+        "registradoPor": "Admin"
+      }
+    ],
+    "lugar": "san_rafael",
+    "fechaEnvio": "2026-01-08",
+    "estadoPedido": "entregado",
+    "fechaEntrega": "2026-01-08",
+    "totalPagado": 1120,
+    "saldoPendiente": 0,
+    "fechaUltimaActualizacion": "2026-01-19"
+  },
+  {
+    "id": "3L1CvA1NEGqfzKGGuKg6",
+    "descuentoMonto": 0,
+    "fechaCreacion": "2026-01-02",
+    "totalVenta": 240,
+    "entrega": "Punto de venta",
+    "descuentoPorcentaje": 0,
+    "cliente": {
+      "nombre": "Vero Ortiz",
+      "uid": ""
+    },
+    "lugar": "tlalmanalco",
+    "notas": "",
+    "timestamp": {
+      "_seconds": 1767388242,
+      "_nanoseconds": 75000000
+    },
+    "items": [
+      {
+        "productoId": "MAL-BLU-BLU-KPXXZ",
+        "origen": "bajo_pedido",
+        "nombre": "Blusa cuello alto",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1767147138767-rifakhx9e-MAL_BLU_BLU_KPXXZ_GRI_XXX-img-1767147139306-4uroue-0.webp",
+        "entregado": false,
+        "precio": 240,
+        "comprado": false,
+        "color": "Gris Claro",
+        "categoria": "BLUSAS",
+        "cantidad": 1,
+        "costo": 100,
+        "sku": "MAL-BLU-BLU-KPXXZ",
+        "proveedor": "Junior",
+        "talla": "32-34"
+      }
+    ],
+    "fechaEnvio": "2026-01-10",
+    "estadoPedido": "entregado",
+    "fechaEntrega": "2026-01-10",
+    "totalPagado": 240,
+    "saldoPendiente": 0,
+    "fechaUltimaActualizacion": "2026-01-15",
+    "estadoPago": "pagado",
+    "pagos": [
+      {
+        "monto": 240,
+        "fecha": "2026-01-15",
+        "metodo": "Transferencia",
+        "registradoPor": "Admin"
+      }
+    ]
+  },
+  {
+    "id": "4BG5K2Im8ZZu8pawcbqX",
+    "cliente": {
+      "nombre": "Ilary Cremeria",
+      "uid": ""
+    },
+    "fechaCreacion": "2026-01-16",
+    "entrega": "Punto de venta",
+    "lugar": "tlalmanalco",
+    "notas": "",
+    "totalVenta": 290,
+    "descuentoPorcentaje": 0,
+    "descuentoMonto": 0,
+    "timestamp": {
+      "_seconds": 1768579112,
+      "_nanoseconds": 915000000
+    },
+    "items": [
+      {
+        "sku": "MAL-VES-VES-ZXHED",
+        "productoId": "MAL-VES-VES-ZXHED",
+        "origen": "bajo_pedido",
+        "categoria": "VESTIDOS",
+        "nombre": "Vestido juvenil ASTROS",
+        "costo": 145,
+        "color": "Negro",
+        "proveedor": "Junior",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1768358314891-f9u98an18-MAL_VES_VES_ZXHED_NEG_XXX-img-1768358315721-yfh2qz-0.webp",
+        "comprado": true,
+        "talla": "32-34",
+        "cantidad": 1,
+        "entregado": false,
+        "precio": 290,
+        "pagadoProveedor": true
+      }
+    ],
+    "fechaEnvio": "2026-01-24",
+    "estadoPedido": "entregado",
+    "fechaEntrega": "2026-01-24",
+    "totalPagado": 290,
+    "saldoPendiente": 0,
+    "fechaUltimaActualizacion": "2026-01-30",
+    "estadoPago": "pagado",
+    "pagos": [
+      {
+        "monto": 150,
+        "fecha": "2026-01-24",
+        "metodo": "Efectivo",
+        "registradoPor": "Admin"
+      },
+      {
+        "monto": 140,
+        "fecha": "2026-01-29",
+        "metodo": "Efectivo",
+        "registradoPor": "Admin"
+      }
+    ]
+  },
+  {
+    "id": "4aCW1liSUPWNp2in71Cj",
+    "cliente": {
+      "nombre": "Vero Solis",
+      "uid": ""
+    },
+    "fechaCreacion": "2026-02-20",
+    "entrega": "Punto de venta",
+    "lugar": "san_rafael",
+    "notas": "",
+    "totalVenta": 380,
+    "descuentoPorcentaje": 0,
+    "descuentoMonto": 0,
+    "timestamp": {
+      "_seconds": 1771625649,
+      "_nanoseconds": 828000000
+    },
+    "items": [
+      {
+        "nombre": "Palazzo liso olanes",
+        "proveedor": "Junior",
+        "color": "Verde Oliva",
+        "entregado": false,
+        "productoId": "MAL-PAL-PAL-E2JI0",
+        "categoria": "PALAZZOS",
+        "comprado": true,
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1771561796292-4tsw201kf-MAL_PAL_PAL_E2JI0_VER_XXX-img-1771561797051-cc9lzv-0.webp",
+        "precio": 380,
+        "talla": "32",
+        "sku": "MAL-PAL-PAL-E2JI0",
+        "cantidad": 1,
+        "costo": 200,
+        "origen": "bajo_pedido",
+        "pagadoProveedor": true
+      }
+    ],
+    "fechaEnvio": "2026-02-28",
+    "estadoPedido": "entregado",
+    "fechaEntrega": "2026-02-28",
+    "totalPagado": 380,
+    "saldoPendiente": 0,
+    "fechaUltimaActualizacion": "2026-02-28",
+    "estadoPago": "pagado",
+    "pagos": [
+      {
+        "monto": 380,
+        "fecha": "2026-02-28",
+        "metodo": "Efectivo",
+        "registradoPor": "Admin"
+      }
+    ]
+  },
+  {
+    "id": "54o8qjcQD9Dc4dCUHfj9",
+    "cliente": {
+      "nombre": "Cinthia Tenango",
+      "uid": ""
+    },
+    "fechaCreacion": "2026-01-13",
+    "entrega": "Punto de venta",
+    "notas": "",
+    "totalVenta": 220,
+    "descuentoPorcentaje": 0,
+    "descuentoMonto": 0,
+    "timestamp": {
+      "_seconds": 1768329014,
+      "_nanoseconds": 233000000
+    },
+    "estadoPago": "pagado",
+    "lugar": "tlalmanalco",
+    "items": [
+      {
+        "productoId": "MAL-SUE-SUÉ-P9OSE",
+        "nombre": "Suéter Brooklyn",
+        "sku": "MAL-SUE-SUÉ-P9OSE",
+        "categoria": "SUETERES",
+        "proveedor": "Junior",
+        "talla": "32-36",
+        "color": "Hueso",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1768153658424-ikdsmkzsr-MAL_SUE_SU__P9OSE_HUE_XXX-img-1768153658159-2x61dr-0.webp",
+        "precio": 220,
+        "costo": 110,
+        "cantidad": 1,
+        "origen": "bajo_pedido",
+        "comprado": false,
+        "entregado": false
+      }
+    ],
+    "fechaEnvio": "2026-01-19",
+    "estadoPedido": "entregado",
+    "fechaEntrega": "2026-01-19",
+    "totalPagado": 440,
+    "saldoPendiente": 0,
+    "fechaUltimaActualizacion": "2026-02-06",
+    "pagos": [
+      {
+        "monto": 220,
+        "fecha": "2026-01-19",
+        "metodo": "Efectivo",
+        "registradoPor": "Admin"
+      },
+      {
+        "monto": 220,
+        "fecha": "2026-01-29",
+        "metodo": "Transferencia",
+        "registradoPor": "Admin"
+      }
+    ]
+  },
+  {
+    "id": "5SoDBRGD7aaaQ2vMbGp0",
+    "cliente": {
+      "nombre": "Gaby Chencha",
+      "uid": ""
+    },
+    "fechaCreacion": "2026-02-26",
+    "entrega": "Punto de venta",
+    "lugar": "tlalmanalco",
+    "notas": "",
+    "descuentoPorcentaje": 0,
+    "descuentoMonto": 0,
+    "timestamp": {
+      "_seconds": 1772139303,
+      "_nanoseconds": 143000000
+    },
+    "totalVenta": 660,
+    "items": [
+      {
+        "nombre": "Playera 3 osos aplicación ",
+        "precio": 220,
+        "origen": "bajo_pedido",
+        "comprado": true,
+        "pagadoProveedor": true,
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1772136905089-1lezjy4ff-MAL_PLA_PLA_00K36_BLA_XXX-img-1772136905040-detbmb-0.webp",
+        "productoId": "MAL-PLA-PLA-00K36",
+        "entregado": false,
+        "categoria": "PLAYERAS",
+        "costo": 100,
+        "proveedor": "Junior",
+        "sku": "MAL-PLA-PLA-00K36",
+        "color": "Blanco",
+        "cantidad": 1,
+        "talla": "34"
+      },
+      {
+        "entregado": false,
+        "productoId": "MAL-PLA-PLA-TIJER",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1772137132331-5c7ddziih-MAL_PLA_PLA_TIJER_NEG_XXX-img-1772137131900-8mdnaa-0.jpg",
+        "sku": "MAL-PLA-PLA-TIJER",
+        "proveedor": "Junior",
+        "costo": 100,
+        "categoria": "PLAYERAS",
+        "cantidad": 1,
+        "color": "Negro",
+        "talla": "34",
+        "nombre": "Playera Rayas Alo",
+        "precio": 220,
+        "origen": "bajo_pedido",
+        "comprado": true,
+        "pagadoProveedor": true
+      },
+      {
+        "origen": "bajo_pedido",
+        "comprado": true,
+        "precio": 220,
+        "nombre": "Playeras  aplicación Mickey ",
+        "cantidad": 1,
+        "color": "Rojo Brillante",
+        "talla": "34",
+        "categoria": "PLAYERAS",
+        "sku": "MAL-PLA-PLA-34NT0",
+        "proveedor": "Junior",
+        "costo": 100,
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1772136598931-ilymlh778-MAL_PLA_PLA_34NT0_ROJ_XXX-img-1772136597693-41w14k-0.webp",
+        "productoId": "MAL-PLA-PLA-34NT0",
+        "entregado": false,
+        "pagadoProveedor": true
+      }
+    ],
+    "fechaEnvio": "2026-02-28",
+    "estadoPedido": "entregado",
+    "fechaEntrega": "2026-02-28",
+    "totalPagado": 660,
+    "saldoPendiente": 0,
+    "fechaUltimaActualizacion": "2026-03-01",
+    "estadoPago": "pagado",
+    "pagos": [
+      {
+        "monto": 660,
+        "fecha": "2026-02-28",
+        "metodo": "Efectivo",
+        "registradoPor": "Admin"
+      }
+    ]
+  },
+  {
+    "id": "5UTjzHXew2ZxJH7n8eos",
+    "cliente": {
+      "nombre": "Ilary Cremeria",
+      "uid": ""
+    },
+    "fechaCreacion": "2026-01-27",
+    "entrega": "Punto de venta",
+    "lugar": "tlalmanalco",
+    "notas": "",
+    "totalVenta": 200,
+    "descuentoPorcentaje": 0,
+    "descuentoMonto": 0,
+    "timestamp": {
+      "_seconds": 1769472380,
+      "_nanoseconds": 689000000
+    },
+    "items": [
+      {
+        "color": "Negro",
+        "productoId": "MAL-SUE-SUE-XYNBP",
+        "nombre": "Sueter corto peluche",
+        "comprado": true,
+        "categoria": "SUETERES",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1769133529120-wqrsz0y8n-MAL_SUE_SUE_XYNBP_NEG_XXX-img-1769133530201-neg1fh-0.webp",
+        "entregado": false,
+        "origen": "bajo_pedido",
+        "precio": 200,
+        "cantidad": 1,
+        "sku": "MAL-SUE-SUE-XYNBP",
+        "costo": 100,
+        "proveedor": "Junior",
+        "talla": "32-34",
+        "pagadoProveedor": true
+      }
+    ],
+    "fechaEnvio": "2026-01-31",
+    "estadoPedido": "entregado",
+    "fechaEntrega": "2026-01-31",
+    "totalPagado": 200,
+    "saldoPendiente": 0,
+    "fechaUltimaActualizacion": "2026-02-03",
+    "estadoPago": "pagado",
+    "pagos": [
+      {
+        "monto": 200,
+        "fecha": "2026-02-03",
+        "metodo": "Efectivo",
+        "registradoPor": "Admin"
+      }
+    ]
+  },
+  {
+    "id": "5rAR1TgXaUvMkAShSXjw",
+    "cliente": {
+      "nombre": "Marysol Lima",
+      "uid": ""
+    },
+    "fechaCreacion": "2025-12-18",
+    "entrega": "Punto de venta",
+    "lugar": "chihuahua",
+    "notas": "",
+    "descuentoPorcentaje": 0,
+    "descuentoMonto": 0,
+    "timestamp": {
+      "_seconds": 1766068272,
+      "_nanoseconds": 500000000
+    },
+    "totalVenta": 1590,
+    "fechaUltimaActualizacion": "2025-12-18",
+    "totalPagado": 1590,
+    "saldoPendiente": 0,
+    "estadoPago": "pagado",
+    "pagos": [
+      {
+        "monto": 1590,
+        "fecha": "2025-12-10",
+        "metodo": "Transferencia",
+        "registradoPor": "Admin"
+      }
+    ],
+    "fechaEnvio": "2025-12-15",
+    "items": [
+      {
+        "categoria": "SUDADERAS",
+        "costo": 160,
+        "proveedor": "Sudaderas chely BUENOS AIRES ",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1765337676987-niqdixxek-malim-1765337678028-2-0-IMG-20251209-WA0037.jpg",
+        "nombre": "Sudadera polar",
+        "entregado": false,
+        "origen": "bajo_pedido",
+        "productoId": "MAL-SUD-SUD-EPHF9",
+        "comprado": true,
+        "pagadoProveedor": true,
+        "talla": "(36-38)",
+        "precio": 305,
+        "sku": "MAL-SUD-SUD-EPHF9",
+        "color": "Azul marino"
+      },
+      {
+        "precio": 305,
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1765337673128-lmcln5quh-malim-1765337672131-0-1-IMG-20251209-WA0034.jpg",
+        "productoId": "MAL-SUD-SUD-EPHF9",
+        "color": "Ginda",
+        "entregado": false,
+        "talla": "(36-38)",
+        "categoria": "SUDADERAS",
+        "sku": "MAL-SUD-SUD-EPHF9",
+        "proveedor": "Sudaderas chely BUENOS AIRES ",
+        "nombre": "Sudadera polar",
+        "origen": "bajo_pedido",
+        "costo": 160,
+        "comprado": true,
+        "pagadoProveedor": true
+      },
+      {
+        "entregado": false,
+        "color": "Beige BB",
+        "productoId": "3qelOGWCvHuGBznXtWIR",
+        "nombre": "Maxicamisero",
+        "proveedor": "Pablo Just Chik",
+        "costo": 310,
+        "pagadoProveedor": true,
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766069669696-yqvfwelaf-MAL_MAX_MAX_IHO8D_BEI_XXX-img-1766069668149-fy0lre-0.jpg",
+        "precio": 560,
+        "comprado": true,
+        "origen": "bajo_pedido",
+        "categoria": "MAXI_VESTIDOS",
+        "sku": "MAL-MAX-MAX-IHO8D",
+        "talla": "36-38"
+      },
+      {
+        "costo": 220,
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766069754831-tewqktkh6-MAL_SAC_BLA_EDFX7_NEG_XXX-img-1766069754444-lf0757-0.jpg",
+        "comprado": true,
+        "categoria": "SACOS_BLAZERS",
+        "pagadoProveedor": true,
+        "sku": "MAL-SAC-BLA-EDFX7",
+        "productoId": "N2D7hJ7ckTu3GtUhObhn",
+        "precio": 420,
+        "color": "Negro",
+        "talla": "36-38",
+        "origen": "bajo_pedido",
+        "proveedor": "Pablo Just Chik",
+        "nombre": "Blazer liso over",
+        "entregado": false
+      }
+    ],
+    "estadoPedido": "entregado",
+    "fechaEntrega": "2025-12-19"
+  },
+  {
+    "id": "73hXnxxE9jH0uEsE7Qbz",
+    "descuentoPorcentaje": 0,
+    "entrega": "Punto de venta",
+    "timestamp": {
+      "_seconds": 1766421889,
+      "_nanoseconds": 188000000
+    },
+    "lugar": "san_rafael",
+    "notas": "",
+    "fechaCreacion": "2025-12-22",
+    "descuentoMonto": 0,
+    "cliente": {
+      "uid": "",
+      "nombre": "Michael Vega"
+    },
+    "totalVenta": 1230,
+    "fechaUltimaActualizacion": "2025-12-22",
+    "items": [
+      {
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766420620483-tmjtsnln3-MAL_SUD_SUD_PVX5K_ROJ_XXX-img-1766420618365-ditzqi-0.webp",
+        "proveedor": "Pablo Just Chik",
+        "productoId": "MAL-SUD-SUD-PVX5K",
+        "categoria": "SUDADERAS",
+        "entregado": false,
+        "costo": 230,
+        "sku": "MAL-SUD-SUD-PVX5K",
+        "comprado": true,
+        "talla": "34-36",
+        "color": "Rojo",
+        "nombre": "Sudadera artesanal",
+        "precio": 450,
+        "origen": "bajo_pedido",
+        "pagadoProveedor": true
+      },
+      {
+        "precio": 390,
+        "entregado": false,
+        "proveedor": "Alfredo",
+        "productoId": "1JPZYSmLPWNu79pEPxbu",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766077152766-1qa49zevb-MAL_CON_CON_T16SA_GUI_XXX-img-1766077152569-xzv9fd-0.jpg",
+        "color": "Guinda Nike",
+        "talla": "32-36",
+        "categoria": "CONJUNTOS_DEPORTIVOS",
+        "comprado": true,
+        "origen": "stock",
+        "sku": "MAL-CON-CON-T16SA",
+        "nombre": "Conjunto depoprtivo inter",
+        "costo": 195
+      },
+      {
+        "origen": "bajo_pedido",
+        "pagadoProveedor": true,
+        "proveedor": "Alfredo",
+        "sku": "MAL-CON-CON-T16SA",
+        "categoria": "CONJUNTOS_DEPORTIVOS",
+        "entregado": false,
+        "comprado": true,
+        "color": "Gris GAP",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766077149589-u3z62opyz-MAL_CON_CON_T16SA_GRI_XXX-img-1766077149194-nelsm0-0.webp",
+        "productoId": "1JPZYSmLPWNu79pEPxbu",
+        "nombre": "Conjunto depoprtivo inter",
+        "costo": 195,
+        "talla": "32-36",
+        "precio": 390
+      }
+    ],
+    "fechaEnvio": "2025-12-20",
+    "estadoPedido": "entregado",
+    "fechaEntrega": "2025-12-20",
+    "totalPagado": 1230,
+    "saldoPendiente": 0,
+    "estadoPago": "pagado",
+    "pagos": [
+      {
+        "monto": 1230,
+        "fecha": "2025-12-20",
+        "metodo": "Transferencia",
+        "registradoPor": "Admin"
+      }
+    ]
+  },
+  {
+    "id": "7Ug1moeC0DU7zkecqopd",
+    "cliente": {
+      "nombre": "Gaby Tienda",
+      "uid": ""
+    },
+    "fechaCreacion": "2026-02-08",
+    "entrega": "Punto de venta",
+    "lugar": "tlalmanalco",
+    "notas": "",
+    "descuentoPorcentaje": 0,
+    "descuentoMonto": 0,
+    "timestamp": {
+      "_seconds": 1770520136,
+      "_nanoseconds": 57000000
+    },
+    "totalVenta": 510,
+    "items": [
+      {
+        "productoId": "MAL-BLU-BLU-VJ0DF",
+        "nombre": "Blusa/ top tirante pedrería ",
+        "sku": "MAL-BLU-BLU-VJ0DF",
+        "categoria": "BLUSAS",
+        "proveedor": "Junior",
+        "talla": "32",
+        "color": "Nude",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1768965735134-kqyhkxtd9-MAL_BLU_BLU_VJ0DF_NUD_XXX-img-1768965736386-msrg1n-0.webp",
+        "precio": 310,
+        "costo": 155,
+        "cantidad": 1,
+        "origen": "stock",
+        "comprado": true,
+        "entregado": false
+      },
+      {
+        "productoId": "MAL-PLA-PLA-BE37W",
+        "nombre": "Playera Osito",
+        "sku": "MAL-PLA-PLA-BE37W",
+        "categoria": "PLAYERAS",
+        "proveedor": "Junior",
+        "talla": "32-36",
+        "color": "Blanco",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1768269092760-ysxtne3ij-MAL_PLA_PLA_BE37W_BLA_XXX-img-1768269092613-ae0bp0-0.webp",
+        "precio": 200,
+        "costo": 100,
+        "cantidad": 1,
+        "origen": "stock",
+        "comprado": true,
+        "entregado": false
+      }
+    ],
+    "fechaEnvio": "2026-02-07",
+    "estadoPedido": "entregado",
+    "fechaEntrega": "2026-02-07",
+    "estadoPago": "parcial",
+    "totalPagado": 400,
+    "saldoPendiente": 110,
+    "fechaUltimaActualizacion": "2026-03-02",
+    "pagos": [
+      {
+        "monto": 200,
+        "fecha": "2026-02-11",
+        "metodo": "Efectivo",
+        "registradoPor": "Admin"
+      },
+      {
+        "monto": 200,
+        "fecha": "2026-03-02",
+        "metodo": "Efectivo",
+        "registradoPor": "Admin"
+      }
+    ]
+  },
+  {
+    "id": "7hILaNz9L13bjTzKcr3x",
+    "cliente": {
+      "nombre": "Rocío García magisterio ",
+      "uid": ""
+    },
+    "fechaCreacion": "2026-02-22",
+    "fechaEntrega": null,
+    "entrega": "Punto de venta",
+    "lugar": "tlalmanalco",
+    "notas": "",
+    "estadoPedido": "pendiente",
+    "totalVenta": 325,
+    "descuentoPorcentaje": 0,
+    "descuentoMonto": 0,
+    "timestamp": {
+      "_seconds": 1771718696,
+      "_nanoseconds": 683000000
+    },
+    "totalPagado": 260,
+    "saldoPendiente": 65,
+    "fechaUltimaActualizacion": "2026-02-26",
+    "estadoPago": "parcial",
+    "pagos": [
+      {
+        "monto": 260,
+        "fecha": "2026-02-18",
+        "metodo": "Transferencia",
+        "registradoPor": "Admin"
+      }
+    ],
+    "items": [
+      {
+        "origen": "bajo_pedido",
+        "comprado": true,
+        "precio": 325,
+        "nombre": "Chaleco cuello \"V\" Crochet",
+        "talla": "34",
+        "color": "Crema",
+        "cantidad": 1,
+        "entregado": false,
+        "productoId": "MAL-CHA-CHA-UIKQ8",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1771565607921-ev0l4snro-MAL_CHA_CHA_UIKQ8_CRE_XXX-img-1771565608433-67m1m6-0.webp",
+        "costo": 170,
+        "proveedor": "Junior",
+        "sku": "MAL-CHA-CHA-UIKQ8",
+        "categoria": "CHALECOS",
+        "pagadoProveedor": true
+      }
+    ]
+  },
+  {
+    "id": "9GAwNy1Uh4Lny4trePY4",
+    "cliente": {
+      "nombre": "Cinthia Tenango",
+      "uid": ""
+    },
+    "fechaCreacion": "2026-01-23",
+    "fechaEntrega": "2026-01-22",
+    "entrega": "Punto de venta",
+    "lugar": "tlalmanalco",
+    "notas": "",
+    "totalVenta": 220,
+    "descuentoPorcentaje": 0,
+    "descuentoMonto": 0,
+    "items": [
+      {
+        "productoId": "MAL-SUE-SUÉ-P9OSE",
+        "nombre": "Suéter Brooklyn",
+        "sku": "MAL-SUE-SUÉ-P9OSE",
+        "categoria": "SUETERES",
+        "proveedor": "Junior",
+        "talla": "32-36",
+        "color": "Rojo Brillante",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1768153661914-799jweve5-MAL_SUE_SU__P9OSE_ROJ_XXX-img-1768153661600-7nwp91-0.webp",
+        "precio": 220,
+        "costo": 110,
+        "cantidad": 1,
+        "origen": "stock",
+        "comprado": true,
+        "entregado": false
+      }
+    ],
+    "timestamp": {
+      "_seconds": 1769128633,
+      "_nanoseconds": 672000000
+    },
+    "fechaEnvio": "2026-01-22",
+    "estadoPedido": "entregado",
+    "totalPagado": 220,
+    "saldoPendiente": 0,
+    "fechaUltimaActualizacion": "2026-01-29",
+    "estadoPago": "pagado",
+    "pagos": [
+      {
+        "monto": 220,
+        "fecha": "2026-01-29",
+        "metodo": "Transferencia",
+        "registradoPor": "Admin"
+      }
+    ]
+  },
+  {
+    "id": "9HcNIYIrNYArQdkVOuGY",
+    "cliente": {
+      "nombre": "Ana Aguilar Gym",
+      "uid": ""
+    },
+    "fechaCreacion": "2026-02-16",
+    "entrega": "Punto de venta",
+    "lugar": "tlalmanalco",
+    "notas": "",
+    "totalVenta": 375,
+    "descuentoPorcentaje": 0,
+    "descuentoMonto": 0,
+    "items": [
+      {
+        "productoId": "MAL-PAN-JEA-MYXR3",
+        "nombre": "Jeans corte recto",
+        "sku": "MAL-PAN-JEA-MYXR3",
+        "categoria": "PANTALONES",
+        "proveedor": "Surprise ",
+        "talla": "9",
+        "color": "Azul Cielo",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1769222218450-pw9tgiz0d-MAL_PAN_JEA_MYXR3_AZU_XXX-img-1769222218005-rexvb0-0.webp",
+        "precio": 375,
+        "costo": 195,
+        "cantidad": 1,
+        "origen": "stock",
+        "comprado": false,
+        "entregado": false
+      }
+    ],
+    "timestamp": {
+      "_seconds": 1771281713,
+      "_nanoseconds": 966000000
+    },
+    "fechaEnvio": "2026-02-16",
+    "estadoPedido": "entregado",
+    "fechaEntrega": "2026-02-16",
+    "fechaUltimaActualizacion": "2026-02-16",
+    "totalPagado": 375,
+    "saldoPendiente": 0,
+    "estadoPago": "pagado",
+    "pagos": [
+      {
+        "monto": 315,
+        "fecha": "2026-01-28",
+        "metodo": "Efectivo",
+        "registradoPor": "Admin"
+      },
+      {
+        "monto": 60,
+        "fecha": "2026-02-16",
+        "metodo": "Efectivo",
+        "registradoPor": "Admin"
+      }
+    ]
+  },
+  {
+    "id": "9d67F5uQgmLLitkNFgVT",
+    "cliente": {
+      "nombre": "Ilary Cremeria",
+      "uid": ""
+    },
+    "fechaCreacion": "2026-02-21",
+    "entrega": "Punto de venta",
+    "lugar": "tlalmanalco",
+    "notas": "",
+    "estadoPago": "pendiente",
+    "totalVenta": 325,
+    "totalPagado": 0,
+    "saldoPendiente": 325,
+    "descuentoPorcentaje": 0,
+    "descuentoMonto": 0,
+    "pagos": [],
+    "timestamp": {
+      "_seconds": 1771644930,
+      "_nanoseconds": 567000000
+    },
+    "items": [
+      {
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1771644903598-l9537qhp5-MAL_PLA_PLA_ICZ1E_NEG_XXX-img-1771644901989-u2na90-0.jpg",
+        "comprado": true,
+        "cantidad": 1,
+        "proveedor": "Proveedor desconocido",
+        "nombre": "Playera Portugal",
+        "sku": "MAL-PLA-PLA-ICZ1E",
+        "costo": 170,
+        "entregado": false,
+        "talla": "S",
+        "precio": 325,
+        "color": "Negro",
+        "categoria": "PLAYERAS_DEPORTIVAS",
+        "productoId": "MAL-PLA-PLA-ICZ1E",
+        "origen": "bajo_pedido",
+        "pagadoProveedor": true
+      }
+    ],
+    "fechaEnvio": "2026-02-21",
+    "estadoPedido": "entregado",
+    "fechaEntrega": "2026-02-21"
+  },
+  {
+    "id": "BVs5eQor9d3VRfxPBoCO",
+    "cliente": {
+      "nombre": "Ilse Tenango",
+      "uid": ""
+    },
+    "fechaCreacion": "2026-01-27",
+    "entrega": "Punto de venta",
+    "lugar": "tlalmanalco",
+    "notas": "",
+    "descuentoPorcentaje": 0,
+    "descuentoMonto": 0,
+    "timestamp": {
+      "_seconds": 1769473805,
+      "_nanoseconds": 581000000
+    },
+    "totalVenta": 440,
+    "items": [
+      {
+        "productoId": "MAL-BLU-BLU-2BKHP",
+        "nombre": "Blusa básica ",
+        "sku": "MAL-BLU-BLU-2BKHP",
+        "categoria": "BLUSAS",
+        "proveedor": "Junior",
+        "talla": "32-36",
+        "color": "Camel",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766722021110-u1uem0lbk-MAL_BLU_BLU_2BKHP_BEI_XXX-img-1766722022297-8fcd65-0.webp",
+        "precio": 220,
+        "costo": 110,
+        "cantidad": 1,
+        "origen": "stock",
+        "comprado": true,
+        "entregado": false
+      },
+      {
+        "productoId": "MAL-BLU-BLU-2BKHP",
+        "nombre": "Blusa básica ",
+        "sku": "MAL-BLU-BLU-2BKHP",
+        "categoria": "BLUSAS",
+        "proveedor": "Junior",
+        "talla": "32-36",
+        "color": "Blanco",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766722019928-0rfu26wxt-MAL_BLU_BLU_2BKHP_HUE_XXX-img-1766722021179-jupg8a-0.webp",
+        "precio": 220,
+        "costo": 110,
+        "cantidad": 1,
+        "origen": "stock",
+        "comprado": true,
+        "entregado": false
+      }
+    ],
+    "fechaEnvio": "2026-01-16",
+    "estadoPedido": "entregado",
+    "fechaEntrega": "2026-01-16",
+    "totalPagado": 440,
+    "saldoPendiente": 0,
+    "fechaUltimaActualizacion": "2026-02-06",
+    "estadoPago": "pagado",
+    "pagos": [
+      {
+        "monto": 220,
+        "fecha": "2026-01-31",
+        "metodo": "Efectivo",
+        "registradoPor": "Admin"
+      },
+      {
+        "monto": 220,
+        "fecha": "2026-02-05",
+        "metodo": "Efectivo",
+        "registradoPor": "Admin"
+      }
+    ]
+  },
+  {
+    "id": "BzOisZQtAam40ax2xWyp",
+    "entrega": "Punto de venta",
+    "fechaCreacion": "2025-12-26",
+    "descuentoPorcentaje": 0,
+    "totalVenta": 220,
+    "cliente": {
+      "uid": "",
+      "nombre": "Olga Velázquez "
+    },
+    "timestamp": {
+      "_seconds": 1766786760,
+      "_nanoseconds": 134000000
+    },
+    "descuentoMonto": 0,
+    "lugar": "tlalmanalco",
+    "notas": "",
+    "items": [
+      {
+        "nombre": "Blusa básica ",
+        "proveedor": "Junior",
+        "color": "Negro",
+        "cantidad": 1,
+        "entregado": false,
+        "precio": 220,
+        "costo": 110,
+        "productoId": "MAL-BLU-BLU-2BKHP",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766722018518-s1xpi00zq-MAL_BLU_BLU_2BKHP_NEG_XXX-img-1766722019747-eboo1v-0.webp",
+        "origen": "bajo_pedido",
+        "comprado": true,
+        "sku": "MAL-BLU-BLU-2BKHP",
+        "categoria": "BLUSAS",
+        "talla": "32-36",
+        "pagadoProveedor": true
+      }
+    ],
+    "fechaEnvio": "2025-12-27",
+    "estadoPedido": "entregado",
+    "fechaEntrega": "2025-12-27",
+    "totalPagado": 220,
+    "saldoPendiente": 0,
+    "fechaUltimaActualizacion": "2026-01-11",
+    "estadoPago": "pagado",
+    "pagos": [
+      {
+        "monto": 210,
+        "fecha": "2025-12-27",
+        "metodo": "Transferencia",
+        "registradoPor": "Admin"
+      },
+      {
+        "monto": 10,
+        "fecha": "2026-01-11",
+        "metodo": "Efectivo",
+        "registradoPor": "Admin"
+      }
+    ]
+  },
+  {
+    "id": "D13TxshmXs59Zfvvx2Rh",
+    "notas": "",
+    "cliente": {
+      "uid": "",
+      "nombre": "Daniel León"
+    },
+    "entrega": "Punto de venta",
+    "fechaCreacion": "2025-12-26",
+    "descuentoPorcentaje": 10,
+    "timestamp": {
+      "_seconds": 1766786425,
+      "_nanoseconds": 784000000
+    },
+    "lugar": "guanajuato",
+    "totalVenta": 4203,
+    "fechaUltimaActualizacion": "2025-12-27",
+    "descuentoMonto": 467,
+    "items": [
+      {
+        "origen": "bajo_pedido",
+        "entregado": false,
+        "color": "Gris Claro",
+        "talla": "32-34",
+        "sku": "MAL-BLU-BLU-GZG75",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766518095944-czr6swe36-MAL_BLU_BLU_GZG75_GRI_XXX-img-1766518095874-ps28u2-0.webp",
+        "comprado": true,
+        "pagadoProveedor": true,
+        "costo": 120,
+        "precio": 250,
+        "nombre": "Blusa corta rayas",
+        "categoria": "BLUSAS",
+        "cantidad": 1,
+        "productoId": "MAL-BLU-BLU-GZG75",
+        "proveedor": "Junior"
+      },
+      {
+        "sku": "MAL-BLU-BLU-GZG75",
+        "comprado": true,
+        "origen": "bajo_pedido",
+        "precio": 250,
+        "cantidad": 1,
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766518095944-czr6swe36-MAL_BLU_BLU_GZG75_GRI_XXX-img-1766518095874-ps28u2-0.webp",
+        "pagadoProveedor": true,
+        "entregado": false,
+        "talla": "32-34",
+        "categoria": "BLUSAS",
+        "color": "Gris Claro",
+        "nombre": "Blusa corta rayas",
+        "costo": 120,
+        "proveedor": "Junior",
+        "productoId": "MAL-BLU-BLU-GZG75"
+      },
+      {
+        "color": "Gris Claro",
+        "cantidad": 1,
+        "categoria": "BLUSAS",
+        "proveedor": "Junior",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766518095944-czr6swe36-MAL_BLU_BLU_GZG75_GRI_XXX-img-1766518095874-ps28u2-0.webp",
+        "pagadoProveedor": true,
+        "costo": 120,
+        "sku": "MAL-BLU-BLU-GZG75",
+        "nombre": "Blusa corta rayas",
+        "productoId": "MAL-BLU-BLU-GZG75",
+        "entregado": false,
+        "comprado": true,
+        "talla": "32-34",
+        "precio": 250,
+        "origen": "bajo_pedido"
+      },
+      {
+        "categoria": "BLUSAS",
+        "proveedor": "Junior",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766518098278-e0zte3eit-MAL_BLU_BLU_GZG75_BLA_XXX-img-1766518098322-k3drzg-0.webp",
+        "costo": 120,
+        "cantidad": 1,
+        "pagadoProveedor": true,
+        "nombre": "Blusa corta rayas",
+        "productoId": "MAL-BLU-BLU-GZG75",
+        "entregado": false,
+        "precio": 250,
+        "origen": "bajo_pedido",
+        "sku": "MAL-BLU-BLU-GZG75",
+        "color": "Blanco",
+        "comprado": true,
+        "talla": "32-34"
+      },
+      {
+        "origen": "bajo_pedido",
+        "color": "Blanco",
+        "costo": 120,
+        "categoria": "BLUSAS",
+        "comprado": true,
+        "productoId": "MAL-BLU-BLU-GZG75",
+        "sku": "MAL-BLU-BLU-GZG75",
+        "proveedor": "Junior",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766518098278-e0zte3eit-MAL_BLU_BLU_GZG75_BLA_XXX-img-1766518098322-k3drzg-0.webp",
+        "pagadoProveedor": true,
+        "talla": "32-34",
+        "nombre": "Blusa corta rayas",
+        "precio": 250,
+        "cantidad": 1,
+        "entregado": false
+      },
+      {
+        "nombre": "Blusa corta rayas",
+        "productoId": "MAL-BLU-BLU-GZG75",
+        "comprado": true,
+        "precio": 250,
+        "origen": "bajo_pedido",
+        "talla": "32-34",
+        "costo": 120,
+        "entregado": false,
+        "color": "Blanco",
+        "proveedor": "Junior",
+        "cantidad": 1,
+        "categoria": "BLUSAS",
+        "pagadoProveedor": true,
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766518098278-e0zte3eit-MAL_BLU_BLU_GZG75_BLA_XXX-img-1766518098322-k3drzg-0.webp",
+        "sku": "MAL-BLU-BLU-GZG75"
+      },
+      {
+        "sku": "MAL-BLU-BLU-GZG75",
+        "entregado": false,
+        "productoId": "MAL-BLU-BLU-GZG75",
+        "color": "Negro",
+        "proveedor": "Junior",
+        "categoria": "BLUSAS",
+        "comprado": true,
+        "talla": "32-34",
+        "costo": 120,
+        "pagadoProveedor": true,
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766518092236-mkna301nm-MAL_BLU_BLU_GZG75_NEG_XXX-img-1766518090765-mvhgvs-0.webp",
+        "nombre": "Blusa corta rayas",
+        "precio": 250,
+        "origen": "bajo_pedido",
+        "cantidad": 1
+      },
+      {
+        "comprado": true,
+        "pagadoProveedor": true,
+        "nombre": "Blusa corta rayas",
+        "color": "Negro",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766518092236-mkna301nm-MAL_BLU_BLU_GZG75_NEG_XXX-img-1766518090765-mvhgvs-0.webp",
+        "precio": 250,
+        "entregado": false,
+        "cantidad": 1,
+        "origen": "bajo_pedido",
+        "productoId": "MAL-BLU-BLU-GZG75",
+        "talla": "32-34",
+        "costo": 120,
+        "sku": "MAL-BLU-BLU-GZG75",
+        "proveedor": "Junior",
+        "categoria": "BLUSAS"
+      },
+      {
+        "cantidad": 1,
+        "sku": "MAL-BLU-BLU-GZG75",
+        "proveedor": "Junior",
+        "pagadoProveedor": true,
+        "talla": "32-34",
+        "productoId": "MAL-BLU-BLU-GZG75",
+        "comprado": true,
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766518092236-mkna301nm-MAL_BLU_BLU_GZG75_NEG_XXX-img-1766518090765-mvhgvs-0.webp",
+        "nombre": "Blusa corta rayas",
+        "categoria": "BLUSAS",
+        "precio": 250,
+        "origen": "bajo_pedido",
+        "color": "Negro",
+        "entregado": false,
+        "costo": 120
+      },
+      {
+        "origen": "bajo_pedido",
+        "categoria": "BLUSAS",
+        "talla": "32-36",
+        "sku": "MAL-BLU-BLU-2BKHP",
+        "precio": 220,
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766722013296-wqmr0zcyq-MAL_BLU_BLU_2BKHP_ROJ_XXX-img-1766722013614-zaq21q-0.webp",
+        "pagadoProveedor": true,
+        "nombre": "Blusa básica ",
+        "cantidad": 1,
+        "costo": 110,
+        "entregado": false,
+        "productoId": "MAL-BLU-BLU-2BKHP",
+        "color": "Rojo Brillante",
+        "proveedor": "Junior",
+        "comprado": true
+      },
+      {
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766722013296-wqmr0zcyq-MAL_BLU_BLU_2BKHP_ROJ_XXX-img-1766722013614-zaq21q-0.webp",
+        "costo": 110,
+        "color": "Rojo Brillante",
+        "talla": "32-36",
+        "sku": "MAL-BLU-BLU-2BKHP",
+        "productoId": "MAL-BLU-BLU-2BKHP",
+        "entregado": false,
+        "comprado": true,
+        "categoria": "BLUSAS",
+        "cantidad": 1,
+        "proveedor": "Junior",
+        "nombre": "Blusa básica ",
+        "origen": "bajo_pedido",
+        "precio": 220,
+        "pagadoProveedor": true
+      },
+      {
+        "productoId": "MAL-BLU-BLU-2BKHP",
+        "pagadoProveedor": true,
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766722018518-s1xpi00zq-MAL_BLU_BLU_2BKHP_NEG_XXX-img-1766722019747-eboo1v-0.webp",
+        "comprado": true,
+        "nombre": "Blusa básica ",
+        "talla": "32-36",
+        "sku": "MAL-BLU-BLU-2BKHP",
+        "cantidad": 1,
+        "color": "Negro",
+        "proveedor": "Junior",
+        "entregado": false,
+        "costo": 110,
+        "origen": "bajo_pedido",
+        "categoria": "BLUSAS",
+        "precio": 220
+      },
+      {
+        "categoria": "BLUSAS",
+        "pagadoProveedor": true,
+        "sku": "MAL-BLU-BLU-2BKHP",
+        "talla": "32-36",
+        "productoId": "MAL-BLU-BLU-2BKHP",
+        "cantidad": 1,
+        "entregado": false,
+        "precio": 220,
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766722018518-s1xpi00zq-MAL_BLU_BLU_2BKHP_NEG_XXX-img-1766722019747-eboo1v-0.webp",
+        "proveedor": "Junior",
+        "nombre": "Blusa básica ",
+        "color": "Negro",
+        "costo": 110,
+        "origen": "bajo_pedido",
+        "comprado": true
+      },
+      {
+        "origen": "bajo_pedido",
+        "cantidad": 1,
+        "comprado": true,
+        "proveedor": "Junior",
+        "productoId": "MAL-BLU-BLU-2BKHP",
+        "nombre": "Blusa básica ",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766722018518-s1xpi00zq-MAL_BLU_BLU_2BKHP_NEG_XXX-img-1766722019747-eboo1v-0.webp",
+        "color": "Negro",
+        "precio": 220,
+        "pagadoProveedor": true,
+        "sku": "MAL-BLU-BLU-2BKHP",
+        "entregado": false,
+        "talla": "32-36",
+        "categoria": "BLUSAS",
+        "costo": 110
+      },
+      {
+        "sku": "MAL-BLU-BLU-2BKHP",
+        "origen": "bajo_pedido",
+        "categoria": "BLUSAS",
+        "costo": 110,
+        "color": "Gris Claro",
+        "proveedor": "Junior",
+        "precio": 220,
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766722014504-2sfqs8jqv-MAL_BLU_BLU_2BKHP_GRI_XXX-img-1766722015642-ycom4c-0.webp",
+        "nombre": "Blusa básica ",
+        "talla": "32-36",
+        "pagadoProveedor": true,
+        "cantidad": 1,
+        "comprado": true,
+        "entregado": false,
+        "productoId": "MAL-BLU-BLU-2BKHP"
+      },
+      {
+        "cantidad": 1,
+        "comprado": true,
+        "proveedor": "Junior",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766722014504-2sfqs8jqv-MAL_BLU_BLU_2BKHP_GRI_XXX-img-1766722015642-ycom4c-0.webp",
+        "productoId": "MAL-BLU-BLU-2BKHP",
+        "costo": 110,
+        "categoria": "BLUSAS",
+        "entregado": false,
+        "pagadoProveedor": true,
+        "sku": "MAL-BLU-BLU-2BKHP",
+        "precio": 220,
+        "nombre": "Blusa básica ",
+        "color": "Gris Claro",
+        "talla": "32-36",
+        "origen": "bajo_pedido"
+      },
+      {
+        "color": "Gris Claro",
+        "proveedor": "Junior",
+        "comprado": true,
+        "productoId": "MAL-BLU-BLU-2BKHP",
+        "cantidad": 1,
+        "sku": "MAL-BLU-BLU-2BKHP",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766722014504-2sfqs8jqv-MAL_BLU_BLU_2BKHP_GRI_XXX-img-1766722015642-ycom4c-0.webp",
+        "precio": 220,
+        "nombre": "Blusa básica ",
+        "pagadoProveedor": true,
+        "entregado": false,
+        "origen": "bajo_pedido",
+        "categoria": "BLUSAS",
+        "talla": "32-36",
+        "costo": 110
+      },
+      {
+        "entregado": false,
+        "precio": 220,
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766722019928-0rfu26wxt-MAL_BLU_BLU_2BKHP_HUE_XXX-img-1766722021179-jupg8a-0.webp",
+        "pagadoProveedor": true,
+        "talla": "32-36",
+        "comprado": true,
+        "categoria": "BLUSAS",
+        "cantidad": 1,
+        "nombre": "Blusa básica ",
+        "costo": 110,
+        "origen": "bajo_pedido",
+        "color": "Blanco",
+        "productoId": "MAL-BLU-BLU-2BKHP",
+        "proveedor": "Junior",
+        "sku": "MAL-BLU-BLU-2BKHP"
+      },
+      {
+        "categoria": "BLUSAS",
+        "sku": "MAL-BLU-BLU-2BKHP",
+        "entregado": false,
+        "pagadoProveedor": true,
+        "precio": 220,
+        "talla": "32-36",
+        "origen": "bajo_pedido",
+        "costo": 110,
+        "cantidad": 1,
+        "proveedor": "Junior",
+        "comprado": true,
+        "productoId": "MAL-BLU-BLU-2BKHP",
+        "nombre": "Blusa básica ",
+        "color": "Blanco",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766722019928-0rfu26wxt-MAL_BLU_BLU_2BKHP_HUE_XXX-img-1766722021179-jupg8a-0.webp"
+      },
+      {
+        "proveedor": "Junior",
+        "comprado": true,
+        "costo": 110,
+        "nombre": "Blusa básica ",
+        "cantidad": 1,
+        "productoId": "MAL-BLU-BLU-2BKHP",
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1766722019928-0rfu26wxt-MAL_BLU_BLU_2BKHP_HUE_XXX-img-1766722021179-jupg8a-0.webp",
+        "precio": 220,
+        "sku": "MAL-BLU-BLU-2BKHP",
+        "pagadoProveedor": true,
+        "entregado": false,
+        "talla": "32-36",
+        "origen": "bajo_pedido",
+        "categoria": "BLUSAS",
+        "color": "Blanco"
+      }
+    ],
+    "totalPagado": 4203,
+    "saldoPendiente": 0,
+    "estadoPago": "pagado",
+    "pagos": [
+      {
+        "monto": 4203,
+        "fecha": "2025-12-27",
+        "metodo": "Transferencia",
+        "registradoPor": "Admin"
+      }
+    ],
+    "fechaEnvio": "2025-12-29",
+    "estadoPedido": "entregado",
+    "fechaEntrega": "2025-12-30"
+  },
+  {
+    "id": "DPdrQ0BrWSNZWZKFqEY3",
+    "cliente": {
+      "nombre": "Nelly Nda",
+      "uid": ""
+    },
+    "fechaCreacion": "2026-02-05",
+    "entrega": "Punto de venta",
+    "lugar": "ameca",
+    "notas": "",
+    "totalVenta": 560,
+    "descuentoPorcentaje": 0,
+    "descuentoMonto": 0,
+    "timestamp": {
+      "_seconds": 1770251599,
+      "_nanoseconds": 533000000
+    },
+    "items": [
+      {
+        "comprado": true,
+        "talla": "32-34",
+        "proveedor": "Junior",
+        "origen": "bajo_pedido",
+        "precio": 560,
+        "nombre": "Vestido corto encaje",
+        "categoria": "VESTIDOS",
+        "entregado": false,
+        "cantidad": 1,
+        "color": "Aqua",
+        "productoId": "MAL-VES-VES-V5ELO",
+        "sku": "MAL-VES-VES-V5ELO",
+        "costo": 310,
+        "foto": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1770093791883-44inucd6i-MAL_VES_VES_V5ELO_AQU_XXX-img-1770093793037-w7tnqw-0.webp",
+        "pagadoProveedor": true
+      }
+    ],
+    "fechaEnvio": "2026-02-07",
+    "estadoPedido": "entregado",
+    "fechaEntrega": "2026-02-07",
+    "totalPagado": 560,
+    "saldoPendiente": 0,
+    "fechaUltimaActualizacion": "2026-02-07",
+    "estadoPago": "pagado",
+    "pagos": [
+      {
+        "monto": 560,
+        "fecha": "2026-02-07",
+        "metodo": "Efectivo",
+        "registradoPor": "Admin"
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "8c8gBMNymJEcntNTLyhI",
+    "productoId": "MAL-SUD-SUD-GC2ED",
+    "productoNombre": "Sudadera peluche",
+    "variantId": 1766707520908,
+    "talla": "32-36",
+    "sku": "MAL-SUD-SUD-GC2ED-1766707520908-32-36",
+    "cantidad": 1,
+    "costoUnitario": 105,
+    "costoTotal": 105,
+    "proveedor": "Junior",
+    "categoria": "SUDADERAS",
+    "fechaRegistro": "2025-12-26",
+    "razon": "Daño",
+    "notas": "",
+    "timestamp": {
+      "_seconds": 1766707752,
+      "_nanoseconds": 870000000
+    }
+  },
+  {
+    "id": "KWE3OmOpeG1qaay1EXZ8",
+    "productoId": "MAL-SUD-SUD-GC2ED",
+    "productoNombre": "Sudadera peluche",
+    "variantId": 1766707576590,
+    "talla": "32-36",
+    "sku": "MAL-SUD-SUD-GC2ED-1766707576590-32-36",
+    "cantidad": 1,
+    "costoUnitario": 105,
+    "costoTotal": 105,
+    "proveedor": "Junior",
+    "categoria": "SUDADERAS",
+    "fechaRegistro": "2025-12-26",
+    "razon": "Otro",
+    "notas": "duplicado otra vez",
+    "timestamp": {
+      "_seconds": 1766707784,
+      "_nanoseconds": 179000000
+    }
+  }
+]

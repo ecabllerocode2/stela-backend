@@ -1,0 +1,394 @@
+[
+  {
+    "id": "0CzpWdG7rVbByhfAx8Bf",
+    "tipo": "ingreso",
+    "categoria": "pago_orden",
+    "monto": 220,
+    "metodo": "Efectivo",
+    "fecha": "2026-02-04",
+    "cliente": "Monica Carcaño",
+    "ordenId": "zPnYV3si004t6O5bf03a",
+    "folio": "TX-zPnYV3-111869",
+    "pagoId": "p-1770250111869",
+    "comentario": "Pago aplicado a orden zPnYV3si004t6O5bf03a",
+    "createdAt": {
+      "_seconds": 1770250111,
+      "_nanoseconds": 869000000
+    }
+  },
+  {
+    "id": "0DcLCMYWHk4MmgTCIdVT",
+    "tipo": "gasto",
+    "categoria": "compra_proveedor",
+    "subcategoria": "pedido_cliente",
+    "monto": 130,
+    "proveedor": "Junior",
+    "fecha": "2025-12-22",
+    "producto": "Sueter corto trenzado",
+    "sku": "MAL-SUE-SUE-PQD1J",
+    "talla": "32-34",
+    "color": "Rojo",
+    "ordenId": "RIoAXNm20qRKg5HaWJzC",
+    "cliente": "Daniel León",
+    "folio": "GC-RIoAXN-136972",
+    "comentario": "Compra de Sueter corto trenzado (Rojo - 32-34) al proveedor Junior",
+    "createdAt": {
+      "_seconds": 1766422136,
+      "_nanoseconds": 972000000
+    }
+  },
+  {
+    "id": "0JqFljIAQKAUTH6lBvZU",
+    "tipo": "ingreso",
+    "categoria": "pago_orden",
+    "monto": 1840,
+    "metodo": "Transferencia",
+    "fecha": "2026-02-18",
+    "cliente": "Jenny Lara",
+    "ordenId": "11FQWQy2FDJ4CdDy578z",
+    "folio": "TX-11FQWQ-098338",
+    "pagoId": "p-1771441098338",
+    "comentario": "Pago aplicado a orden 11FQWQy2FDJ4CdDy578z",
+    "createdAt": {
+      "_seconds": 1771441098,
+      "_nanoseconds": 338000000
+    }
+  },
+  {
+    "id": "0NJATdoBaB741zFwkSfh",
+    "tipo": "gasto",
+    "categoria": "compra_inventario",
+    "subcategoria": "compra_directa",
+    "monto": 150,
+    "proveedor": "Pablo Just Chik",
+    "fecha": "2025-12-27",
+    "producto": "Pantalón Grecas",
+    "sku": "MAL-PAN-PAN-Z92XK-1766372013337-32-34",
+    "talla": "32-34",
+    "color": "gris",
+    "cantidad": 1,
+    "movimientoId": "MwXrvnpKYqnlo8WPnzKs",
+    "folio": "GI-MwXrvn-116455",
+    "comentario": "Compra de 1 unidad(es) de Pantalón Grecas (gris - 32-34) al proveedor Pablo Just Chik",
+    "createdAt": {
+      "_seconds": 1766807116,
+      "_nanoseconds": 455000000
+    }
+  },
+  {
+    "id": "0TqQQaa1fz2y57FxJv2s",
+    "tipo": "gasto",
+    "categoria": "compra_proveedor",
+    "subcategoria": "pedido_cliente",
+    "monto": 120,
+    "proveedor": "Junior",
+    "fecha": "2025-12-18",
+    "producto": "Blusa licra con pedrería",
+    "sku": "MAL-BLU-BLU-YAYPC",
+    "talla": "(32-34)",
+    "color": "Verde",
+    "ordenId": "xQjo3f7r8DXmNiTVhl51",
+    "cliente": "Daniel León",
+    "folio": "GC-xQjo3f-190875",
+    "comentario": "Compra de Blusa licra con pedrería (Verde - (32-34)) al proveedor Junior",
+    "createdAt": {
+      "_seconds": 1766069190,
+      "_nanoseconds": 876000000
+    }
+  },
+  {
+    "id": "0Yf5I4ZNvNQ0xrOVTi3p",
+    "tipo": "ingreso",
+    "categoria": "pago_orden",
+    "monto": 180,
+    "metodo": "Transferencia",
+    "fecha": "2025-12-28",
+    "cliente": "Ivonne estética",
+    "ordenId": "NwlzUKwFmWzx8XKxMJTt",
+    "folio": "TX-NwlzUK-945115",
+    "pagoId": "p-1766887945115",
+    "comentario": "Pago aplicado a orden NwlzUKwFmWzx8XKxMJTt",
+    "createdAt": {
+      "_seconds": 1766887945,
+      "_nanoseconds": 115000000
+    }
+  },
+  {
+    "id": "0cdPvqnIwk9cxqkTtmuB",
+    "tipo": "gasto",
+    "categoria": "compra_inventario",
+    "subcategoria": "compra_directa",
+    "monto": 130,
+    "proveedor": "Junior",
+    "fecha": "2026-01-22",
+    "producto": "Vestido lunares",
+    "sku": "MAL-VES-VES-H073Z-1768519699171-32",
+    "talla": "32",
+    "color": "Negro",
+    "cantidad": 1,
+    "movimientoId": "EOpplQCawejQg4zIlLon",
+    "folio": "GI-EOpplQ-059892",
+    "comentario": "Compra de 1 unidad(es) de Vestido lunares (Negro - 32) al proveedor Junior",
+    "createdAt": {
+      "_seconds": 1769047059,
+      "_nanoseconds": 892000000
+    }
+  },
+  {
+    "id": "0gSA8rOBrR2Ggm8WPGlO",
+    "tipo": "ingreso",
+    "categoria": "pago_orden",
+    "monto": 200,
+    "metodo": "Efectivo",
+    "fecha": "2025-12-20",
+    "cliente": "Ivonne estética",
+    "ordenId": "NwlzUKwFmWzx8XKxMJTt",
+    "folio": "TX-NwlzUK-431136",
+    "pagoId": "Admin-1766423431136",
+    "comentario": "Pago aplicado a orden NwlzUKwFmWzx8XKxMJTt",
+    "createdAt": {
+      "_seconds": 1766423431,
+      "_nanoseconds": 136000000
+    }
+  },
+  {
+    "id": "0ogENw6ikhkoStOOgbGS",
+    "tipo": "gasto",
+    "categoria": "compra_proveedor",
+    "subcategoria": "pedido_cliente",
+    "monto": 165,
+    "proveedor": "Surprise ",
+    "fecha": "2026-01-31",
+    "producto": "Jeans corte recto",
+    "sku": "MAL-PAN-JEA-MYXR3",
+    "talla": "9",
+    "color": "Azul Oscuro",
+    "ordenId": "cpYnKdKncokzdsTTRZ2k",
+    "cliente": "Ana Aguilar Gym",
+    "folio": "GC-cpYnKd-181016",
+    "comentario": "Compra de Jeans corte recto (Azul Oscuro - 9) al proveedor Surprise ",
+    "createdAt": {
+      "_seconds": 1769832181,
+      "_nanoseconds": 16000000
+    }
+  },
+  {
+    "id": "0uVlON9oczF89RVV7MXw",
+    "tipo": "ingreso",
+    "categoria": "pago_orden",
+    "monto": 220,
+    "metodo": "Transferencia",
+    "fecha": "2026-01-29",
+    "cliente": "Cinthia Tenango",
+    "ordenId": "9GAwNy1Uh4Lny4trePY4",
+    "folio": "TX-9GAwNy-928316",
+    "pagoId": "p-1769706928316",
+    "comentario": "Pago aplicado a orden 9GAwNy1Uh4Lny4trePY4",
+    "createdAt": {
+      "_seconds": 1769706928,
+      "_nanoseconds": 316000000
+    }
+  },
+  {
+    "id": "15i0HWb0J4wuaPkVCXHV",
+    "tipo": "gasto",
+    "categoria": "compra_proveedor",
+    "subcategoria": "pedido_cliente",
+    "monto": 100,
+    "proveedor": "Junior",
+    "fecha": "2026-02-28",
+    "producto": "Playera Rayas Alo",
+    "sku": "MAL-PLA-PLA-TIJER",
+    "talla": "34",
+    "color": "Negro",
+    "ordenId": "5SoDBRGD7aaaQ2vMbGp0",
+    "cliente": "Gaby Chencha",
+    "folio": "GC-5SoDBR-836014",
+    "comentario": "Compra de Playera Rayas Alo (Negro - 34) al proveedor Junior",
+    "createdAt": {
+      "_seconds": 1772316836,
+      "_nanoseconds": 15000000
+    }
+  },
+  {
+    "id": "190Kv9RMVdg0qroSOr5K",
+    "tipo": "gasto",
+    "categoria": "compra_proveedor",
+    "subcategoria": "pedido_cliente",
+    "monto": 80,
+    "proveedor": "Junior",
+    "fecha": "2026-01-11",
+    "producto": "Sueter verde",
+    "sku": "MAL-SUE-SUE-BCSJI",
+    "talla": "32-34",
+    "color": "Verde Lima",
+    "ordenId": "mvVoFvkTL6TAL2E4oOtf",
+    "cliente": "Carmen Zuñiga",
+    "folio": "GC-mvVoFv-117687",
+    "comentario": "Compra de Sueter verde (Verde Lima - 32-34) al proveedor Junior",
+    "createdAt": {
+      "_seconds": 1768094117,
+      "_nanoseconds": 688000000
+    }
+  },
+  {
+    "id": "1HcjdZw8y5Nqhb0OlgyB",
+    "tipo": "gasto",
+    "categoria": "compra_proveedor",
+    "subcategoria": "pedido_cliente",
+    "monto": 200,
+    "proveedor": "Junior",
+    "fecha": "2026-02-28",
+    "producto": "Palazzo liso olanes",
+    "sku": "MAL-PAL-PAL-E2JI0",
+    "talla": "36",
+    "color": "Blanco",
+    "ordenId": "w1zSlq8g9q4obDU8ijvp",
+    "cliente": "Jenny Lara",
+    "folio": "GC-w1zSlq-872095",
+    "comentario": "Compra de Palazzo liso olanes (Blanco - 36) al proveedor Junior",
+    "createdAt": {
+      "_seconds": 1772316872,
+      "_nanoseconds": 95000000
+    }
+  },
+  {
+    "id": "1VsERdcEm3CGZqEDidHR",
+    "tipo": "ingreso",
+    "categoria": "pago_orden",
+    "monto": 315,
+    "metodo": "Efectivo",
+    "fecha": "2026-01-28",
+    "cliente": "Ana Aguilar Gym",
+    "ordenId": "cpYnKdKncokzdsTTRZ2k",
+    "folio": "TX-cpYnKd-267004",
+    "pagoId": "p-1769647267004",
+    "comentario": "Pago aplicado a orden cpYnKdKncokzdsTTRZ2k",
+    "createdAt": {
+      "_seconds": 1769647267,
+      "_nanoseconds": 4000000
+    }
+  },
+  {
+    "id": "1Vwv2jwWMZQltV9485OL",
+    "tipo": "gasto",
+    "categoria": "compra_proveedor",
+    "subcategoria": "pedido_cliente",
+    "monto": 230,
+    "proveedor": "Pablo Just Chik",
+    "fecha": "2025-12-27",
+    "producto": "Sudadera artesanal",
+    "sku": "MAL-SUD-SUD-PVX5K",
+    "talla": "34-36",
+    "color": "Negro",
+    "ordenId": "kPJFZM0hepD8TSV8uy0T",
+    "cliente": "Michael Vega",
+    "folio": "GC-kPJFZM-265919",
+    "comentario": "Compra de Sudadera artesanal (Negro - 34-36) al proveedor Pablo Just Chik",
+    "createdAt": {
+      "_seconds": 1766807265,
+      "_nanoseconds": 919000000
+    }
+  },
+  {
+    "id": "1XA8hVNT9XMtcUGcRABC",
+    "tipo": "gasto",
+    "categoria": "compra_proveedor",
+    "subcategoria": "pedido_cliente",
+    "monto": 280,
+    "proveedor": "Pablo Just Chik",
+    "fecha": "2025-12-22",
+    "producto": "Camisero LV",
+    "sku": "MAL-MAX-CAM-Q29Q1",
+    "talla": "(32-36)",
+    "color": "Negro LV",
+    "ordenId": "Gv6FNnYdWr0XBtGPWRe4",
+    "cliente": "Veronica Rodriguez",
+    "folio": "GC-Gv6FNn-755228",
+    "comentario": "Compra de Camisero LV (Negro LV - (32-36)) al proveedor Pablo Just Chik",
+    "createdAt": {
+      "_seconds": 1766421755,
+      "_nanoseconds": 228000000
+    }
+  },
+  {
+    "id": "1uj3yE5X1dTYoPc0pR1O",
+    "tipo": "gasto",
+    "categoria": "compra_inventario",
+    "subcategoria": "compra_directa",
+    "monto": 170,
+    "proveedor": "Marco Blusas sensación",
+    "fecha": "2026-02-06",
+    "producto": "Blusón liso",
+    "sku": "MAL-BLU-BLU-AOVOD-1770252147385-32-34",
+    "talla": "32-34",
+    "color": "Rojo Vino",
+    "cantidad": 1,
+    "movimientoId": "Ne1HlprUmO8XYtMNtH8i",
+    "folio": "GI-Ne1Hlp-893709",
+    "comentario": "Compra de 1 unidad(es) de Blusón liso (Rojo Vino - 32-34) al proveedor Marco Blusas sensación",
+    "createdAt": {
+      "_seconds": 1770421893,
+      "_nanoseconds": 709000000
+    }
+  },
+  {
+    "id": "2BHakA2ttKARftCdg3Vo",
+    "tipo": "gasto",
+    "categoria": "compra_inventario",
+    "subcategoria": "compra_directa",
+    "monto": 150,
+    "proveedor": "Derek",
+    "fecha": "2026-02-21",
+    "producto": "JERSEY MÉXICO ",
+    "sku": "MAL-PLA-JER-Z10W6-1770859784816-32",
+    "talla": "32",
+    "color": "Blanco",
+    "cantidad": 1,
+    "movimientoId": "2bRMuQ93dejFVMo2DSA9",
+    "folio": "GI-2bRMuQ-965650",
+    "comentario": "Compra de 1 unidad(es) de JERSEY MÉXICO  (Blanco - 32) al proveedor Derek",
+    "createdAt": {
+      "_seconds": 1771636965,
+      "_nanoseconds": 650000000
+    }
+  },
+  {
+    "id": "2FiHo45NzdNOBwGxpY5L",
+    "tipo": "ingreso",
+    "categoria": "pago_orden",
+    "monto": 2470,
+    "metodo": "Transferencia",
+    "fecha": "2026-02-03",
+    "cliente": "Jenny Lara",
+    "ordenId": "cnzBO7EYlUrYCOgbfxKP",
+    "folio": "TX-cnzBO7-225464",
+    "pagoId": "p-1770146225464",
+    "comentario": "Pago aplicado a orden cnzBO7EYlUrYCOgbfxKP",
+    "createdAt": {
+      "_seconds": 1770146225,
+      "_nanoseconds": 464000000
+    }
+  },
+  {
+    "id": "2ii3R7Dvlmg7IUYO9UpX",
+    "tipo": "gasto",
+    "categoria": "compra_proveedor",
+    "subcategoria": "pedido_cliente",
+    "monto": 280,
+    "proveedor": "Pablo Just Chik",
+    "fecha": "2025-12-22",
+    "producto": "Camisero LV",
+    "sku": "MAL-MAX-CAM-Q29Q1",
+    "talla": "(32-36)",
+    "color": "Negro LV",
+    "ordenId": "gukR8zMaCrtolttgJNjI",
+    "cliente": "Rocío García magisterio ",
+    "folio": "GC-gukR8z-761115",
+    "comentario": "Compra de Camisero LV (Negro LV - (32-36)) al proveedor Pablo Just Chik",
+    "createdAt": {
+      "_seconds": 1766421761,
+      "_nanoseconds": 115000000
+    }
+  }
+]

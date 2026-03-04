@@ -1,0 +1,24 @@
+[
+  {
+    "id": "ZwKs2YvyTJB7vkOeG4FX",
+    "cliente": "Jenny Lara",
+    "productoId": "MAL-SUD-SUD-TSOTX",
+    "productoNombre": "Sudadera animada",
+    "variantId": 1766807517461,
+    "talla": "34-36",
+    "sku": "MAL-SUD-SUD-TSOTX-1766807517461-34-36",
+    "cantidad": 1,
+    "costoUnitario": 260,
+    "costoTotalEstimado": 260,
+    "precioPublicoUnitario": 470,
+    "precioPublicoTotal": 470,
+    "proveedor": "Pablo Just Chik",
+    "categoria": "SUDADERAS",
+    "fechaRegistro": "2025-12-27",
+    "notas": "Regalo de cumpleaños",
+    "timestamp": {
+      "_seconds": 1766807628,
+      "_nanoseconds": 255000000
+    }
+  }
+]

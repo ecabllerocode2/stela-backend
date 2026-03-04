@@ -1,0 +1,66 @@
+[
+  {
+    "id": "6kw7bIzR1Dadwr7BNbwf",
+    "ordenId": "gdGcBRG1OLrg5j8VcrxJ",
+    "cliente": {
+      "nombre": "Ivonne estética",
+      "uid": ""
+    },
+    "items": [
+      {
+        "nombre": "Maxi vestido Rústico Halter",
+        "talla": "34",
+        "color": "Blanco",
+        "cantidad": 1,
+        "precioUnitario": 450,
+        "razon": "no_ajusta",
+        "imagen": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1769134019149-yvcmcv44b-MAL_MAX_MAX_DPLN7_BLA_XXX-img-1769134020302-27lxz4-0.webp",
+        "productoId": "MAL-MAX-MAX-DPLN7",
+        "sku": "MAL-MAX-MAX-DPLN7"
+      }
+    ],
+    "totalDevuelto": 450,
+    "metodoReembolso": "saldo_favor",
+    "fechaDevolucion": "2026-02-25",
+    "estadoDevolucion": "procesada",
+    "registradoPor": "Admin",
+    "fechaCreacion": "2026-02-25",
+    "timestamp": {
+      "_seconds": 1772035700,
+      "_nanoseconds": 934000000
+    },
+    "saldoFavor": 450
+  },
+  {
+    "id": "hJxnCbYiM6lmIsyNMD7M",
+    "ordenId": "uA9uWqYUyMr8bBXUDgnb",
+    "cliente": {
+      "nombre": "Paty recauderia ",
+      "uid": ""
+    },
+    "items": [
+      {
+        "nombre": "Vestido tipo camisero",
+        "talla": "38",
+        "color": "Negro",
+        "cantidad": 1,
+        "precioUnitario": 350,
+        "razon": "no_ajusta",
+        "imagen": "https://pub-2507a32645184fa2815e49914e331cf9.r2.dev/malim-1769652091838-epq7y8bu7-MAL_BLU_VES_DU7UL_NEG_XXX-img-1769652090731-79kvxw-0.webp",
+        "productoId": "MAL-BLU-VES-DU7UL",
+        "sku": "MAL-BLU-VES-DU7UL"
+      }
+    ],
+    "totalDevuelto": 350,
+    "metodoReembolso": "dinero",
+    "fechaDevolucion": "2026-02-02",
+    "estadoDevolucion": "procesada",
+    "registradoPor": "Admin",
+    "fechaCreacion": "2026-02-02",
+    "timestamp": {
+      "_seconds": 1770000776,
+      "_nanoseconds": 127000000
+    },
+    "reembolsoMonto": 350
+  }
+]
